@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<animation_list>
+  <animation_t>
+	<race 					type="int"/>
+	<ani_type 				type="string"/>
+	<ani_index				type="int"/>
+	<play_mode				type="string"/>
+	<wrap_mode				type="string"/>
+	<start_type				type="string"/>
+	<reserved_action        type="string"/>
+	<start_frame			type="int"/>
+	<pingpong_start_frame	type="int"/>
+	<pingpong_end_frame		type="int"/>
+	<blend_mode				type="string"/>
+	<ik						type="int"/>
+	<world_interpolate		type="int"/>
+	<speed					type="float"/>
+	<file_name				type="string"/>
+  </animation_t>
+</animation_list>

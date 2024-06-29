@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bannerinfolist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<bannerinfo>
+		<index>1</index>
+		<name>킬</name>
+		<description>1명 사살</description>
+		<sender>0</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0001</local_friend>
+		<sound_friend>interface/banner/kill</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>2</index>
+		<name>더블킬</name>
+		<description>3초 안에 2명 사살</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0002</local_friend>
+		<sound_friend>interface/banner/kill_double</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>3</index>
+		<name>트리플킬</name>
+		<description>더블킬 달성 후 3초안에 적 1명 사살</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0003</local_friend>
+		<sound_friend>interface/banner/kill_triple</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>4</index>
+		<name>쿼드라 킬</name>
+		<description>트리플 킬 달성 후 3초안에 적 1명 사살</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>2</icon_friend>
+		<icon_enemy>29</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000424</local_friend>
+		<local_enemy>gfx0000424</local_enemy>
+		<sound_friend>interface/banner/kill_quadra</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>5</index>
+		<name>펜타킬</name>
+		<description>트리플 킬 달성 후 3초안에 적 1명 사살후 다시 3초안에 적 1명 사살</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>5</icon_friend>
+		<icon_enemy>30</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000426</local_friend>
+		<local_enemy>gfx0000426</local_enemy>
+		<sound_friend>interface/banner/kill_penta</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>6</index>
+		<name>헤드샷</name>
+		<description>1명 헤드샷으로 사살</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0005</local_friend>
+		<sound_friend>interface/banner/kill_headshot</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>7</index>
+		<name>더블 헤드샷</name>
+		<description>3초안에 2명 헤드샷으로 사살</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0006</local_friend>
+		<sound_friend>interface/banner/kill_double_headshot</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>8</index>
+		<name>트리플 헤드샷</name>
+		<description>더블 헤드샷 달성 후 3초안에 적 1명 헤드샷으로 사살</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>3</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000425</local_friend>
+		<sound_friend>interface/banner/banner/kill_triple_headshot</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>9</index>
+		<name>퍼스트킬</name>
+		<description>한 판 시작하고 적, 아군 통틀어서 자신이 1등으로 적 사살</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0000</local_friend>
+		<local_enemy>banner0000</local_enemy>
+		<sound_friend>interface/banner/banner/kill_first</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>10</index>
+		<name>최후의 생존자</name>
+		<description>자신의 팀에서 마지막 생존자일 때</description>
+		<sender>2</sender>
+		<team_check>0</team_check>
+		<icon_friend>6</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000427</local_friend>
+		<local_enemy>gfx0000427</local_enemy>
+		<sound_friend>interface/banner/banner/kill_last_survivor</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>11</index>
+		<name>폭탄획득</name>
+		<description>탐색전에서 폭탄을 획득했을 때</description>
+		<sender>2</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0009</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>12</index>
+		<name>폭탄 설치</name>
+		<description>탐색전에서 폭탄을 설치를 시도할 때</description>
+		<sender>2</sender>
+		<team_check>0</team_check>
+		<icon_friend>9</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0010</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>13</index>
+		<name>폭탄 해제</name>
+		<description>탐색전에서 폭탄을 해제를 시도할 때</description>
+		<sender>2</sender>
+		<team_check>0</team_check>
+		<icon_friend>10</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0011</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>14</index>
+		<name>폭탄 설치 완료</name>
+		<description>탐색전에서 폭탄을 설치가 끝났을 때</description>
+		<sender>3</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0027</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>15</index>
+		<name>경고:적 ZEUS출현</name>
+		<description>적이 ZEUS를 호출했을 때 </description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>16</icon_friend>
+		<icon_enemy>24</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000436</local_friend>
+		<local_enemy>banner0012</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>16</index>
+		<name>경고: 적 메탈리퍼 출현</name>
+		<description>적이 메탈리퍼를 호출했을 때 </description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>17</icon_friend>
+		<icon_enemy>25</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000437</local_friend>
+		<local_enemy>banner0013</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>17</index>
+		<name>경고: 적 헬버드 출현</name>
+		<description>적이 헬버드를 호출했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>15</icon_friend>
+		<icon_enemy>23</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000435</local_friend>
+		<local_enemy>banner0014</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>18</index>
+		<name>경고: 적 블레이드 드론 출현</name>
+		<description>적이 블레이드 드론을 쏘았을 때 </description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>13</icon_friend>
+		<icon_enemy>21</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000433</local_friend>
+		<local_enemy>banner0016</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>19</index>
+		<name>경고: 적 스트라이크 드론 출현</name>
+		<description>적이 스트라이커 드론을 호출했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>14</icon_friend>
+		<icon_enemy>22</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0000434</local_friend>
+		<local_enemy>banner0017</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>20</index>
+		<name>경고: 적  UAV 드론 출현</name>
+		<description>적이 UAV 드론을 호출했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>19</icon_friend>
+		<icon_enemy>27</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0035</local_friend>
+		<local_enemy>banner0015</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>21</index>
+		<name>경고: 적 재머 드론 출현</name>
+		<description>적이 재머 드론을 호출했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>20</icon_friend>
+		<icon_enemy>28</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0036</local_friend>
+		<local_enemy>banner0034</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>22</index>
+		<name>지역점령 시도중</name>
+		<description>어느쪽이 지역점령을 시도중일 때 </description>
+		<sender>3</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0021</local_friend>
+		<local_enemy>banner0022</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>23</index>
+		<name>지역점령 성공</name>
+		<description>어느쪽이 지역점령을 성공했을 때(적, 아군 다 표시)</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0023</local_friend>
+		<local_enemy>banner0024</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>24</index>
+		<name>지역점령 점령지 생성</name>
+		<description>점령지가 생성됬을때</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>msg0010134</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>25</index>
+		<name>공수교대</name>
+		<description>수색폭파전에서 공격과 수비가 교대한 경우</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0028</local_friend>
+		<sound_friend>interface/banner/switch_banner</sound_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>26</index>
+		<name>자원 쟁탈전 시작</name>
+		<description>자원 쟁탈전에서 목표 설명</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>mis02301</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>27</index>
+		<name>자원 쟁탈전 메탈리퍼 출현 1</name>
+		<description>자원 쟁탈전에서 메탈리퍼 출현</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>mis02302</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>28</index>
+		<name>자원 쟁탈전 센티넬 출현 1</name>
+		<description>자원 쟁탈전에서 센티넬 리스폰</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>mis02303</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>29</index>
+		<name>자원 쟁탈전 메탈리퍼 출현2</name>
+		<description>메탈리퍼 출현!</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>mis02304</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>30</index>
+		<name>자원 쟁탈전 센티넬 출현 2</name>
+		<description>센티넬 출현!</description>
+		<sender>4</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>mis02305</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>31</index>
+		<name>적 블레이드 드론 파괴</name>
+		<description>적의 블레이드 드론을 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0031</local_friend>
+		<local_enemy>banner0032</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>32</index>
+		<name>경고: 적 옵저버 출현</name>
+		<description>적이 옵저버를 호출했을 때 </description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>33</icon_friend>
+		<icon_enemy>34</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0038</local_friend>
+		<local_enemy>banner0037</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>33</index>
+		<name>기간 종료 아이템 경고</name>
+		<description>인게임에서 기간 종료 아이템을 사용할 때 메시지</description>
+		<sender>1</sender>
+		<team_check>0</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0033</local_friend>
+	</bannerinfo>
+	<bannerinfo>
+		<index>34</index>
+		<name>적 옵저버 파괴</name>
+		<description>적 옵저버를 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>banner0039</local_friend>
+		<local_enemy>banner0040</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>35</index>
+		<name>적 제우스 파괴</name>
+		<description>적 제우스를 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0001248</local_friend>
+		<local_enemy>gfx0001249</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>36</index>
+		<name>적 메탈리퍼 파괴</name>
+		<description>적 메탈리퍼를 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0001250</local_friend>
+		<local_enemy>gfx0001251</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>37</index>
+		<name>적 헬버드 파괴</name>
+		<description>적 헬버드를 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0001252</local_friend>
+		<local_enemy>gfx0001253</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>38</index>
+		<name>적 UAV 리콘 파괴</name>
+		<description>적 UAV 리콘을 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0001254</local_friend>
+		<local_enemy>gfx0001255</local_enemy>
+	</bannerinfo>
+	<bannerinfo>
+		<index>39</index>
+		<name>적 UAV 재머 파괴</name>
+		<description>적 UAV 재머를 파괴했을 때</description>
+		<sender>4</sender>
+		<team_check>1</team_check>
+		<icon_friend>0</icon_friend>
+		<icon_enemy>0</icon_enemy>
+		<reset>0</reset>
+		<local_friend>gfx0001256</local_friend>
+		<local_enemy>gfx0001257</local_enemy>
+	</bannerinfo>
+</bannerinfolist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<camo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<index>30056</index>
+		<condition1>300211001</condition1>
+		<condition2>214151001</condition2>
+		<condition3>201131001</condition3>
+	</item>
+	<item>
+		<index>30076</index>
+		<condition1>300251001</condition1>
+		<condition2>300681001</condition2>
+		<condition3>200141001</condition3>
+	</item>
+	<item>
+		<index>30065</index>
+		<condition1>300051001</condition1>
+		<condition2>214811001</condition2>
+		<condition3>204211001</condition3>
+	</item>
+	<item>
+		<index>30066</index>
+		<condition1>300191001</condition1>
+		<condition2>214811001</condition2>
+		<condition3>202331001</condition3>
+	</item>
+	<item>
+		<index>30094</index>
+		<condition1>300161001</condition1>
+		<condition2>300681001</condition2>
+		<condition3>203321001</condition3>
+	</item>
+</camo>

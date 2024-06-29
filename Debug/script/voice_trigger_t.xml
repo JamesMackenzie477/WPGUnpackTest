@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<voice_trigger>
+ <voice_t>
+  <index type="int"/>
+  <voice_id type="string"/>
+  <voice_side type="string"/>
+  <speaker type="string"/>
+  <cooltime type="int"/>
+  <param type="string"/>
+  <event type="string"/>
+ </voice_t>
+</voice_trigger>

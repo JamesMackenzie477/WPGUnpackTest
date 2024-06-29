@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playertag_info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<playertag>
+		<index>0</index>
+		<type>0</type>
+		<name>none</name>
+	</playertag>
+	<playertag>
+		<index>1</index>
+		<type>0</type>
+		<name>Emblem_기본</name>
+	</playertag>
+	<playertag>
+		<index>2</index>
+		<type>0</type>
+		<name>Emblem_암살</name>
+	</playertag>
+	<playertag>
+		<index>3</index>
+		<type>0</type>
+		<name>Emblem_벌집</name>
+	</playertag>
+	<playertag>
+		<index>4</index>
+		<type>0</type>
+		<name>Emblem_혜성</name>
+	</playertag>
+	<playertag>
+		<index>5</index>
+		<type>0</type>
+		<name>Emblem_전투모</name>
+	</playertag>
+	<playertag>
+		<index>6</index>
+		<type>0</type>
+		<name>Emblem_낫과 망치</name>
+	</playertag>
+	<playertag>
+		<index>7</index>
+		<type>0</type>
+		<name>Emblem_스마일</name>
+	</playertag>
+	<playertag>
+		<index>8</index>
+		<type>0</type>
+		<name>Emblem_독수리발톱</name>
+	</playertag>
+	<playertag>
+		<index>9</index>
+		<type>0</type>
+		<name>Emblem_돌격하는 코뿔소</name>
+	</playertag>
+	<playertag>
+		<index>10</index>
+		<type>0</type>
+		<name>Emblem_총알</name>
+	</playertag>
+	<playertag>
+		<index>11</index>
+		<type>0</type>
+		<name>Emblem_여우</name>
+	</playertag>
+	<playertag>
+		<index>12</index>
+		<type>0</type>
+		<name>Emblem_불타는 별</name>
+	</playertag>
+	<playertag>
+		<index>13</index>
+		<type>0</type>
+		<name>Emblem_캔디</name>
+	</playertag>
+	<playertag>
+		<index>14</index>
+		<type>0</type>
+		<name>Emblem_사자</name>
+	</playertag>
+	<playertag>
+		<index>15</index>
+		<type>0</type>
+		<name>Emblem_호랑이</name>
+	</playertag>
+	<playertag>
+		<index>16</index>
+		<type>0</type>
+		<name>Emblem_말</name>
+	</playertag>
+	<playertag>
+		<index>17</index>
+		<type>0</type>
+		<name>Emblem_톱</name>
+	</playertag>
+	<playertag>
+		<index>18</index>
+		<type>0</type>
+		<name>Emblem_가위</name>
+	</playertag>
+	<playertag>
+		<index>19</index>
+		<type>0</type>
+		<name>Emblem_삼지창</name>
+	</playertag>
+	<playertag>
+		<index>20</index>
+		<type>0</type>
+		<name>Emblem_핀쳐</name>
+	</playertag>
+	<playertag>
+		<index>21</index>
+		<type>0</type>
+		<name>Emblem_배척</name>
+	</playertag>
+	<playertag>
+		<index>22</index>
+		<type>0</type>
+		<name>Emblem_방탄모</name>
+	</playertag>
+	<playertag>
+		<index>23</index>
+		<type>0</type>
+		<name>Emblem_활</name>
+	</playertag>
+	<playertag>
+		<index>24</index>
+		<type>0</type>
+		<name>Emblem_다이야 반지</name>
+	</playertag>
+	<playertag>
+		<index>25</index>
+		<type>0</type>
+		<name>Emblem_워키토키</name>
+	</playertag>
+	<playertag>
+		<index>26</index>
+		<type>0</type>
+		<name>Emblem_헤드폰</name>
+	</playertag>
+	<playertag>
+		<index>27</index>
+		<type>0</type>
+		<name>Emblem_타블렛PC</name>
+	</playertag>
+	<playertag>
+		<index>28</index>
+		<type>0</type>
+		<name>Emblem_멀티툴</name>
+	</playertag>
+	<playertag>
+		<index>29</index>
+		<type>0</type>
+		<name>Emblem_물놀이용 튜브</name>
+	</playertag>
+	<playertag>
+		<index>30</index>
+		<type>0</type>
+		<name>Emblem_아령모양</name>
+	</playertag>
+	<playertag>
+		<index>31</index>
+		<type>0</type>
+		<name>Emblem_조로마스크 </name>
+	</playertag>
+	<playertag>
+		<index>32</index>
+		<type>0</type>
+		<name>Emblem_적십자마크</name>
+	</playertag>
+	<playertag>
+		<index>33</index>
+		<type>0</type>
+		<name>Emblem_수박모양</name>
+	</playertag>
+	<playertag>
+		<index>34</index>
+		<type>0</type>
+		<name>Emblem_바나나</name>
+	</playertag>
+	<playertag>
+		<index>35</index>
+		<type>0</type>
+		<name>Emblem_까마귀 </name>
+	</playertag>
+	<playertag>
+		<index>36</index>
+		<type>0</type>
+		<name>Emblem_룰렛 </name>
+	</playertag>
+	<playertag>
+		<index>37</index>
+		<type>0</type>
+		<name>Emblem_코끼리 머리</name>
+	</playertag>
+	<playertag>
+		<index>38</index>
+		<type>0</type>
+		<name>Emblem_회오리 바람</name>
+	</playertag>
+	<playertag>
+		<index>39</index>
+		<type>0</type>
+		<name>Emblem_파인애플</name>
+	</playertag>
+	<playertag>
+		<index>40</index>
+		<type>0</type>
+		<name>Emblem_바니</name>
+	</playertag>
+	<playertag>
+		<index>41</index>
+		<type>0</type>
+		<name>Emblem_원격 폭탄</name>
+	</playertag>
+	<playertag>
+		<index>42</index>
+		<type>0</type>
+		<name>Emblem_캥거루</name>
+	</playertag>
+	<playertag>
+		<index>43</index>
+		<type>0</type>
+		<name>Emblem_짚단</name>
+	</playertag>
+	<playertag>
+		<index>44</index>
+		<type>0</type>
+		<name>Emblem_소화기</name>
+	</playertag>
+	<playertag>
+		<index>45</index>
+		<type>0</type>
+		<name>Emblem_다이나마이트</name>
+	</playertag>
+	<playertag>
+		<index>46</index>
+		<type>0</type>
+		<name>Emblem_스파이드론</name>
+	</playertag>
+	<playertag>
+		<index>47</index>
+		<type>0</type>
+		<name>Emblem_선글라스</name>
+	</playertag>
+	<playertag>
+		<index>48</index>
+		<type>0</type>
+		<name>Emblem_둥근 안테나</name>
+	</playertag>
+	<playertag>
+		<index>49</index>
+		<type>0</type>
+		<name>Emblem_나비</name>
+	</playertag>
+	<playertag>
+		<index>50</index>
+		<type>0</type>
+		<name>Emblem_바바리코트</name>
+	</playertag>
+	<playertag>
+		<index>51</index>
+		<type>0</type>
+		<name>Emblem_버블버블</name>
+	</playertag>
+	<playertag>
+		<index>52</index>
+		<type>0</type>
+		<name>Emblem_꼬지</name>
+	</playertag>
+	<playertag>
+		<index>53</index>
+		<type>0</type>
+		<name>Emblem_안대</name>
+	</playertag>
+	<playertag>
+		<index>54</index>
+		<type>0</type>
+		<name>Emblem_애플</name>
+	</playertag>
+	<playertag>
+		<index>55</index>
+		<type>0</type>
+		<name>Emblem_파리채</name>
+	</playertag>
+	<playertag>
+		<index>56</index>
+		<type>0</type>
+		<name>Emblem_그물</name>
+	</playertag>
+	<playertag>
+		<index>57</index>
+		<type>0</type>
+		<name>Emblem_덫</name>
+	</playertag>
+	<playertag>
+		<index>58</index>
+		<type>0</type>
+		<name>Emblem_카메라</name>
+	</playertag>
+	<playertag>
+		<index>59</index>
+		<type>0</type>
+		<name>Emblem_헬버드</name>
+	</playertag>
+	<playertag>
+		<index>60</index>
+		<type>0</type>
+		<name>Emblem_낙뢰</name>
+	</playertag>
+	<playertag>
+		<index>61</index>
+		<type>0</type>
+		<name>Emblem_메탈리퍼</name>
+	</playertag>
+	<playertag>
+		<index>62</index>
+		<type>0</type>
+		<name>Emblem_이병</name>
+	</playertag>
+	<playertag>
+		<index>63</index>
+		<type>0</type>
+		<name>Emblem_일병</name>
+	</playertag>
+	<playertag>
+		<index>64</index>
+		<type>0</type>
+		<name>Emblem_상병</name>
+	</playertag>
+	<playertag>
+		<index>65</index>
+		<type>0</type>
+		<name>Emblem_병장</name>
+	</playertag>
+	<playertag>
+		<index>66</index>
+		<type>0</type>
+		<name>Emblem_하사</name>
+	</playertag>
+	<playertag>
+		<index>67</index>
+		<type>0</type>
+		<name>Emblem_중사</name>
+	</playertag>
+	<playertag>
+		<index>68</index>
+		<type>0</type>
+		<name>Emblem_상사</name>
+	</playertag>
+	<playertag>
+		<index>69</index>
+		<type>0</type>
+		<name>Emblem_일등 상사</name>
+	</playertag>
+	<playertag>
+		<index>70</index>
+		<type>0</type>
+		<name>Emblem_원사</name>
+	</playertag>
+	<playertag>
+		<index>71</index>
+		<type>0</type>
+		<name>Emblem_특무상사</name>
+	</playertag>
+	<playertag>
+		<index>72</index>
+		<type>0</type>
+		<name>Emblem_주임상사</name>
+	</playertag>
+	<playertag>
+		<index>73</index>
+		<type>0</type>
+		<name>Emblem_소위</name>
+	</playertag>
+	<playertag>
+		<index>74</index>
+		<type>0</type>
+		<name>Emblem_중위</name>
+	</playertag>
+	<playertag>
+		<index>75</index>
+		<type>0</type>
+		<name>Emblem_대위</name>
+	</playertag>
+	<playertag>
+		<index>76</index>
+		<type>0</type>
+		<name>Emblem_소령</name>
+	</playertag>
+	<playertag>
+		<index>77</index>
+		<type>0</type>
+		<name>Emblem_중령</name>
+	</playertag>
+	<playertag>
+		<index>78</index>
+		<type>0</type>
+		<name>Emblem_대령</name>
+	</playertag>
+	<playertag>
+		<index>79</index>
+		<type>0</type>
+		<name>Emblem_준장</name>
+	</playertag>
+	<playertag>
+		<index>80</index>
+		<type>0</type>
+		<name>Emblem_소장</name>
+	</playertag>
+	<playertag>
+		<index>81</index>
+		<type>0</type>
+		<name>Emblem_중장</name>
+	</playertag>
+	<playertag>
+		<index>82</index>
+		<type>0</type>
+		<name>Emblem_대장</name>
+	</playertag>
+	<playertag>
+		<index>83</index>
+		<type>0</type>
+		<name>Emblem_원수</name>
+	</playertag>
+	<playertag>
+		<index>84</index>
+		<type>0</type>
+		<name>Emblem_낙하산</name>
+	</playertag>
+	<playertag>
+		<index>85</index>
+		<type>0</type>
+		<name>Emblem_슬링샷</name>
+	</playertag>
+	<playertag>
+		<index>86</index>
+		<type>0</type>
+		<name>Emblem_깨진 물병</name>
+	</playertag>
+	<playertag>
+		<index>87</index>
+		<type>0</type>
+		<name>Emblem_날개</name>
+	</playertag>
+	<playertag>
+		<index>88</index>
+		<type>0</type>
+		<name>Emblem_합장손</name>
+	</playertag>
+	<playertag>
+		<index>89</index>
+		<type>0</type>
+		<name>Emblem_표창</name>
+	</playertag>
+	<playertag>
+		<index>90</index>
+		<type>0</type>
+		<name>Emblem_네잎클로버</name>
+	</playertag>
+	<playertag>
+		<index>91</index>
+		<type>0</type>
+		<name>Emblem_진주목걸이</name>
+	</playertag>
+	<playertag>
+		<index>92</index>
+		<type>0</type>
+		<name>Emblem_단두대</name>
+	</playertag>
+	<playertag>
+		<index>93</index>
+		<type>0</type>
+		<name>Emblem_깨진 하트</name>
+	</playertag>
+	<playertag>
+		<index>94</index>
+		<type>0</type>
+		<name>Emblem_불사조</name>
+	</playertag>
+	<playertag>
+		<index>95</index>
+		<type>0</type>
+		<name>Emblem_좀비손</name>
+	</playertag>
+	<playertag>
+		<index>96</index>
+		<type>0</type>
+		<name>Emblem_장미</name>
+	</playertag>
+	<playertag>
+		<index>97</index>
+		<type>0</type>
+		<name>Emblem_드릴</name>
+	</playertag>
+	<playertag>
+		<index>98</index>
+		<type>0</type>
+		<name>Emblem_늑대</name>
+	</playertag>
+	<playertag>
+		<index>99</index>
+		<type>0</type>
+		<name>Emblem_유니콘</name>
+	</playertag>
+	<playertag>
+		<index>100</index>
+		<type>0</type>
+		<name>Emblem_코브라</name>
+	</playertag>
+	<playertag>
+		<index>101</index>
+		<type>0</type>
+		<name>Emblem_딱풀</name>
+	</playertag>
+	<playertag>
+		<index>102</index>
+		<type>0</type>
+		<name>Emblem_불꽃놀이</name>
+	</playertag>
+	<playertag>
+		<index>103</index>
+		<type>0</type>
+		<name>Emblem_깨짐주의</name>
+	</playertag>
+	<playertag>
+		<index>104</index>
+		<type>0</type>
+		<name>Emblem_불타는 차</name>
+	</playertag>
+	<playertag>
+		<index>105</index>
+		<type>0</type>
+		<name>Emblem_불타는 드럼통</name>
+	</playertag>
+	<playertag>
+		<index>106</index>
+		<type>0</type>
+		<name>Emblem_청개구리</name>
+	</playertag>
+	<playertag>
+		<index>107</index>
+		<type>0</type>
+		<name>Emblem_콜라</name>
+	</playertag>
+	<playertag>
+		<index>108</index>
+		<type>0</type>
+		<name>Emblem_정보수집가</name>
+	</playertag>
+	<playertag>
+		<index>109</index>
+		<type>0</type>
+		<name>Emblem_돌격소총 마스터</name>
+	</playertag>
+	<playertag>
+		<index>110</index>
+		<type>0</type>
+		<name>Emblem_기관단총 마스터</name>
+	</playertag>
+	<playertag>
+		<index>111</index>
+		<type>0</type>
+		<name>Emblem_저격소총 마스터</name>
+	</playertag>
+	<playertag>
+		<index>112</index>
+		<type>0</type>
+		<name>Emblem_경기관총 마스터</name>
+	</playertag>
+	<playertag>
+		<index>113</index>
+		<type>0</type>
+		<name>Emblem_살상장비 마스터</name>
+	</playertag>
+	<playertag>
+		<index>114</index>
+		<type>0</type>
+		<name>Emblem_근접무기 마스터</name>
+	</playertag>
+	<playertag>
+		<index>115</index>
+		<type>0</type>
+		<name>Emblem_보조무기 마스터</name>
+	</playertag>
+	<playertag>
+		<index>116</index>
+		<type>0</type>
+		<name>Emblem_돌격소총 지정사수</name>
+	</playertag>
+	<playertag>
+		<index>117</index>
+		<type>0</type>
+		<name>Emblem_기관단총 지정사수</name>
+	</playertag>
+	<playertag>
+		<index>118</index>
+		<type>0</type>
+		<name>Emblem_저격소총 지정사수</name>
+	</playertag>
+	<playertag>
+		<index>119</index>
+		<type>0</type>
+		<name>Emblem_경기관총 지정사수</name>
+	</playertag>
+	<playertag>
+		<index>120</index>
+		<type>0</type>
+		<name>Emblem_까꿍</name>
+	</playertag>
+	<playertag>
+		<index>121</index>
+		<type>0</type>
+		<name>Emblem_불이야</name>
+	</playertag>
+	<playertag>
+		<index>122</index>
+		<type>0</type>
+		<name>Emblem_극심한 두통</name>
+	</playertag>
+	<playertag>
+		<index>123</index>
+		<type>0</type>
+		<name>Emblem_비행선</name>
+	</playertag>
+	<playertag>
+		<index>124</index>
+		<type>0</type>
+		<name>Emblem_하늘섬</name>
+	</playertag>
+	<playertag>
+		<index>125</index>
+		<type>0</type>
+		<name>Emblem_달걀</name>
+	</playertag>
+	<playertag>
+		<index>126</index>
+		<type>0</type>
+		<name>Emblem_돌고래</name>
+	</playertag>
+	<playertag>
+		<index>127</index>
+		<type>0</type>
+		<name>Emblem_미사일</name>
+	</playertag>
+	<playertag>
+		<index>128</index>
+		<type>0</type>
+		<name>Emblem_갈증</name>
+	</playertag>
+	<playertag>
+		<index>129</index>
+		<type>0</type>
+		<name>Emblem_UFO</name>
+	</playertag>
+	<playertag>
+		<index>130</index>
+		<type>0</type>
+		<name>Emblem_보트</name>
+	</playertag>
+	<playertag>
+		<index>131</index>
+		<type>0</type>
+		<name>Emblem_우리집</name>
+	</playertag>
+	<playertag>
+		<index>132</index>
+		<type>0</type>
+		<name>Emblem_오리발</name>
+	</playertag>
+	<playertag>
+		<index>133</index>
+		<type>0</type>
+		<name>Emblem_전망이 좋아</name>
+	</playertag>
+	<playertag>
+		<index>134</index>
+		<type>0</type>
+		<name>Emblem_눈깔사탕</name>
+	</playertag>
+	<playertag>
+		<index>135</index>
+		<type>0</type>
+		<name>Emblem_Happy New Year</name>
+	</playertag>
+	<playertag>
+		<index>136</index>
+		<type>0</type>
+		<name>Emblem_백호</name>
+	</playertag>
+	<playertag>
+		<index>137</index>
+		<type>0</type>
+		<name>Emblem_러시안 햇</name>
+	</playertag>
+	<playertag>
+		<index>138</index>
+		<type>0</type>
+		<name>Emblem_미남형 폭탄</name>
+	</playertag>
+	<playertag>
+		<index>139</index>
+		<type>0</type>
+		<name>Emblem_행운</name>
+	</playertag>
+	<playertag>
+		<index>140</index>
+		<type>0</type>
+		<name>Emblem_돼지 저금통</name>
+	</playertag>
+	<playertag>
+		<index>141</index>
+		<type>0</type>
+		<name>Emblem_어딜 만져?</name>
+	</playertag>
+	<playertag>
+		<index>142</index>
+		<type>0</type>
+		<name>Emblem_종이학</name>
+	</playertag>
+	<playertag>
+		<index>143</index>
+		<type>0</type>
+		<name>Emblem_조각상</name>
+	</playertag>
+	<playertag>
+		<index>144</index>
+		<type>0</type>
+		<name>Emblem_왕관</name>
+	</playertag>
+	<playertag>
+		<index>145</index>
+		<type>0</type>
+		<name>Emblem_지독한 굶주림</name>
+	</playertag>
+	<playertag>
+		<index>146</index>
+		<type>0</type>
+		<name>Emblem_죽을래?</name>
+	</playertag>
+	<playertag>
+		<index>147</index>
+		<type>0</type>
+		<name>Emblem_장전 완료</name>
+	</playertag>
+	<playertag>
+		<index>148</index>
+		<type>0</type>
+		<name>Emblem_기본 등급</name>
+	</playertag>
+	<playertag>
+		<index>149</index>
+		<type>0</type>
+		<name>Emblem_브론즈</name>
+	</playertag>
+	<playertag>
+		<index>150</index>
+		<type>0</type>
+		<name>Emblem_실버</name>
+	</playertag>
+	<playertag>
+		<index>151</index>
+		<type>0</type>
+		<name>Emblem_골드</name>
+	</playertag>
+	<playertag>
+		<index>152</index>
+		<type>0</type>
+		<name>Emblem_플레티넘</name>
+	</playertag>
+	<playertag>
+		<index>153</index>
+		<type>0</type>
+		<name>Emblem_다이아</name>
+	</playertag>
+	<playertag>
+		<index>154</index>
+		<type>0</type>
+		<name>Emblem_마스터</name>
+	</playertag>
+	<playertag>
+		<index>10001</index>
+		<type>1</type>
+		<name>Title_default</name>
+	</playertag>
+	<playertag>
+		<index>10002</index>
+		<type>1</type>
+		<name>Title_M4A1</name>
+	</playertag>
+	<playertag>
+		<index>10003</index>
+		<type>1</type>
+		<name>Title_G36</name>
+	</playertag>
+	<playertag>
+		<index>10004</index>
+		<type>1</type>
+		<name>Title_AK47</name>
+	</playertag>
+	<playertag>
+		<index>10005</index>
+		<type>1</type>
+		<name>Title_AK12</name>
+	</playertag>
+	<playertag>
+		<index>10006</index>
+		<type>1</type>
+		<name>Title_Famas G2</name>
+	</playertag>
+	<playertag>
+		<index>10007</index>
+		<type>1</type>
+		<name>Title_M39 EMR</name>
+	</playertag>
+	<playertag>
+		<index>10008</index>
+		<type>1</type>
+		<name>Title_AUG A3</name>
+	</playertag>
+	<playertag>
+		<index>10009</index>
+		<type>1</type>
+		<name>Title_SA58 OSW</name>
+	</playertag>
+	<playertag>
+		<index>10010</index>
+		<type>1</type>
+		<name>Title_ARX160</name>
+	</playertag>
+	<playertag>
+		<index>10011</index>
+		<type>1</type>
+		<name>Title_AR57</name>
+	</playertag>
+	<playertag>
+		<index>10012</index>
+		<type>1</type>
+		<name>Title_SG553</name>
+	</playertag>
+	<playertag>
+		<index>10013</index>
+		<type>1</type>
+		<name>Title_K2C</name>
+	</playertag>
+	<playertag>
+		<index>10014</index>
+		<type>1</type>
+		<name>Title_MP5A5</name>
+	</playertag>
+	<playertag>
+		<index>10015</index>
+		<type>1</type>
+		<name>Title_P90TR</name>
+	</playertag>
+	<playertag>
+		<index>10016</index>
+		<type>1</type>
+		<name>Title_MP7A1</name>
+	</playertag>
+	<playertag>
+		<index>10017</index>
+		<type>1</type>
+		<name>Title_VECTOR</name>
+	</playertag>
+	<playertag>
+		<index>10018</index>
+		<type>1</type>
+		<name>Title_PP90M1</name>
+	</playertag>
+	<playertag>
+		<index>10019</index>
+		<type>1</type>
+		<name>Title_PP2000</name>
+	</playertag>
+	<playertag>
+		<index>10020</index>
+		<type>1</type>
+		<name>Title_PDRC</name>
+	</playertag>
+	<playertag>
+		<index>10021</index>
+		<type>1</type>
+		<name>Title_MG3</name>
+	</playertag>
+	<playertag>
+		<index>10022</index>
+		<type>1</type>
+		<name>Title_PKP</name>
+	</playertag>
+	<playertag>
+		<index>10023</index>
+		<type>1</type>
+		<name>Title_Ultimax100MK8</name>
+	</playertag>
+	<playertag>
+		<index>10024</index>
+		<type>1</type>
+		<name>Title_MK46</name>
+	</playertag>
+	<playertag>
+		<index>10025</index>
+		<type>1</type>
+		<name>Title_DSR1</name>
+	</playertag>
+	<playertag>
+		<index>10026</index>
+		<type>1</type>
+		<name>Title_SVD</name>
+	</playertag>
+	<playertag>
+		<index>10027</index>
+		<type>1</type>
+		<name>Title_BLASER R93</name>
+	</playertag>
+	<playertag>
+		<index>10028</index>
+		<type>1</type>
+		<name>Title_CF-X50</name>
+	</playertag>
+	<playertag>
+		<index>10029</index>
+		<type>1</type>
+		<name>Title_TAC-OPS</name>
+	</playertag>
+	<playertag>
+		<index>10030</index>
+		<type>1</type>
+		<name>Title_PYTHON</name>
+	</playertag>
+	<playertag>
+		<index>10031</index>
+		<type>1</type>
+		<name>Title_DesertEagle</name>
+	</playertag>
+	<playertag>
+		<index>10032</index>
+		<type>1</type>
+		<name>Title_Crossbow</name>
+	</playertag>
+	<playertag>
+		<index>10033</index>
+		<type>1</type>
+		<name>Title_JACKHAMMER</name>
+	</playertag>
+	<playertag>
+		<index>10034</index>
+		<type>1</type>
+		<name>Title_KARD</name>
+	</playertag>
+	<playertag>
+		<index>10035</index>
+		<type>1</type>
+		<name>Title_SPAS12</name>
+	</playertag>
+	<playertag>
+		<index>10036</index>
+		<type>1</type>
+		<name>Title_Px4 STORM</name>
+	</playertag>
+	<playertag>
+		<index>10037</index>
+		<type>1</type>
+		<name>Title_Frag granade</name>
+	</playertag>
+	<playertag>
+		<index>10038</index>
+		<type>1</type>
+		<name>Title_Semtex granade</name>
+	</playertag>
+	<playertag>
+		<index>10039</index>
+		<type>1</type>
+		<name>Title_원격 폭탄</name>
+	</playertag>
+	<playertag>
+		<index>10040</index>
+		<type>1</type>
+		<name>Title_S mine</name>
+	</playertag>
+	<playertag>
+		<index>10041</index>
+		<type>1</type>
+		<name>Title_Claymore</name>
+	</playertag>
+	<playertag>
+		<index>10042</index>
+		<type>1</type>
+		<name>Title_Incendiary granade</name>
+	</playertag>
+	<playertag>
+		<index>10043</index>
+		<type>1</type>
+		<name>Title_Explosive knife</name>
+	</playertag>
+	<playertag>
+		<index>10044</index>
+		<type>1</type>
+		<name>Title_Throwing knife</name>
+	</playertag>
+	<playertag>
+		<index>10045</index>
+		<type>1</type>
+		<name>Title_Throwing axe</name>
+	</playertag>
+	<playertag>
+		<index>10046</index>
+		<type>1</type>
+		<name>Title_Flash granade</name>
+	</playertag>
+	<playertag>
+		<index>10047</index>
+		<type>1</type>
+		<name>Title_Shock granade</name>
+	</playertag>
+	<playertag>
+		<index>10048</index>
+		<type>1</type>
+		<name>Title_EMP granade</name>
+	</playertag>
+	<playertag>
+		<index>10049</index>
+		<type>1</type>
+		<name>Title_Teargas granade</name>
+	</playertag>
+	<playertag>
+		<index>10050</index>
+		<type>1</type>
+		<name>Title_Smokde granade</name>
+	</playertag>
+	<playertag>
+		<index>10051</index>
+		<type>1</type>
+		<name>Title_Decoy granade</name>
+	</playertag>
+	<playertag>
+		<index>10052</index>
+		<type>1</type>
+		<name>Title_스파이는 누구?</name>
+	</playertag>
+	<playertag>
+		<index>10053</index>
+		<type>1</type>
+		<name>Title_내가 어디에 있게?</name>
+	</playertag>
+	<playertag>
+		<index>10054</index>
+		<type>1</type>
+		<name>Title_창공의 감시자</name>
+	</playertag>
+	<playertag>
+		<index>10055</index>
+		<type>1</type>
+		<name>Title_아무도 모르게</name>
+	</playertag>
+	<playertag>
+		<index>10056</index>
+		<type>1</type>
+		<name>Title_반딧불이야 날아라</name>
+	</playertag>
+	<playertag>
+		<index>10057</index>
+		<type>1</type>
+		<name>Title_조용한 집착</name>
+	</playertag>
+	<playertag>
+		<index>10058</index>
+		<type>1</type>
+		<name>Title_사족보행의 우월함</name>
+	</playertag>
+	<playertag>
+		<index>10059</index>
+		<type>1</type>
+		<name>Title_버블 팝</name>
+	</playertag>
+	<playertag>
+		<index>10060</index>
+		<type>1</type>
+		<name>Title_심판의 칼날</name>
+	</playertag>
+	<playertag>
+		<index>10061</index>
+		<type>1</type>
+		<name>Title_신사</name>
+	</playertag>
+	<playertag>
+		<index>10062</index>
+		<type>1</type>
+		<name>Title_외눈박이</name>
+	</playertag>
+	<playertag>
+		<index>10063</index>
+		<type>1</type>
+		<name>Title_잡았다!</name>
+	</playertag>
+	<playertag>
+		<index>10064</index>
+		<type>1</type>
+		<name>Title_웃어요</name>
+	</playertag>
+	<playertag>
+		<index>10065</index>
+		<type>1</type>
+		<name>Title_딱따구리</name>
+	</playertag>
+	<playertag>
+		<index>10066</index>
+		<type>1</type>
+		<name>Title_날벼락</name>
+	</playertag>
+	<playertag>
+		<index>10067</index>
+		<type>1</type>
+		<name>Title_강철의 사신</name>
+	</playertag>
+	<playertag>
+		<index>10068</index>
+		<type>1</type>
+		<name>Title_세일기간</name>
+	</playertag>
+	<playertag>
+		<index>10069</index>
+		<type>1</type>
+		<name>Title_폭포</name>
+	</playertag>
+	<playertag>
+		<index>10070</index>
+		<type>1</type>
+		<name>Title_끝없는 군생활</name>
+	</playertag>
+	<playertag>
+		<index>10071</index>
+		<type>1</type>
+		<name>Title_환상의 휴양지</name>
+	</playertag>
+	<playertag>
+		<index>10072</index>
+		<type>1</type>
+		<name>Title_안녕 외계인</name>
+	</playertag>
+	<playertag>
+		<index>10073</index>
+		<type>1</type>
+		<name>Title_바 파티</name>
+	</playertag>
+	<playertag>
+		<index>10074</index>
+		<type>1</type>
+		<name>Title_비린내 나는 부둣가</name>
+	</playertag>
+	<playertag>
+		<index>10075</index>
+		<type>1</type>
+		<name>Title_퐁네프의 다리 </name>
+	</playertag>
+	<playertag>
+		<index>10076</index>
+		<type>1</type>
+		<name>Title_속보입니다</name>
+	</playertag>
+	<playertag>
+		<index>10077</index>
+		<type>1</type>
+		<name>Title_미사일을 발사합니다</name>
+	</playertag>
+	<playertag>
+		<index>10078</index>
+		<type>1</type>
+		<name>Title_머나먼 정글</name>
+	</playertag>
+	<playertag>
+		<index>10079</index>
+		<type>1</type>
+		<name>Title_수확의 계절</name>
+	</playertag>
+	<playertag>
+		<index>10080</index>
+		<type>1</type>
+		<name>Title_대장간</name>
+	</playertag>
+	<playertag>
+		<index>10081</index>
+		<type>1</type>
+		<name>Title_방없음</name>
+	</playertag>
+	<playertag>
+		<index>10082</index>
+		<type>1</type>
+		<name>Title_여권이 없다!</name>
+	</playertag>
+	<playertag>
+		<index>10083</index>
+		<type>1</type>
+		<name>Title_마도로스</name>
+	</playertag>
+	<playertag>
+		<index>10084</index>
+		<type>1</type>
+		<name>Title_고소공포증</name>
+	</playertag>
+	<playertag>
+		<index>10085</index>
+		<type>1</type>
+		<name>Title_레벨 10</name>
+	</playertag>
+	<playertag>
+		<index>10086</index>
+		<type>1</type>
+		<name>Title_레벨 20</name>
+	</playertag>
+	<playertag>
+		<index>10087</index>
+		<type>1</type>
+		<name>Title_레벨 30</name>
+	</playertag>
+	<playertag>
+		<index>10088</index>
+		<type>1</type>
+		<name>Title_레벨 40</name>
+	</playertag>
+	<playertag>
+		<index>10089</index>
+		<type>1</type>
+		<name>Title_레벨 50</name>
+	</playertag>
+	<playertag>
+		<index>10090</index>
+		<type>1</type>
+		<name>Title_레벨 60</name>
+	</playertag>
+	<playertag>
+		<index>10091</index>
+		<type>1</type>
+		<name>Title_레벨 70</name>
+	</playertag>
+	<playertag>
+		<index>10092</index>
+		<type>1</type>
+		<name>Title_레벨 80</name>
+	</playertag>
+	<playertag>
+		<index>10093</index>
+		<type>1</type>
+		<name>Title_레벨 90</name>
+	</playertag>
+	<playertag>
+		<index>10094</index>
+		<type>1</type>
+		<name>Title_친구아이가</name>
+	</playertag>
+	<playertag>
+		<index>10095</index>
+		<type>1</type>
+		<name>Title_파티홀릭</name>
+	</playertag>
+	<playertag>
+		<index>10096</index>
+		<type>1</type>
+		<name>Title_우리는 강하다</name>
+	</playertag>
+	<playertag>
+		<index>10097</index>
+		<type>1</type>
+		<name>Title_무릎 연골 파괴자</name>
+	</playertag>
+	<playertag>
+		<index>10098</index>
+		<type>1</type>
+		<name>Title_침대보다 편안함</name>
+	</playertag>
+	<playertag>
+		<index>10099</index>
+		<type>1</type>
+		<name>Title_날라차기</name>
+	</playertag>
+	<playertag>
+		<index>10100</index>
+		<type>1</type>
+		<name>Title_다중처리 능력자</name>
+	</playertag>
+	<playertag>
+		<index>10101</index>
+		<type>1</type>
+		<name>Title_꿰어야 보배</name>
+	</playertag>
+	<playertag>
+		<index>10102</index>
+		<type>1</type>
+		<name>Title_럭키세븐</name>
+	</playertag>
+	<playertag>
+		<index>10103</index>
+		<type>1</type>
+		<name>Title_3관왕</name>
+	</playertag>
+	<playertag>
+		<index>10104</index>
+		<type>1</type>
+		<name>Title_5관왕</name>
+	</playertag>
+	<playertag>
+		<index>10105</index>
+		<type>1</type>
+		<name>Title_1석 2조</name>
+	</playertag>
+	<playertag>
+		<index>10106</index>
+		<type>1</type>
+		<name>Title_1석 3조</name>
+	</playertag>
+	<playertag>
+		<index>10107</index>
+		<type>1</type>
+		<name>Title_집중!</name>
+	</playertag>
+	<playertag>
+		<index>10108</index>
+		<type>1</type>
+		<name>Title_돌격소총 집착증</name>
+	</playertag>
+	<playertag>
+		<index>10109</index>
+		<type>1</type>
+		<name>Title_기관단총 집착증</name>
+	</playertag>
+	<playertag>
+		<index>10110</index>
+		<type>1</type>
+		<name>Title_저격소총 집착증</name>
+	</playertag>
+	<playertag>
+		<index>10111</index>
+		<type>1</type>
+		<name>Title_경기관총 집착증</name>
+	</playertag>
+	<playertag>
+		<index>10112</index>
+		<type>1</type>
+		<name>Title_보조무기 집착증</name>
+	</playertag>
+	<playertag>
+		<index>10113</index>
+		<type>1</type>
+		<name>Title_머니! 머니!</name>
+	</playertag>
+	<playertag>
+		<index>10114</index>
+		<type>1</type>
+		<name>Title_인력시장</name>
+	</playertag>
+	<playertag>
+		<index>10115</index>
+		<type>1</type>
+		<name>Title_숙제 끝!</name>
+	</playertag>
+	<playertag>
+		<index>10116</index>
+		<type>1</type>
+		<name>Title_AR 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10117</index>
+		<type>1</type>
+		<name>Title_SMG 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10118</index>
+		<type>1</type>
+		<name>Title_SR 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10119</index>
+		<type>1</type>
+		<name>Title_LMG 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10120</index>
+		<type>1</type>
+		<name>Title_투척무기 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10121</index>
+		<type>1</type>
+		<name>Title_칼 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10122</index>
+		<type>1</type>
+		<name>Title_투척날붙이 광신자</name>
+	</playertag>
+	<playertag>
+		<index>10123</index>
+		<type>1</type>
+		<name>Title_소총보다 보조무기</name>
+	</playertag>
+	<playertag>
+		<index>10124</index>
+		<type>1</type>
+		<name>Title_내가 찍었어</name>
+	</playertag>
+	<playertag>
+		<index>10125</index>
+		<type>1</type>
+		<name>Title_환상속의 그대</name>
+	</playertag>
+	<playertag>
+		<index>10126</index>
+		<type>1</type>
+		<name>Title_최후의 생존자</name>
+	</playertag>
+	<playertag>
+		<index>10127</index>
+		<type>1</type>
+		<name>Title_남들보다 빠르게</name>
+	</playertag>
+	<playertag>
+		<index>10128</index>
+		<type>1</type>
+		<name>Title_승리자!</name>
+	</playertag>
+	<playertag>
+		<index>10129</index>
+		<type>1</type>
+		<name>Title_최고의 킬러(팀섬멸)</name>
+	</playertag>
+	<playertag>
+		<index>10130</index>
+		<type>1</type>
+		<name>Title_절멸자</name>
+	</playertag>
+	<playertag>
+		<index>10131</index>
+		<type>1</type>
+		<name>Title_틱톡틱톡</name>
+	</playertag>
+	<playertag>
+		<index>10132</index>
+		<type>1</type>
+		<name>Title_빨간 선? 파란 선? </name>
+	</playertag>
+	<playertag>
+		<index>10133</index>
+		<type>1</type>
+		<name>Title_폭탄마</name>
+	</playertag>
+	<playertag>
+		<index>10134</index>
+		<type>1</type>
+		<name>Title_체리피커</name>
+	</playertag>
+	<playertag>
+		<index>10135</index>
+		<type>1</type>
+		<name>Title_최고의 킬러(점령)</name>
+	</playertag>
+	<playertag>
+		<index>10136</index>
+		<type>1</type>
+		<name>Title_지배자</name>
+	</playertag>
+	<playertag>
+		<index>10137</index>
+		<type>1</type>
+		<name>Title_M320 GLM</name>
+	</playertag>
+	<playertag>
+		<index>10138</index>
+		<type>1</type>
+		<name>Title_default2</name>
+	</playertag>
+	<playertag>
+		<index>10139</index>
+		<type>1</type>
+		<name>Title_default3</name>
+	</playertag>
+	<playertag>
+		<index>10140</index>
+		<type>1</type>
+		<name>Title_default4</name>
+	</playertag>
+	<playertag>
+		<index>10141</index>
+		<type>1</type>
+		<name>Title_알파테스트</name>
+	</playertag>
+	<playertag>
+		<index>10142</index>
+		<type>1</type>
+		<name>Title_VIP테스트</name>
+	</playertag>
+	<playertag>
+		<index>10143</index>
+		<type>1</type>
+		<name>Title_정보수집가</name>
+	</playertag>
+	<playertag>
+		<index>10144</index>
+		<type>1</type>
+		<name>Title_개국 공신</name>
+	</playertag>
+	<playertag>
+		<index>10145</index>
+		<type>1</type>
+		<name>Title_돌격소총의 신</name>
+	</playertag>
+	<playertag>
+		<index>10146</index>
+		<type>1</type>
+		<name>Title_기관단총의 신</name>
+	</playertag>
+	<playertag>
+		<index>10147</index>
+		<type>1</type>
+		<name>Title_저격소총의 신</name>
+	</playertag>
+	<playertag>
+		<index>10148</index>
+		<type>1</type>
+		<name>Title_경기관총의 신</name>
+	</playertag>
+	<playertag>
+		<index>10149</index>
+		<type>1</type>
+		<name>Title_살상장비의 신</name>
+	</playertag>
+	<playertag>
+		<index>10150</index>
+		<type>1</type>
+		<name>Title_보조무기의 신</name>
+	</playertag>
+	<playertag>
+		<index>10151</index>
+		<type>1</type>
+		<name>Title_근접무기의 신</name>
+	</playertag>
+	<playertag>
+		<index>10152</index>
+		<type>1</type>
+		<name>Title_돌격소총 명사수</name>
+	</playertag>
+	<playertag>
+		<index>10153</index>
+		<type>1</type>
+		<name>Title_기관단총 명사수</name>
+	</playertag>
+	<playertag>
+		<index>10154</index>
+		<type>1</type>
+		<name>Title_저격소총 명사수</name>
+	</playertag>
+	<playertag>
+		<index>10155</index>
+		<type>1</type>
+		<name>Title_경기관총 명사수</name>
+	</playertag>
+	<playertag>
+		<index>10156</index>
+		<type>1</type>
+		<name>Title_MP5A5 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10157</index>
+		<type>1</type>
+		<name>Title_M4 ACC-M 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10158</index>
+		<type>1</type>
+		<name>Title_G36C 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10159</index>
+		<type>1</type>
+		<name>Title_AK12 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10160</index>
+		<type>1</type>
+		<name>Title_FAMAS G2 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10161</index>
+		<type>1</type>
+		<name>Title_M39 EMR 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10162</index>
+		<type>1</type>
+		<name>Title_AUG A3 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10163</index>
+		<type>1</type>
+		<name>Title_SA58 OSW 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10164</index>
+		<type>1</type>
+		<name>Title_ARX160 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10165</index>
+		<type>1</type>
+		<name>Title_AR57 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10166</index>
+		<type>1</type>
+		<name>Title_SG553 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10167</index>
+		<type>1</type>
+		<name>Title_K2C 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10168</index>
+		<type>1</type>
+		<name>Title_P90 TR 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10169</index>
+		<type>1</type>
+		<name>Title_MP7A1 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10170</index>
+		<type>1</type>
+		<name>Title_VECTOR 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10171</index>
+		<type>1</type>
+		<name>Title_PP-90M1 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10172</index>
+		<type>1</type>
+		<name>Title_PDR-C 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10173</index>
+		<type>1</type>
+		<name>Title_MG3 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10174</index>
+		<type>1</type>
+		<name>Title_PKP 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10175</index>
+		<type>1</type>
+		<name>Title_Ultimax 100 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10176</index>
+		<type>1</type>
+		<name>Title_MK46 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10177</index>
+		<type>1</type>
+		<name>Title_DSR-1 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10178</index>
+		<type>1</type>
+		<name>Title_SVD 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10179</index>
+		<type>1</type>
+		<name>Title_Blaser R93 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10180</index>
+		<type>1</type>
+		<name>Title_CF-X50 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10181</index>
+		<type>1</type>
+		<name>Title_투척 나이프 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10182</index>
+		<type>1</type>
+		<name>Title_SCAR-H 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10183</index>
+		<type>1</type>
+		<name>Title_MP9 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10184</index>
+		<type>1</type>
+		<name>Title_HK-417 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10185</index>
+		<type>1</type>
+		<name>Title_TAC-OPS 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10186</index>
+		<type>1</type>
+		<name>Title_근접 나이프 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10187</index>
+		<type>1</type>
+		<name>Title_M320 GLM 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10188</index>
+		<type>1</type>
+		<name>Title_Px4 Strom 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10189</index>
+		<type>1</type>
+		<name>Title_전투용 석궁 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10190</index>
+		<type>1</type>
+		<name>Title_Desert Eagle 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10191</index>
+		<type>1</type>
+		<name>Title_SPAS12 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10192</index>
+		<type>1</type>
+		<name>Title_KARD 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10193</index>
+		<type>1</type>
+		<name>Title_세열수류탄 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10194</index>
+		<type>1</type>
+		<name>Title_점착수류탄 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10195</index>
+		<type>1</type>
+		<name>Title_도약지뢰 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10196</index>
+		<type>1</type>
+		<name>Title_클레이모어 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10197</index>
+		<type>1</type>
+		<name>Title_소이탄 마스터리</name>
+	</playertag>
+	<playertag>
+		<index>10198</index>
+		<type>1</type>
+		<name>Title_AK47 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10199</index>
+		<type>1</type>
+		<name>Title_Jackhammer 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10200</index>
+		<type>1</type>
+		<name>Title_원격 폭탄 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10201</index>
+		<type>1</type>
+		<name>Title_군용 도끼 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10202</index>
+		<type>1</type>
+		<name>Title_폭발 나이프 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10203</index>
+		<type>1</type>
+		<name>Title_MSBS 556B 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10204</index>
+		<type>1</type>
+		<name>Title_Python 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10205</index>
+		<type>1</type>
+		<name>Title_투척 도끼 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10206</index>
+		<type>1</type>
+		<name>Title_TAR21 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10207</index>
+		<type>1</type>
+		<name>Title_퍼스트 아이언즈</name>
+	</playertag>
+	<playertag>
+		<index>10208</index>
+		<type>1</type>
+		<name>Title_PP-2000 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10209</index>
+		<type>1</type>
+		<name>Title_AN-94 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10210</index>
+		<type>1</type>
+		<name>Title_PSG-1 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10211</index>
+		<type>1</type>
+		<name>Title_해맞이</name>
+	</playertag>
+	<playertag>
+		<index>10212</index>
+		<type>1</type>
+		<name>Title_세이프</name>
+	</playertag>
+	<playertag>
+		<index>10213</index>
+		<type>1</type>
+		<name>Title_발헬름 텔</name>
+	</playertag>
+	<playertag>
+		<index>10214</index>
+		<type>1</type>
+		<name>Title_터치다운</name>
+	</playertag>
+	<playertag>
+		<index>10215</index>
+		<type>1</type>
+		<name>Title_드롭킥</name>
+	</playertag>
+	<playertag>
+		<index>10216</index>
+		<type>1</type>
+		<name>Title_장난감 공장</name>
+	</playertag>
+	<playertag>
+		<index>10217</index>
+		<type>1</type>
+		<name>Title_LWRC 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10218</index>
+		<type>1</type>
+		<name>Title_모신나강 마스터</name>
+	</playertag>
+	<playertag>
+		<index>10219</index>
+		<type>1</type>
+		<name>Title_내 앞을 막을자</name>
+	</playertag>
+	<playertag>
+		<index>10220</index>
+		<type>1</type>
+		<name>Title_숙면</name>
+	</playertag>
+	<playertag>
+		<index>10221</index>
+		<type>1</type>
+		<name>Title_상위 포식자</name>
+	</playertag>
+	<playertag>
+		<index>10222</index>
+		<type>1</type>
+		<name>Title_결전의 시간</name>
+	</playertag>
+	<playertag>
+		<index>10223</index>
+		<type>1</type>
+		<name>Title_전투 준비 끝</name>
+	</playertag>
+	<playertag>
+		<index>20001</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표</name>
+	</playertag>
+	<playertag>
+		<index>20002</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 2</name>
+	</playertag>
+	<playertag>
+		<index>20003</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 3</name>
+	</playertag>
+	<playertag>
+		<index>20004</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 4</name>
+	</playertag>
+	<playertag>
+		<index>20005</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 5</name>
+	</playertag>
+	<playertag>
+		<index>20006</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 6</name>
+	</playertag>
+	<playertag>
+		<index>20007</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 7</name>
+	</playertag>
+	<playertag>
+		<index>20008</index>
+		<type>2</type>
+		<name>Dtag_기본 인식표 8</name>
+	</playertag>
+</playertag_info>

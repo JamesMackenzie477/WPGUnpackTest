@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contract_info_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<contract_list>
+		<index>1</index>
+		<index_name>돌격소총 사격 연습</index_name>
+		<name_local>cont0001</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>assault rifle</challenge_category_sub>
+		<description_en>돌격소총으로 적 5회 헤드샷</description_en>
+		<description_local>contD0001</description_local>
+		<target_action_count>headshot</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>2</index>
+		<index_name>기관단총 사격 연습</index_name>
+		<name_local>cont0002</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>sub machinegun</challenge_category_sub>
+		<description_en>기관단총으로 적 5회 헤드샷</description_en>
+		<description_local>contD0002</description_local>
+		<target_action_count>headshot</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>2</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>3</index>
+		<index_name>저격소총 사격 연습</index_name>
+		<name_local>cont0003</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>sniper rifle</challenge_category_sub>
+		<description_en>저격소총으로 적 5회 헤드샷</description_en>
+		<description_local>contD0003</description_local>
+		<target_action_count>headshot</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>3</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>4</index>
+		<index_name>경기관총 사격 연습</index_name>
+		<name_local>cont0004</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>light machinegun</challenge_category_sub>
+		<description_en>경기관총으로 적 5회 헤드샷</description_en>
+		<description_local>contD0004</description_local>
+		<target_action_count>headshot</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>4</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>5</index>
+		<index_name>돌격소총과 함께</index_name>
+		<name_local>cont0005</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>assault rifle</challenge_category_sub>
+		<description_en>돌격소총으로 적 20회 사살</description_en>
+		<description_local>contD0005</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>6</index>
+		<index_name>기관단총과 함께</index_name>
+		<name_local>cont0006</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>sub machinegun</challenge_category_sub>
+		<description_en>기관단총으로 적 20회 사살</description_en>
+		<description_local>contD0006</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>2</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>7</index>
+		<index_name>저격소총과 함께</index_name>
+		<name_local>cont0007</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>sniper rifle</challenge_category_sub>
+		<description_en>저격소총으로 적 20회 사살</description_en>
+		<description_local>contD0007</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>3</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>8</index>
+		<index_name>경기관총과 함께</index_name>
+		<name_local>cont0008</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>light machinegun</challenge_category_sub>
+		<description_en>경기관총으로 적 20회 사살</description_en>
+		<description_local>contD0008</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>4</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>9</index>
+		<index_name>터져라, 뻥!</index_name>
+		<name_local>cont0009</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>lethal</challenge_category_sub>
+		<description_en>살상장비로 적 5회 사살</description_en>
+		<description_local>contD0009</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>6</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>10</index>
+		<index_name>푹! 푹! 푹!</index_name>
+		<name_local>cont0010</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>melee</challenge_category_sub>
+		<description_en>근접무기로 적 10회 사살</description_en>
+		<description_local>contD0010</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>10</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>5</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>11</index>
+		<index_name>비장의 무기</index_name>
+		<name_local>cont0011</name_local>
+		<challenge_category>weapon_type</challenge_category>
+		<challenge_category_sub>second weapon</challenge_category_sub>
+		<description_en>보조무기로 적 5회 사살</description_en>
+		<description_local>contD0011</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>5</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>12</index>
+		<index_name>설치 완료</index_name>
+		<name_local>cont0012</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>search and destroy</challenge_category_sub>
+		<description_en>수색 폭파 전에서 C4 5회 설치</description_en>
+		<description_local>contD0012</description_local>
+		<target_action_count>bomb_set</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>10</release_level>
+		<selection_list>out</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>13</index>
+		<index_name>테러 진압</index_name>
+		<name_local>cont0013</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>search and destroy</challenge_category_sub>
+		<description_en>수색 폭파 전에서 C4 5회 해체</description_en>
+		<description_local>contD0013</description_local>
+		<target_action_count>bomb_defuse</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>10</release_level>
+		<selection_list>out</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>14</index>
+		<index_name>항구 장악</index_name>
+		<name_local>cont0014</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>oceanfront</challenge_category_sub>
+		<description_en>오션프론트에서 3회 승리</description_en>
+		<description_local>contD0014</description_local>
+		<target_action_count>oceanfront_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>15</index>
+		<index_name>폐공장의 검은 연기</index_name>
+		<name_local>cont0015</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>island</challenge_category_sub>
+		<description_en>아일랜드에서 3회 승리</description_en>
+		<description_local>contD0015</description_local>
+		<target_action_count>island_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>16</index>
+		<index_name>석쇠구이</index_name>
+		<name_local>cont0016</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>ironwork</challenge_category_sub>
+		<description_en>아이언워크에서 3회 승리</description_en>
+		<description_local>contD0016</description_local>
+		<target_action_count>ironwork_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>17</index>
+		<index_name>수문을 지켜라</index_name>
+		<name_local>cont0017</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>dam</challenge_category_sub>
+		<description_en>댐에서 3회 승리</description_en>
+		<description_local>contD0017</description_local>
+		<target_action_count>dam_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>18</index>
+		<index_name>바겐 세일</index_name>
+		<name_local>cont0018</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>mart</challenge_category_sub>
+		<description_en>마트에서 3회 승리</description_en>
+		<description_local>contD0018</description_local>
+		<target_action_count>mart_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>19</index>
+		<index_name>주인 없는 화물들</index_name>
+		<name_local>cont0019</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>airport</challenge_category_sub>
+		<description_en>에어포트에서 3회 승리</description_en>
+		<description_local>contD0019</description_local>
+		<target_action_count>airport_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>20</index>
+		<index_name>카운트 다운</index_name>
+		<name_local>cont0020</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>titan</challenge_category_sub>
+		<description_en>타이탄에서 3회 승리</description_en>
+		<description_local>contD0020</description_local>
+		<target_action_count>tital_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>21</index>
+		<index_name>파티 타임</index_name>
+		<name_local>cont0021</name_local>
+		<challenge_category>map</challenge_category>
+		<challenge_category_sub>cloud9</challenge_category_sub>
+		<description_en>클라우드9에서 3회 승리</description_en>
+		<description_local>contD0021</description_local>
+		<target_action_count>cloud9_win</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900120</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>22</index>
+		<index_name>대량 학살</index_name>
+		<name_local>cont0022</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>-</challenge_category_sub>
+		<description_en>아무 무기로나 적 50회 사살</description_en>
+		<description_local>contD0022</description_local>
+		<target_action_count>kill</target_action_count>
+		<time_action_count>50</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>23</index>
+		<index_name>작전 성공</index_name>
+		<name_local>cont0023</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>-</challenge_category_sub>
+		<description_en>아무 모드나 20회 승리</description_en>
+		<description_local>contD0023</description_local>
+		<target_action_count>win</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>24</index>
+		<index_name>째깍, 째깍</index_name>
+		<name_local>cont0024</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>search and destroy</challenge_category_sub>
+		<description_en>수색 폭파전 15회 승리</description_en>
+		<description_local>contD0024</description_local>
+		<target_action_count>search and destroy_win</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>10</release_level>
+		<selection_list>out</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>25</index>
+		<index_name>내 구역이야</index_name>
+		<name_local>cont0025</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>occupation</challenge_category_sub>
+		<description_en>지역 점령전 15회 승리</description_en>
+		<description_local>contD0025</description_local>
+		<target_action_count>occupation_win</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>15</release_level>
+		<selection_list>out</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>26</index>
+		<index_name>사격 중지</index_name>
+		<name_local>cont0026</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>melee mode</challenge_category_sub>
+		<description_en>근접전 15회 승리</description_en>
+		<description_local>contD0026</description_local>
+		<target_action_count>melee_win</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>5</release_level>
+		<selection_list>out</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>27</index>
+		<index_name>섬멸</index_name>
+		<name_local>cont0027</name_local>
+		<challenge_category>mode</challenge_category>
+		<challenge_category_sub>destroy</challenge_category_sub>
+		<description_en>팀 섬멸전 15회 승리</description_en>
+		<description_local>contD0027</description_local>
+		<target_action_count>destroy_win</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>28</index>
+		<index_name>위험한 물건</index_name>
+		<name_local>cont0028</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>attack drone</challenge_category_sub>
+		<description_en>공격 드론을 이용해 적 20회 처치</description_en>
+		<description_local>contD0028</description_local>
+		<target_action_count>drone_kill</target_action_count>
+		<time_action_count>20</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>10</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>29</index>
+		<index_name>영리한 친구들</index_name>
+		<name_local>cont0029</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>operation drone</challenge_category_sub>
+		<description_en>전술 드론 사용 35회</description_en>
+		<description_local>contD0029</description_local>
+		<target_action_count>drone_use</target_action_count>
+		<time_action_count>35</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>11</condition_weapon_category>
+		<reward_money>31900150</reward_money>
+		<reward_item/>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>30</index>
+		<index_name>트리플 킬</index_name>
+		<name_local>cont0030</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>triple kill</challenge_category_sub>
+		<description_en>트리플 킬 10회 기록</description_en>
+		<description_local>contD0030</description_local>
+		<target_action_count>triple_kill</target_action_count>
+		<time_action_count>10</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>10512</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>31</index>
+		<index_name>쿼드라 킬</index_name>
+		<name_local>cont0031</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>quadra kill</challenge_category_sub>
+		<description_en>쿼드라 킬 5회 기록</description_en>
+		<description_local>contD0031</description_local>
+		<target_action_count>quadra_kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>10612</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>32</index>
+		<index_name>펜타 킬</index_name>
+		<name_local>cont0032</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>penta kill</challenge_category_sub>
+		<description_en>펜타 킬 3회 기록</description_en>
+		<description_local>contD0032</description_local>
+		<target_action_count>penta_kill</target_action_count>
+		<time_action_count>3</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>10712</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>33</index>
+		<index_name>세상은 나의 것</index_name>
+		<name_local>cont0033</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>zeus</challenge_category_sub>
+		<description_en>제우스로 트리플 킬 이상 기록 5회</description_en>
+		<description_local>contD0033</description_local>
+		<target_action_count>drone_triple kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>12</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>10812</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>34</index>
+		<index_name>맞아도 안 아파</index_name>
+		<name_local>cont0034</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>metalreaper</challenge_category_sub>
+		<description_en>메탈리퍼로 트리플 킬 이상 기록 5회</description_en>
+		<description_local>contD0034</description_local>
+		<target_action_count>drone_triple kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>14</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>10912</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>35</index>
+		<index_name>고공 낙하</index_name>
+		<name_local>cont0035</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>blade drone</challenge_category_sub>
+		<description_en>블레이드 드론으로 적 사살 15회</description_en>
+		<description_local>contD0035</description_local>
+		<target_action_count>drone_kill</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>8</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11012</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>36</index>
+		<index_name>꼭 주고 싶은 선물이 있어</index_name>
+		<name_local>cont0036</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>firefly</challenge_category_sub>
+		<description_en>파이어 플라이로 적 사살 15회</description_en>
+		<description_local>contD0036</description_local>
+		<target_action_count>drone_kill</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>17</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11112</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>37</index>
+		<index_name>드론 지옥</index_name>
+		<name_local>cont0037</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>LaWS</challenge_category_sub>
+		<description_en>LaWS로 드론 35개 파괴</description_en>
+		<description_local>contD0037</description_local>
+		<target_action_count>drone_destroy</target_action_count>
+		<time_action_count>35</time_action_count>
+		<condition_item>15</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11212</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>38</index>
+		<index_name>경호 임무 수행 중</index_name>
+		<name_local>cont0038</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>escort drone</challenge_category_sub>
+		<description_en>에스코트 드론으로 적 15회 사살</description_en>
+		<description_local>contD0038</description_local>
+		<target_action_count>drone_kill</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>13</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11312</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>39</index>
+		<index_name>무차별 폭격</index_name>
+		<name_local>cont0039</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>striker</challenge_category_sub>
+		<description_en>스트라이커 드론으로 트리플 킬 이상 기록 5회</description_en>
+		<description_local>contD0039</description_local>
+		<target_action_count>drone_triple kill</target_action_count>
+		<time_action_count>5</time_action_count>
+		<condition_item>6</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11412</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>40</index>
+		<index_name>작고 용감한 친구</index_name>
+		<name_local>cont0040</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>crawler</challenge_category_sub>
+		<description_en>크롤러 드론으로 적 사살 10회</description_en>
+		<description_local>contD0040</description_local>
+		<target_action_count>drone_kill</target_action_count>
+		<time_action_count>10</time_action_count>
+		<condition_item>20</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11512</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>41</index>
+		<index_name>고철 장수</index_name>
+		<name_local>cont0041</name_local>
+		<challenge_category>drones</challenge_category>
+		<challenge_category_sub>emp weapon</challenge_category_sub>
+		<description_en>EMP런쳐 또는 EMP수류탄으로 드론 15회 파괴</description_en>
+		<description_local>contD0041</description_local>
+		<target_action_count>drone_destroy</target_action_count>
+		<time_action_count>15</time_action_count>
+		<condition_item>198, 237</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>11612</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list>
+		<index>42</index>
+		<index_name>싸움은 머리로 해야지</index_name>
+		<name_local>cont0042</name_local>
+		<challenge_category>actions</challenge_category>
+		<challenge_category_sub>object kill</challenge_category_sub>
+		<description_en>오브젝트로 적 사살 10회</description_en>
+		<description_local>contD0042</description_local>
+		<target_action_count>object_kill</target_action_count>
+		<time_action_count>10</time_action_count>
+		<condition_item>-1</condition_item>
+		<condition_weapon_category>-1</condition_weapon_category>
+		<reward_item>50112</reward_item>
+		<state_after_finish>TRUE</state_after_finish>
+		<release_level>0</release_level>
+		<selection_list>in</selection_list>
+	</contract_list>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+	<contract_list/>
+</contract_info_list>

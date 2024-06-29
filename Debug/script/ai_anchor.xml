@@ -1,0 +1,27 @@
+<ai_anchor_list>
+	<ai_anchor id='0' name='none'/>
+	<ai_anchor id='1' name='cover'/>
+	<ai_anchor id='2' name='patrol'/>
+	<ai_anchor id='3' name='sprint'/>
+	<ai_anchor id='4' name='snipe'/>
+	<ai_anchor id='5' name='alarm'/>
+	<ai_anchor id='6' name='open'/>
+	<ai_anchor id='7' name='jump'/>
+	<ai_anchor id='8' name='goal'/>
+	<ai_anchor id='9' name='target'/>
+	<ai_anchor id='10' name='reaper_1'/>
+	<ai_anchor id='11' name='reaper_2'/>
+	<ai_anchor id='12' name='reaper_3'/>
+	<ai_anchor id='13' name='take_1'/>
+	<ai_anchor id='14' name='mis_s1'/>
+	<ai_anchor id='15' name='mis_s2'/>
+	<ai_anchor id='16' name='mis_s3'/>
+	<ai_anchor id='17' name='mis_h1'/>
+	<ai_anchor id='18' name='mis_h2'/>
+	<ai_anchor id='19' name='mis_h3'/>
+	<ai_anchor id='20' name='mis_sr1'/>
+	<ai_anchor id='21' name='mis_sr2'/>
+	<ai_anchor id='22' name='patrol_1'/>
+	<ai_anchor id='23' name='patrol_2'/>
+	<ai_anchor id='24' name='patrol_3'/>
+</ai_anchor_list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ingame_item_info>
+	<ingame_item_t>
+		<index type="int"/>
+		<index_name type="string"/>
+		<index_name_local type="string"/>
+		<give_type type="string"/>
+		<value type="int"/>	
+	</ingame_item_t>
+</ingame_item_info>

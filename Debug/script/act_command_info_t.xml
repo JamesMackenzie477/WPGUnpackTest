@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<actcommandinfo>
+	<actcommand_t>
+		<index type="int"/>
+		<index_name type="string"/>
+		<command_en type="string"/>
+		<command_lo type="string"/>		
+		<social_action type="string"/>				
+	</actcommand_t>
+</actcommandinfo>

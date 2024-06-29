@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message_info>
+	<message_info_t>
+		<index type="int"/>
+		<name type="string"/>
+		<type type="int"/>
+		<sound type="string"/>
+		<flash type="string"/>
+		<message_text type="string"/>
+	</message_info_t>
+</message_info>

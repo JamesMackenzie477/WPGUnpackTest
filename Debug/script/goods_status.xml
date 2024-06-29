@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<goods_status xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<index>92803001</index>
+		<purchase_type>TL</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>0</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>1</shopmain_position>
+	</item>
+	<item>
+		<index>92813001</index>
+		<purchase_type>TL</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>0</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>1</shopmain_position>
+	</item>
+	<item>
+		<index>92863001</index>
+		<purchase_type>TL</purchase_type>
+		<start>2017-11-20 13:00:00</start>
+		<end>2017-11-20 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>0</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>88</shopmain_position>
+	</item>
+	<item>
+		<index>92823001</index>
+		<purchase_type>DC</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>80</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>2</shopmain_position>
+	</item>
+	<item>
+		<index>92833001</index>
+		<purchase_type>DC</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>25</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>3</shopmain_position>
+	</item>
+	<item>
+		<index>92843001</index>
+		<purchase_type>DC</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>25</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>4</shopmain_position>
+	</item>
+	<item>
+		<index>92853001</index>
+		<purchase_type>DC</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>55</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>5</shopmain_position>
+	</item>
+	<item>
+		<index>92883001</index>
+		<purchase_type>TL</purchase_type>
+		<start>2017-11-20 14:00:00</start>
+		<end>2018-12-14 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>0</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>6</shopmain_position>
+	</item>
+	<item>
+		<index>150070001</index>
+		<purchase_type>TL</purchase_type>
+		<start>2017-11-20 13:00:00</start>
+		<end>2017-11-20 14:00:00</end>
+		<quantity>0</quantity>
+		<discount>0</discount>
+		<goods_tag>NEW</goods_tag>
+		<shopmain_position>89</shopmain_position>
+	</item>
+</goods_status>

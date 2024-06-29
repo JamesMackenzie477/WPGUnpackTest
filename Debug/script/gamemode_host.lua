@@ -1,0 +1,16 @@
+wave_rule_xml = 'script\\npc_spawn_group_test.xml'
+wave_group_name = 'sg_pve_hostage_rescue'
+respawn = "off"
+enable_revive = "true"
+revive_distance = 800
+revive_action_time = 3000
+drone_delay = 0
+site_object_prefix = "t_hud_"
+site_icon_prefix = "object"
+game_limit_time = 900000
+game_pre_loading_countdown = 30000
+score_per_kill		=	0
+force_team_id = "naf"
+show_npc_debug_info = true
+contribution_point_rate = 0.1
+finish_game_after_all_die = "true"

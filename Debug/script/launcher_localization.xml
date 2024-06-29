@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<launcher_localization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<launcher_localization_info>
+		<code>bt0001</code>
+		<text>새소식</text>
+		<english>NEWS</english>
+		<korean>새소식</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0001</code>
+		<text>패치노트</text>
+		<english>PATCH NOTE</english>
+		<korean>패치노트</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0002</code>
+		<text>가이드</text>
+		<english>GUIDE</english>
+		<korean>가이드</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0003</code>
+		<text>홈페이지</text>
+		<english>HOME PAGE</english>
+		<korean>홈페이지</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0004</code>
+		<text>회원가입</text>
+		<english>JOIN</english>
+		<korean>회원가입</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0005</code>
+		<text>폴더 변경</text>
+		<english>CHANGE INSTALL LOCATION</english>
+		<korean>폴더 변경</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0006</code>
+		<text>전송 시작</text>
+		<english>START DOWNLOAD</english>
+		<korean>전송 시작</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0007</code>
+		<text>다시 시도</text>
+		<korean>다시 시도</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0008</code>
+		<text>문제 해결</text>
+		<english>TROUBLESHOOTING</english>
+		<korean>문제 해결</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>bt0009</code>
+		<text>실행</text>
+		<korean>실행</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0001</code>
+		<text>설치 확인 중</text>
+		<korean>설치 확인 중</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0002</code>
+		<text>저장 위치</text>
+		<english>Download folder</english>
+		<korean>저장 위치</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0003</code>
+		<text>다운로드 중</text>
+		<korean>다운로드 중</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0004</code>
+		<text>분 남음</text>
+		<korean>분 남음</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0005</code>
+		<text>초 남음</text>
+		<korean>초 남음</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0006</code>
+		<text>인스톨 중</text>
+		<korean>인스톨 중</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0007</code>
+		<text>버전 확인 중</text>
+		<english>Checking version</english>
+		<korean>버전 확인 중</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0008</code>
+		<text>현재</text>
+		<korean>현재</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0009</code>
+		<text>최신</text>
+		<korean>최신</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0010</code>
+		<text>설치 실패</text>
+		<korean>설치 실패</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0011</code>
+		<text>서버 응답 없음</text>
+		<english>Server not response</english>
+		<korean>서버 응답 없음</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0012</code>
+		<text>인터넷 연결 안됨</text>
+		<english>No internet connection</english>
+		<korean>인터넷 연결 안됨</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0013</code>
+		<text>설치 공간 부족</text>
+		<english>Insufficient disk space</english>
+		<korean>설치 공간 부족</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0014</code>
+		<text>점검 중</text>
+		<english>Server management time</english>
+		<korean>점검 중</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0015</code>
+		<text>연결 불가</text>
+		<english>Lost connection</english>
+		<korean>연결 불가</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>msg0016</code>
+		<text>최신 버전의 클라이언트 입니다.</text>
+		<korean>최신 버전의 클라이언트 입니다.</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0001</code>
+		<text>옵션</text>
+		<english>OPTION</english>
+		<korean>옵션</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0002</code>
+		<text>비디오</text>
+		<english>VIDEO</english>
+		<korean>비디오</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0003</code>
+		<text>오디오</text>
+		<english>AUDIO</english>
+		<korean>오디오</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0004</code>
+		<text>런처</text>
+		<english>LAUNCHER</english>
+		<korean>런처</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0005</code>
+		<text>확인</text>
+		<english>ACCEPT</english>
+		<korean>확인</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0006</code>
+		<text>취소</text>
+		<english>CANCEL</english>
+		<korean>취소</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0007</code>
+		<text>게임에서 실행될 비디오 옵션을 설정 합니다.</text>
+		<korean>게임에서 실행될 비디오 옵션을 설정 합니다.</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0008</code>
+		<text>해상도</text>
+		<korean>해상도</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0009</code>
+		<text>전체 화면</text>
+		<korean>전체 화면</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0010</code>
+		<text>수직 동기화</text>
+		<korean>수직 동기화</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0011</code>
+		<text>그래픽</text>
+		<korean>그래픽</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0012</code>
+		<text>그림자</text>
+		<korean>그림자</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0013</code>
+		<text>지형</text>
+		<korean>지형</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0014</code>
+		<text>광원</text>
+		<korean>광원</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0015</code>
+		<text>포워드</text>
+		<korean>포워드</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0016</code>
+		<text>트랜스페어런트</text>
+		<korean>트랜스페어런트</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0017</code>
+		<text>이펙트</text>
+		<korean>이펙트</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0018</code>
+		<text>데칼</text>
+		<korean>데칼</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0019</code>
+		<text>SSAO</text>
+		<english>SSAO</english>
+		<korean>SSAO</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0020</code>
+		<text>포그</text>
+		<korean>포그</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0021</code>
+		<text>HDR</text>
+		<english>HDR</english>
+		<korean>HDR</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0022</code>
+		<text>포스트 프로세싱</text>
+		<korean>포스트 프로세싱</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0023</code>
+		<text>텍스쳐</text>
+		<korean>텍스쳐</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0024</code>
+		<text>게임에서 실행될 오디오 옵션을 설정 합니다.</text>
+		<korean>게임에서 실행될 오디오 옵션을 설정 합니다.</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0025</code>
+		<text>게임 음량</text>
+		<korean>게임 음량</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0026</code>
+		<text>런처의 옵션을 설정 합니다.</text>
+		<korean>런처의 옵션을 설정 합니다.</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0027</code>
+		<text>런처 음량</text>
+		<korean>런처 음량</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0028</code>
+		<text>업데이트 완료 알림</text>
+		<korean>업데이트 완료 알림</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0029</code>
+		<text>언어</text>
+		<korean>언어</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0030</code>
+		<text>P2P 전송</text>
+		<korean>P2P 전송</korean>
+		<thailand> </thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0031</code>
+		<text>한국어</text>
+		<english>한국어</english>
+		<korean>한국어</korean>
+		<thailand>한국어</thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0032</code>
+		<text>영어</text>
+		<english>ENGLISH</english>
+		<korean>ENGLISH</korean>
+		<thailand>ENGLISH</thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0033</code>
+		<text>태국어</text>
+		<english>ไทย</english>
+		<korean>ไทย</korean>
+		<thailand>ไทย</thailand>
+	</launcher_localization_info>
+	<launcher_localization_info>
+		<code>opt0034</code>
+		<text>러시아어</text>
+		<english>русский</english>
+		<korean>русский</korean>
+		<thailand>русский</thailand>
+	</launcher_localization_info>
+</launcher_localization>

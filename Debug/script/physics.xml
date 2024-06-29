@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Physics>
+    <scene gravity="1700" />
+    <material static_friction="0.5" dynamic_friction="0.5" restitution="0.1" />
+    <character radius="30" stand_height="95" crouch_height="45" prone_height="1" contact_offset="10" step_offset="25" slope_limit="45" jump_height="85" gravity="2200" slope_up="45" slope_down="45" slope_up_speed_scale="1" slope_down_speed_scale="1"/>
+</Physics>

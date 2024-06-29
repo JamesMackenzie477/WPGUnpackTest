@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<skilllist>
+  <skill_t>
+    <index type="int"/>
+    <categoty type="int"/>
+    <index_name type="string"/>
+    <name_local type="string"/>
+    <targetindex type="int"/>
+    <starttype type="string"/>
+    <streaktype type="string"/>
+    <streakcount type="int"/>
+    <upgradeindex type="int"/>
+    <originalindex type="int"/>
+    <script type="string"/>
+    <unlocklevel type="int"/>
+    <descriptionindex type="int"/>
+    <iconindex type="int"//>
+    <function1>
+      <effect type="string"/>
+      <target type="string"/>
+      <value type="float"/>
+      <time type="int"/>
+      <functionlimit type="int"/>
+    </function1>
+    <function2>
+      <effect type="string"/>
+      <target type="string"/>
+      <value type="float"/>
+      <time type="int"/>
+      <functionlimit type="int"/>
+    </function2>
+    <function3>
+      <effect type="string"/>
+      <target type="string"/>
+      <value type="float"/>
+      <time type="int"/>
+      <functionlimit type="int"/>
+    </function3>
+  </skill_t>
+</skilllist>

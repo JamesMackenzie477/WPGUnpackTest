@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playselect_info_map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<playselect_info>
+		<index>1</index>
+		<name_local>gfx0000517</name_local>
+		<description>gfx0000520</description>
+		<description_detail>gfx0000523</description_detail>
+		<unlock_type>1</unlock_type>
+		<unlock_value>1</unlock_value>
+	</playselect_info>
+	<playselect_info>
+		<index>2</index>
+		<name_local>gfx0000518</name_local>
+		<description>gfx0000521</description>
+		<description_detail>gfx0000524</description_detail>
+		<unlock_type>1</unlock_type>
+		<unlock_value>1</unlock_value>
+	</playselect_info>
+	<playselect_info>
+		<index>3</index>
+		<name_local>gfx0000519</name_local>
+		<description>gfx0000522</description>
+		<description_detail>gfx0000525</description_detail>
+		<unlock_type>1</unlock_type>
+		<unlock_value>1</unlock_value>
+	</playselect_info>
+	<playselect_info>
+		<index>4</index>
+		<name_local>gfx0001221</name_local>
+		<description>gfx0001222</description>
+		<description_detail>gfx0001222</description_detail>
+		<unlock_type>1</unlock_type>
+		<unlock_value>1</unlock_value>
+	</playselect_info>
+</playselect_info_map>

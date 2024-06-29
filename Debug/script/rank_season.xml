@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rankseasonlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<rankseason>
+		<index>1</index>
+		<name>시즌1</name>
+		<start_day>20170101060000</start_day>
+		<end_day>20181231055959</end_day>
+		<score_reset>0</score_reset>
+		<reward_popup>0</reward_popup>
+		<sun_start>0</sun_start>
+		<sun_end>0</sun_end>
+		<mon_start>0</mon_start>
+		<mon_end>0</mon_end>
+		<tue_start>0</tue_start>
+		<tue_end>0</tue_end>
+		<wed_start>0</wed_start>
+		<wed_end>0</wed_end>
+		<thu_start>0</thu_start>
+		<thu_end>0</thu_end>
+		<fri_start>0</fri_start>
+		<fri_end>0</fri_end>
+		<sat_start>0</sat_start>
+		<sat_end>0</sat_end>
+	</rankseason>
+</rankseasonlist>

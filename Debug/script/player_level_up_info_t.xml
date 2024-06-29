@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<player_level_up_info>
+  <player_level_t>
+    <level type="int"/>
+    <target_exp type="int"/>
+    <index_name type="string"/>
+    <name_local type="string"/>
+    <reward_item type="string"/>
+  </player_level_t>
+</player_level_up_info>

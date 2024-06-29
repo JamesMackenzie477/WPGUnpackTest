@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<social_action>
+	<social_action_t>
+		<index type="int"/>
+		<index_name type="string"/>
+		<ani_index type="int"/>
+		<view type="string"/>
+		<stance type="string"/>
+		<type type="string"/>			
+		<weapon_visible type="bool"/>			
+	</social_action_t>
+</social_action>
+.

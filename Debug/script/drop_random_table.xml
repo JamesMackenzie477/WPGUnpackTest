@@ -1,0 +1,68 @@
+<drop_item_list>
+	<drop_item name="ammo_small">
+		<name_local>drop00001</name_local>
+		<drop_location>npc</drop_location>
+		<drop_location_index>5001</drop_location_index>
+		<drop_condition>is_dead</drop_condition>
+		<drop_condition_property></drop_condition_property>
+		<game_item_index>1[50], 2[30], 3[10]</game_item_index>
+		<lifetime_sec>120</lifetime_sec>
+		<pickup_type>touch</pickup_type>
+		<item_type>physics</item_type>
+	</drop_item>
+	
+	<drop_item name="gamemode_kcf_dogtag">
+		<name_local>drop00001</name_local>
+		<drop_type>fixed</drop_type>
+		<visual>
+			<model>Item\gamemode_kcf_dogtag.b3d</model>
+			<minimap_ui>UI\item\gamemode_kcf_dogtag.png</minimap_ui>
+			<effect>Effects\item\gamemode_kcf_dogtag.bfx</effect>
+		</visual>
+		<sound>/Item/gamemode_kcf_dogtag</sound>
+		<pickup_sound>/Item/gamemode_kcf_dogtag_pickup</pickup_sound>
+		<pickup_type>touch</pickup_type>
+		<lifetime_sec>0</lifetime_sec>
+		<item_stats>
+			<function name="gamemode_kcf_add_score" type="lua"/>
+		</item_stats>
+	</drop_item>
+	
+	<drop_item name="wolverine">
+		<name_local>drop00001</name_local>
+		<drop_type>fixed</drop_type>
+		<visual>
+			<model>Weapon\SW\wolverine\wolverine_3.b3d</model>
+			<minimap_ui>UI\item\drop_item_wolverine.png</minimap_ui>
+			<effect>Effects\item\drop_item_weapon.bfx</effect>
+			<animation>Item\rotate.bea</animation>
+		</visual>
+		<sound></sound>
+		<pickup_sound>/Item/drop_item_weapon</pickup_sound>
+		<pickup_type>use</pickup_type>
+		<lifetime_sec>0</lifetime_sec>
+		<item_stats>
+			<item_list index="9020"/>
+		</item_stats>
+	</drop_item>
+	
+	<drop_item name="gold_m4">
+		<name_local>drop00001</name_local>
+		<drop_type>fixed</drop_type>
+		<visual>
+			<model>Weapon\AR\M4A1\m4a1_3.b3d</model>
+			<minimap_ui>UI\item\drop_item_gold_m4.png</minimap_ui>
+			<effect>Effects\item\drop_item_weapon.bfx</effect>
+			<animation>Item\updown.bea</animation>
+		</visual>
+		<sound></sound>
+		<pickup_sound>/Item/drop_item_weapon</pickup_sound>
+		<pickup_type>use</pickup_type>
+		<lifetime_sec>0</lifetime_sec>
+		<item_stats>
+			<item_list index="104"/>
+			<item_list index="4013"/>
+			<item_list index="3001"/>
+		</item_stats>
+	</drop_item>
+</drop_item_list>

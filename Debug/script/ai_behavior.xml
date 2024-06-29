@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ai_behavior_list>
+<!-- AI 팀 섬멸전 -->
+<behavior name="pattern_paco">
+
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="stand_shoot_and_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="400-1500" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="goto" target="anchor" anchor_type="cover" distance_from_target="100-300"/>
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="target_trace">
+	<condition type="can" name="see" target="enemy" distance_from_target="2500" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/>			
+	</sequence>
+	<parallel name="shoot_smg_style">
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+		<action name="move" distance_from_target="300" time="2000-4000"/>
+    </parallel>
+</behavior>
+
+<behavior name="pattern_victor">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+   	<sequence name="prone_shoot">
+		<condition type="is" name="logic" percent="80"/>
+		<condition type="can" name="see" target="enemy" distance_from_target="400-1200" />
+		<action name="find" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="prone" />
+		<action name="wait" time="300" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="300-600" count="7-9" time="4800" duration="1200" />
+		<action name="wait" time="500" />
+	</sequence>	
+	<sequence name="stand_shoot_and_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="300-1500"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="goto" target="anchor" anchor_type="cover" distance_from_target="100-300"/>
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="target_trace">
+		<condition type="can" name="see" target="enemy"  distance_from_target="2500" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/>			
+	</sequence>
+	<parallel name="shoot_smg_style">
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+		<action name="move" distance_from_target="300" time="2000-4000"/>
+    </parallel>
+</behavior>
+
+<behavior name="pattern_matthew">
+    
+    <sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="1200" />
+		<parallel name="knife_attack">
+			<action name="find" target="enemy" />
+			<action name="attack" type="range1" start_delay="600-1000" count="1-3" time="2000" duration="1000"/>
+			<action name="move" type="run" distance_from_target="500"/>
+		</parallel> 
+    </sequence>   
+	<sequence name="target_trace">
+		<condition type="can" name="see" target="enemy"  distance_from_target="1100" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/>			
+	</sequence>>
+</behavior>
+
+<behavior name="pattern_william">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="shoot_sr">
+		<condition type="can" name="see" target="enemy" active_type="continue" distance_from_target="4000" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="600" count="1" duration="1200" time="1200"/>
+		<action name="wait" time="300-500" />
+	</sequence>
+	<sequence name="cant_see_enemy">
+		<sequence name="move_to_snipe">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>
+			<condition type="is" name="near_distance_from" distance_from_target="100" target="anchor" anchor_type="snipe" anchor_option="no_recently" return="false"/>
+			<action name="find" target="anchor" anchor_type="snipe"  /> 
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="move" type="sprint" distance_from_target="0" time="2000-4000"/> 
+			<action name="face" target="enemy" />
+			<action name="wait" time="4000-6000" />
+		</sequence>
+		<sequence name="wait_from_snipe">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>			
+			<condition type="is" name="logic" percent="70"/>
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="5000-9000" />
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="wait" time="1500-2000" />
+		</sequence>			
+		<sequence name="move_to_cover">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>			
+			<action name="find" target="anchor" anchor_type="cover" distance_from_target="1500-8000"  /> 
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="move" type="sprint" distance_from_target="0" time="2000-4000"/> 
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="1000-2500" />
+		</sequence>
+			
+	</sequence>
+</behavior>
+
+<behavior name="pattern_daniel">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/>
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>  
+	<sequence name="shoot_sr">
+		<condition type="can" name="see" target="enemy" active_type="continue" distance_from_target="4000" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="600"  count="1" duration="1200" time="1200"/>
+		<action name="wait" time="600-900" />
+	</sequence>    
+	<sequence name="cant_see_enemy">
+		<sequence name="move_to_cover">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>
+			<condition type="is" name="near_distance_from" distance_from_target="50" target="anchor" anchor_type="snipe"  return="false"/>
+			<action name="find" target="anchor" anchor_type="snipe"  /> 
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="move" type="sprint" distance_from_target="0" time="2000-4000"/> 
+		</sequence>
+		<sequence name="wait_to_cover">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="500" />
+		</sequence>
+	</sequence>
+</behavior>
+
+ <behavior name="pattern_ryou">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="stand_shoot_and_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="400-1500" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="goto" target="anchor" anchor_type="cover" distance_from_target="100-300"/>
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="cant_see_enemy">
+		<sequence name="move_to_cover">
+			<condition type="is" name="near_distance_from" distance_from_target="3000-10000" target="enemy" />
+			<condition type="can" name="see" target="enemy" distance_from_target="5000" return="false" active_type="continue"/>
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="anchor" anchor_type="cover" anchor_option="from_enemy_line_of_sight" /> 
+			<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/> 
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="face" target="enemy" />
+		</sequence>
+		<sequence name="wait_to_cover">
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="500" />
+		</sequence>
+	</sequence>
+</behavior>
+
+<behavior name="pattern_felix">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>  
+	<sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="5000" />
+		<sequence name="shooting_prone">
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="activity" type="change_stance" stance_name="prone" />
+			<action name="wait" time="500-1000" />
+			<action name="attack" type="range1" start_delay="300-600" count="15-25" duration="1500" time = "3000"/>
+			<action name="wait" time="800" />
+		</sequence>
+	</sequence>
+	<sequence name="cant_see_enemy">
+		<sequence name="move_to_cover">
+			<condition type="is" name="near_distance_from" distance_from_target="3000-10000" target="enemy" active_type="continue"/>
+			<condition type="can" name="see" target="enemy" distance_from_target="5000" return="false" active_type="continue"/>
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="wait" time="800" />
+			<action name="find" target="anchor" anchor_type="cover" anchor_option="from_enemy_line_of_sight" /> 
+			<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/> 
+			<action name="activity" type="change_stance" stance_name="prone" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="3000" />
+		</sequence>
+		<sequence name="wait_to_cover">
+			<action name="activity" type="change_stance" stance_name="prone" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="500" />
+		</sequence>
+	</sequence>
+</behavior>
+
+<behavior name="pattern_rifle">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="stand_shoot_and_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="400-1500" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="goto" target="anchor" anchor_type="cover" distance_from_target="100-300"/>
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" start_delay="300-600" count="5-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="cant_see_enemy">
+		<sequence name="move_to_cover">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>
+			<condition type="is" name="near_distance_from" distance_from_target="100" target="anchor" anchor_type="cover" anchor_option="no_recently" return="false"/>
+			<action name="find" target="anchor" anchor_type="cover"  /> 
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="move" type="sprint" distance_from_target="0" time="2000-4000"/> 
+			<action name="face" target="enemy" />
+			<action name="wait" time="4000-6000" />
+		</sequence>
+		<sequence name="wait_from_cover">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return ="false"/>			
+			<condition type="is" name="logic" percent="70"/>
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="5000-9000" />
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="wait" time="1500-2000" />
+		</sequence>			
+	</sequence>
+</behavior>
+
+<behavior name="pattern_vincent">
+	<sequence name="is_too_close">
+		<condition type="can" name="see" target="enemy" distance_from_target="0-400" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch"/> 
+		<action name="find" target="enemy"/>
+		<action name="attack" type="range1" count="4-7" time="4000" duration="1200"/>
+	</sequence>
+	<sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+		<random name="shoot_type">		
+			<sequence name="stand_shoot">
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="wait" time="300-900" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="300-600" count="5-15" time="1000" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+			</sequence>
+			<sequence name="crouch_shoot">
+				<condition type="is" name="near_distance_from" distance_from_target="1500-3000" target="enemy" />
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" />
+				<action name="wait" time="300-900" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="200" count="5-15" time="1000" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+			</sequence>
+			<sequence name="prone_shoot">
+				<condition type="is" name="near_distance_from" distance_from_target="1500-3000" target="enemy"/>
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="prone" />
+				<action name="wait" time="300-900" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="300-600" count="5-15" time="2000" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+			</sequence>	
+		</random>
+	</sequence>
+	<parallel name="close_to_enemy_near">
+		<condition type="is" name="near_distance_from" distance_from_target="0-3000" target="enemy" active_type="continue"/>
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" return ="false" active_type="continue"/>
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" distance_from_target="100" time="2000-4000"/>
+	</parallel>
+	<sequence name="move_to_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" return ="false" active_type="continue"/>
+		<condition type="is" name="near_distance_from" distance_from_target="50" target="anchor" anchor_type="cover" return="false"/>
+		<action name="find" target="anchor" anchor_type="cover" anchor_option="from_enemy_line_of_sight" /> 
+		<action name="move" type="sprint" distance_from_target="0" time="2000-4000"/> 
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+	</sequence>
+</behavior>
+
+<!--튜토리얼 용 Behavior-->
+
+<!--헬버드 등장씬의 NPC. 딜레이가 없어서 공격 빈도가 높다.-->
+<behavior name="tutorial_hellbird">
+     <sequence name="combat">
+		<condition type="is" name="near_distance_from" distance_from_target="100" target="anchor" anchor_type="cover"/>
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" /> 
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="attack" type="range1" start_delay="500-700" count="10-15"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="attack" type="range1" start_delay="100" count="6-9"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="cover" distance_from_target="6000" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="wait" time="1000-1500" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="50"/>
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="cover" distance_from_target="6000"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="wait" time="1000-1200" />
+			</sequence>
+		</random>
+    </sequence>			
+	<sequence name="wait_in_cover">
+		<action name="find" target="anchor" anchor_type="cover" distance_from_target="8000" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="activity" type="change_stance" stance_name="crouch" />
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return="false"/>
+		<action name="wait" time="1000-2000" />
+	</sequence>
+</behavior>
+
+<!-- 아군 NPC. snipe를 cover로 쓴다. 적이 없으면 목적지까지 이동한다.-->
+<behavior name="tutorial_ally">
+<!-- 	<sequence name="retret_to_goal">
+		<condition type="is" name="near_distance_from" target="anchor" anchor_type="open" distance_from_target="10" active_type="once" return="true"/>
+		<action name="find" target="anchor" anchor_type="goal" distance_from_target="3000" anchor_option="no_recently"/> 
+		<action name="move" distance_from_target="0"/>
+		<action name="wait" time="5000"/>
+	</sequence>
+ -->
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="elev_end" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	<sequence name="go_to_open">
+		<condition type="is" name="near_distance_from" target="enemy" distance_from_target="10000" active_type="continue" return="false"/>
+		<condition type="is" name="near_distance_from" target="anchor" anchor_type="open" distance_from_target="6000" active_type="once"/>
+		<condition type="is" name="near_distance_from" target="ally" distance_from_target="1000"/>  
+		<action name="wait" time="1000"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="find" target="anchor" anchor_type="open" anchor_option="no_recently" distance_from_target="6000" /> 
+		<action name="move" distance_from_target="0"/>
+		<action name="face" target="ally" />
+		<action name="wait" time="4000"/>
+	</sequence>
+	<sequence name="start_wait_and_move">
+		<condition type="is" name="near_distance_from" target="enemy" distance_from_target="10000" active_type="continue" return="false"/>
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="16000"/>
+		<action name="find" target="anchor" anchor_type="sprint" anchor_option="no_recently" distance_from_target="4500"/> 
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="sprint" distance_from_target="0"/>
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="1000"/>
+	</sequence>
+	
+	<sequence name="CombatAgainstSentinel">
+	<condition type="is" name="near_distance_from" distance_from_target="100" target="anchor" anchor_type="snipe"/>
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="find" target="enemy" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="500-700" count="7-12" time = "2000"/>
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="wait" time="500-700" />
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="attack" type="range1" start_delay="100" count="5-8"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="wait" time="500-700" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="30"/>
+				<action name="find" target="anchor" anchor_type="snipe"  />
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="wait" time="500-700" />
+			</sequence>
+		</random>
+	</sequence>			
+	<sequence name="wait_in_cover">
+		<action name="find" target="anchor" anchor_type="snipe" anchor_option="no_recently" />
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="700-1000" />
+	</sequence>
+</behavior>
+
+<!-- 마지막 웨이브에서 나오는 일반적인 NPC-->
+<behavior name="tutorial_rifle">
+     <sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" /> 
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="attack" type="range1" start_delay="500-700" count="10-15"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="attack" type="range1" start_delay="100" count="6-9"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="3000-4000" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="30"/>
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="cover" distance_from_target="6000"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="3000-4000" />
+			</sequence>
+			<parallel name="trace_shot">
+				<condition type="is" name="logic" percent="50"/>
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="find" target="enemy"/>
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" count="5-7" time="4000" duration="1200"/>
+				<action name="move" distance_from_target="800" type="run" time="3000" />
+			</parallel>
+		</random>
+    </sequence>			
+	<sequence name="wait_in_cover">
+		<action name="find" target="anchor" anchor_type="cover" distance_from_target="8000" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="1000-1200" />
+	</sequence>
+</behavior>
+
+<!-- 근접 전투하는 NPC -->
+<behavior name="tutorial_shooter">
+	<random name="cover_after_shoot">
+		<parallel name="trace_stand_shot">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" count="12-15" time="4000" duration="1200"/>
+			<action name="move" distance_from_target="400" type="sprint" time="3000" />
+		</parallel>
+		<parallel name="trace_crouch_shot">
+			<condition type="is" name="logic" percent="30"/>
+			<action name="activity" type="change_stance" stance_name="crouch" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" count="12-15" time="4000" duration="1200"/>
+			<action name="move" distance_from_target="400" type="run" time="3000" />
+		</parallel>
+	</random>
+</behavior>
+
+<!-- snipe를 cover로 쓰는 NPC. 보통 높은 곳에서 움직이지 않는데 사용한다.-->
+<behavior name="tutorial_snipe">
+	<sequence name="CombatAgainstSentinel">
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="12000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="find" target="enemy" />
+				<action name="attack" type="range1" start_delay="500-700" count="1-3" time = "2000"/>
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="12000" />
+				<action name="attack" type="range1" start_delay="100" count="3-5"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="20"/>
+				<condition type="can" name="see" target="enemy" distance_from_target="12000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="snipe" distance_from_target="3000"  />
+				<action name="move" type="run" distance_from_target="50" time="5000" />
+				<action name="wait" time="3000-4000" />
+			</sequence>
+		</random>
+	</sequence>			
+	<sequence name="wait_in_snipe">
+		<action name="find" target="anchor" anchor_type="snipe" distance_from_target="3000" />
+		<action name="move" type="run" distance_from_target="50" time="8000" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="700-1000" />
+	</sequence>
+</behavior>
+
+<!-- 사격장에 등장하는 NPC. patrol을 엄폐물로 쓴다-->
+<behavior name="tutorial_shootingrange">
+	<sequence name="CombatAgainstSentinel">
+	<condition type="is" name="near_distance_from" distance_from_target="100" target="anchor" anchor_type="patrol"/>
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="find" target="enemy" />
+				<action name="attack" type="range1" start_delay="500-700" count="7-12" time = "2000"/>
+				<action name="wait" time="1000-1500" />
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="attack" type="range1" start_delay="100" count="5-8"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="wait" time="1500-2000" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="30"/>
+				<action name="find" target="anchor" anchor_type="patrol" distance_from_target="600"  />
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="wait" time="1500-2000" />
+			</sequence>
+		</random>
+	</sequence>			
+	<sequence name="wait_in_snipe">
+		<action name="find" target="anchor" anchor_type="patrol"  distance_from_target="600" />
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="wait" time="1000-1200" />
+	</sequence>
+</behavior>
+
+<!-- 파이어플라이 NPC. 스폰되어 앉아서 멈춘다. fir_stop이 사라지면 공격한다.-->
+<behavior name="tutorial_firefly">
+ 	<sequence name="stop_when_start"> <!--fir_stop 오브젝트가 있으면 앉아서 움직이지 않는다 -->
+		<condition type="is" name="object" object="fir_stop" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="1000"/>
+	</sequence>
+    <sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" /> 
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="attack" type="range1" start_delay="500-700" count="10-15"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="attack" type="range1" start_delay="100" count="6-9"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="3000-4000" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="30"/>
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="cover" distance_from_target="6000"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="3000-4000" />
+			</sequence>
+			<parallel name="trace_shot">
+				<condition type="is" name="logic" percent="50"/>
+				<action name="activity" type="change_stance" stance_name="stand" />
+				<action name="find" target="enemy"/>
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" count="5-7" time="4000" duration="1200"/>
+				<action name="move" distance_from_target="800" type="run" time="3000" />
+			</parallel>
+		</random>
+    </sequence>
+	<sequence name="move_to_cover">
+		<condition type="is" name="near_distance_from" distance_from_target="200-2000" target="anchor" anchor_type="cover"/>
+		<action name="find" target="anchor" anchor_type="cover" distance_from_target="2000" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="move" type="run" distance_from_target="1-150"/>
+		<action name="wait" time="15000" />
+	</sequence>
+</behavior>
+
+<!-- 창고에 서 있는 NPC. 한참동안 서 있다가, 플레이어가 보이면 공격한다.-->
+<behavior name="tutorial_warehouse">
+     <sequence name="combat">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" active_type="continue"/>
+		<random name="cover_after_shoot">
+			<sequence name="shoot_target1">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="find" target="enemy" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="500-700" count="10-15"  duration="1500" time = "3100"/>
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+			</sequence>
+			<sequence name="shoot_target2">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="100" count="6-9"  duration="1500" time = "3100"/>
+			</sequence>
+			<sequence name="wait_for_enemy">
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="snipe" distance_from_target="2000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="wait" time="600-1000" />
+				<action name="face" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="wait" time="1000-1500" />
+			</sequence>
+			<sequence name="change_cover">
+				<condition type="is" name="logic" percent="50"/>
+				<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+				<action name="find" target="anchor" anchor_type="snipe" distance_from_target="2000"/>
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="move" type="run" distance_from_target="50" time="2000" />
+				<action name="activity" type="change_stance" stance_name="crouch" /> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="1000-1200" />
+			</sequence>
+		</random>
+    </sequence>			
+	<sequence name="wait_to_knife">
+		<condition type="is" name="near_distance_from" target="enemy" distance_from_target="1-250" active_type="continue" return="false"/> 
+		<action name="wait" time="30000" />
+	</sequence>
+</behavior>
+
+<!-- 튜토리얼 메탈리퍼-->
+<behavior name="tutorial_metalreaper">
+	<sequence name="stop_when_start"> <!--rep_stop 오브젝트가 있으면 움직이지 않는다 -->
+		<condition type="is" name="object" object="rep_stop" active_type="continue"/>
+    </sequence>
+    <sequence name="shoot_dart1">
+		<condition type="is" name="near_distance_from" target="anchor" anchor_type="reaper_1" distance_from_target="100"/>
+		<condition type="can" name="see" target="enemy" distance_from_target="1800" />
+		<action name="find" target="enemy" />
+		<action name="attack" type="rocket" start_delay="500-1000" count="1-2" time = "2000"/>
+		<action name="wait" time="100-500" />
+	</sequence>
+	<random name="cover_after_shoot">
+		<parallel name="trace_stand_shot1">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="rocket" start_delay="500-1000" count="3-5" time="4000" duration="3000"/>
+			<action name="move" distance_from_target="600-800" type="run" time="4000" />
+		</parallel>
+		<parallel name="trace_stand_shot2">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="500-1000" count="2-4" time="3000" duration="2000"/>
+			<action name="move" distance_from_target="600-800" type="run" time="4000" />
+		</parallel>
+		<sequence name="stand_shoot">
+			<condition type="can" name="see" target="enemy" distance_from_target="100-1000" />
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="500-1000" />
+			<action name="attack" type="range1" start_delay="1000-2000" count="3-5" time="1000" duration="1000" />
+		</sequence>
+	</random>
+</behavior>
+
+<!-- Takeover 모드용 NPC -->
+<behavior name="takeover_sentinel">
+	<sequence name="back_to_base">
+		<condition type="is" name="near_distance_from" distance_from_target="600" target="anchor" anchor_type="jump" active_type="continue" return="false"   anchor_option="no_recently"/>
+		<action name="find" target="anchor" anchor_type="jump"  anchor_option="no_recently"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="sprint" distance_from_target="200-300" target="anchor" anchor_type="jump" time="5000" duration="5000"/>
+	</sequence>
+	
+	<random name="cover_after_shoot">
+		<sequence name="t_shoot_target1">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="aim" aimming="true" time="300" />
+			<action name="attack" type="range1" start_delay="2000-4000" count="3-5" duration="1500" time = "6000"/>
+			<action name="aim" aimming="false" time="300" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+		</sequence>
+		<sequence name="t_shoot_target2">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+			<action name="sound" type="play" sound_name="/voice/npc/ai_human_comment_cover_taking" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="aim" aimming="true" time="300" />
+			<action name="attack" type="range1" start_delay="3000-5000" count="3-5" duration="1500" time = "6000"/>
+			<action name="aim" aimming="false" time="300" />
+		</sequence>
+		<sequence name="t_wait_for_enemy">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="wait" time="600-1000" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+		</sequence>
+		<sequence name="t_change_cover">
+			<condition type="is" name="logic" percent="40"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="move" type="run" distance_from_target="50" time="2000" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+			<action name="wait" time="1000-2000" />
+		</sequence>
+	</random>	
+	<sequence name="t_wait_in_cover">
+		<action name="find" target="anchor" anchor_type="cover"  />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="2000-4000" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return="false"/>
+		<action name="wait" time="1000-2000" />
+	</sequence>
+</behavior>
+
+<behavior name="takeover_heavy">
+	<sequence name="back_to_base">
+		<condition type="is" name="near_distance_from" distance_from_target="600" target="anchor" anchor_type="jump" active_type="continue" return="false"   anchor_option="no_recently"/>
+		<action name="find" target="anchor" anchor_type="jump"  anchor_option="no_recently"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="sprint" distance_from_target="200-300" target="anchor" anchor_type="jump" time="5000" duration="5000"/>
+	</sequence>
+	
+	<random name="cover_after_shoot">
+		<sequence name="shoot_target1">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="3000-5000" count="10-15" time="9000"/>
+		</sequence>
+		<sequence name="move_some_cover">
+			<condition type="is" name="logic" percent="60"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="move" type="run" distance_from_target="50" time="2000" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="1000-1200" />
+		</sequence>
+		<sequence name="wait_for_enemy">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+		</sequence>
+	</random>	
+	<sequence name="wait_in_cover">
+		<action name="find" target="anchor" anchor_type="cover"  />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="wait" time="2000-4000" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return="false"/>
+		<action name="wait" time="1000-2000" />
+	</sequence>
+</behavior>
+
+<behavior name="takeover_metalreaper">
+	<sequence name="back_to_base">
+		<condition type="is" name="near_distance_from" distance_from_target="600" target="anchor" anchor_type="jump" active_type="continue" return="false"   anchor_option="no_recently"/>
+		<action name="find" target="anchor" anchor_type="jump"  anchor_option="no_recently"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="sprint" distance_from_target="200-300" target="anchor" anchor_type="jump" time="5000" duration="5000"/>
+	</sequence>
+	
+	<random name="cover_after_shoot">
+		<sequence name="shoot_target1">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="rocket" start_delay="1000-2000" count="2-3" time="4000"/>
+		</sequence>
+		<sequence name="shoot_target2">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="1000-2000" count="30-50" time="5000"/>
+		</sequence>
+		<sequence name="move_some_cover">
+			<condition type="is" name="logic" percent="50"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="move" type="run" distance_from_target="50" time="2000" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="1000-1200" />
+		</sequence>
+		<sequence name="wait_for_enemy">
+			<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+			<action name="find" target="anchor" anchor_type="cover"  />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+		</sequence>
+	</random>	
+	<sequence name="wait_in_cover">
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" active_type="continue" return="false"/>
+		<action name="find" target="anchor" anchor_type="cover"  />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="move" type="run" distance_from_target="50" time="5000" />
+		<action name="wait" time="2000-4000" />
+	</sequence>
+</behavior>
+
+
+<!-- Hostage Rescue 인질 구출 모드용 인질 -->
+ <behavior name="mis_ally">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj01" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	
+	<sequence name="target_trace">
+	<condition type="can" name="see" target="enemy" distance_from_target="1000" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="700" time="2000-4000"/>			
+	</sequence>
+	<random name="cover_after_shoot">
+		<parallel name="chase_attack">
+		    <action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="move" distance_from_target="800" type="run" time="3000" />
+			<action name="attack" type="range1" start_delay="500-1000" count="5-8" time="4000" duration="4000"/>
+		</parallel>
+		<parallel name="shoot_smg_style">
+		    <condition type="can" name="see" target="enemy" distance_from_target="0-3000" />
+		    <action name="find" target="enemy" />
+		    <action name="face" target="enemy" />
+		    <action name="attack" type="range1" start_delay="300-600" count="3-7" time="4000" duration="4000"/>
+		    <action name="move" distance_from_target="500" time="2000-4000"/>
+	    </parallel>
+	</random>
+</behavior>
+
+<!-- 싱글미션 헤비 -->
+<behavior name="mis_heavy">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj01" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	<sequence name="target_trace">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="move" type="run" distance_from_target="0-500" time="2000-4000"/>			
+		<action name="activity" type="change_stance" stance_name="stand" />
+	</sequence>
+   	<select name="attack_select">
+		<parallel name="chase_attack">
+		    <action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="move" distance_from_target="2000" type="run" time="3000" />
+			<action name="attack" type="range1" start_delay="500-1000" count="40-60" time="4000" duration="4000"/>
+		</parallel>
+		<parallel name="chase_attack2">
+		    <condition type="can" name="see" target="enemy" distance_from_target="0-3000" />
+		    <action name="find" target="enemy" />
+		    <action name="face" target="enemy" />
+		    <action name="attack" type="range1" start_delay="300-600" count="10-15" time="4000" duration="4000"/>
+		    <action name="move" distance_from_target="1000" time="2000-4000"/>
+	    </parallel>
+		<sequence name="stand_shot">
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />		
+		    <action name="attack" type="range1" start_delay="1000-1500" count="20-50" time="4000" duration="4000"/>
+		</sequence>
+	</select>
+</behavior>
+
+<!-- 싱글미션 일반 라이플 -->
+<behavior name="mis_rifle">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj02" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+    <sequence name="is_too_close1">
+		<condition type="is" name="near_distance_from" target="enemy" distance_from_target="600" active_type="continue"/>
+		<action name="switch_weapon" switch_weapon_type="1" time="500"/>
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="100" count="3-7" duration="0" time = "1000-1500"/>
+	</sequence>
+	<select name="rifle_shoot_select">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+		<sequence name="stand_shoot">
+			<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="switch_weapon" switch_weapon_type="0" time="500"/>
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="300-600" count="5-8" time="1500" duration="1500"/>
+			<action name="wait" time="1000-1500" />
+		</sequence>
+		<sequence name="crouch_shot">
+			<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+			<action name="switch_weapon" switch_weapon_type="0" time="500"/>
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="300-600" count="5-8" time="1500" duration="1500"/>
+			<action name="wait" time="1000-1500" />
+		</sequence>
+		<parallel name="change_cover_shot">
+			<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+			<action name="switch_weapon" switch_weapon_type="0" time="500"/>
+			<action name="find" target="anchor" anchor_type="cover" distance_from_target="1000"/>
+			<action name="move" type="run" distance_from_target="50-100" time="1000-2000"/>
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="500-1000" count="8-12" time="3000" duration="3000"/>
+		</parallel>
+		<sequence name="crouch_end_shot2">
+			<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+			<action name="activity" type="change_stance" stance_name="crouch" /> 
+			<action name="switch_weapon" switch_weapon_type="0" time="500"/>
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="300-600" count="15" time="2500" duration="2500"/>
+			<action name="wait" time="3000-5000" />
+		</sequence>
+	</select>
+	<sequence name="when_cannot_see_enemy">
+		<condition type="is" name="near_distance_from" distance_from_target="1500" target="enemy" return="false"/>
+		<sequence name="chase_enemy">
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="move" type="run" distance_from_target="1200-1500" time="2000-4000"/>
+			<action name="activity" type="change_stance" stance_name="crouch" /> 	
+			<action name="wait" time="1000-2000" />	
+		</sequence>
+	</sequence>
+	<sequence name="just_wait">
+		<condition type="can" name="see" target="enemy" distance_from_target="3000" active_type="continue" return="false"/>
+		<action name="find" target="anchor" anchor_type="cover" distance_from_target="3000"/>
+		<action name="move" type="run" distance_from_target="100-200" time="2000-4000"/>
+		<action name="activity" type="change_stance" stance_name="crouch" /> 	
+		<action name="face" target="enemy" />
+		<action name="wait" time="10000-15000" />	
+	</sequence>
+</behavior>
+
+<!-- Hostage Rescue 샷건 -->
+<behavior name="mis_shotgun">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj01" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+    <sequence name="target_trace">
+	    <condition type="can" name="see" target="enemy" distance_from_target="1200" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="500" time="2000-4000"/>			
+    </sequence>
+ 	<sequence name="stand_shoot">
+		<condition type="can" name="see" target="enemy" distance_from_target="400" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="300-600" count="1-2" time="1000" duration="1500"/>
+		<action name="wait" time="100-500" />
+	</sequence>
+    <random name="cover_after_shoot">
+		<parallel name="chase_attack">
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="move" distance_from_target="800" type="run" time="3000" />
+			<action name="attack" type="range1" start_delay="500-1000" count="5-10" time="4000" duration="4000"/>
+		</parallel>
+		<parallel name="shoot_smg_style">
+		    <action name="find" target="enemy" />
+		    <action name="face" target="enemy" />
+		    <action name="attack" type="range1" start_delay="300-600" count="5-10" time="4000" duration="4000"/>
+		    <action name="move" distance_from_target="400" time="2000-4000"/>
+	    </parallel>
+	</random>
+</behavior>
+
+<behavior name="mis_sniper">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj03" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	<sequence name="shoot_target_near">
+		<condition type="can" name="see" target="enemy" distance_from_target="800"  active_type="continue"/>
+		<action name="switch_weapon" switch_weapon_type="1" time="500"/>
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="500-1000" count="3-7" duration="0" time = "4000-5000"/>
+	</sequence>		
+	<sequence name="shoot_target1">
+		<condition type="can" name="see" target="enemy" distance_from_target="10000" />
+		<condition type="can" name="see" target="enemy" distance_from_target="800" return = "false" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="switch_weapon" switch_weapon_type="0" time="500"/>
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="aim" aimming="true" time="300" />
+		<action name="attack" type="range1" start_delay="1000-1500" count="1" duration="0" time = "2000-3000"/>
+		<action name="aim" aimming="false" time="300" />
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="2000-3000" />
+	</sequence>
+	<sequence name="wait_for_enemy">
+		<condition type="can" name="see" target="enemy" distance_from_target="4000" return="false" active_type="continue"/>
+		<action name="activity" type="change_stance" stance_name="crouch" /> 
+		<action name="wait" time="1000" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="wait" time="3000" />
+	</sequence>		
+</behavior>
+
+<behavior name="mis_siege">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj03" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	<sequence name="t_shoot_target1">
+		    <condition type="can" name="see" target="enemy" distance_from_target="3000" />
+			<action name="activity" type="change_stance" stance_name="stand" /> 
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="500-1000" count="6-8"  duration="1500" time = "3100"/>
+			<action name="wait" time="100-500" />
+	</sequence>
+		
+</behavior>
+
+<behavior name="mis_shooter">
+	<sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj01" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+    <sequence name="target_trace">
+	    <condition type="can" name="see" target="enemy" distance_from_target="1200" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="500" time="2000-4000"/>			
+    </sequence>
+ 	<sequence name="stand_shoot">
+		<condition type="can" name="see" target="enemy" distance_from_target="400" />
+		<action name="activity" type="change_stance" stance_name="stand" /> 
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" start_delay="300-600" count="1-2" time="1000" duration="1500"/>
+		<action name="wait" time="100-500" />
+	</sequence>
+    <random name="move_attack">
+		<parallel name="chase_attack1">
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="move" distance_from_target="800" type="run" time="3000" />
+			<action name="attack" type="range1" start_delay="500-1000" count="2-5" time="4000" duration="4000"/>
+		</parallel>
+		<parallel name="chase_attack2">
+		    <action name="find" target="enemy" />
+		    <action name="face" target="enemy" />
+		    <action name="attack" type="range1" start_delay="300-600" count="2-5" time="4000" duration="4000"/>
+		    <action name="move" distance_from_target="400" time="2000-4000"/>
+	    </parallel>
+	</random>
+</behavior>
+
+<behavior name="mis_bomber">
+    <sequence name="die"><!-- 오브젝트 없으면 죽음 -->
+		<condition type="is" name="object" object="die_obj01" active_type="continue" return="false"/>
+		<action name="misc" type="die"/>
+	</sequence>
+	<sequence name="attack">
+		<condition type="is" name="near_distance_from" distance_from_target="0-300"  target="enemy"/>	
+		<action name="activity" type="change_stance" stance_name="prone" time="1000"/>
+		 <action name="sound" type="play" sound_name="/weapon/SpiderMine/set" />
+		<action name="wait" time="1" />
+		<action name="sound" type="play" sound_name="/weapon/SpiderMine/end" />
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" count="1" time="100"/>
+		<action name="misc" type="die"/>
+		   <!-- <action name="attack" type="range1" start_delay="700" count="2-5"  duration="1000" />-->
+    </sequence>
+	<parallel name="target_trace">
+		<condition type="is" name="near_distance_from" distance_from_target="0-200" return="false" target="enemy"/>	
+		<!-- <action name="sound" type="play" sound_name="/weapon/SpiderMine/start" />-->
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" distance_from_target="150"   />
+	</parallel>
+</behavior>
+
+<!-- Hostage Rescue 메탈리퍼 -->
+<behavior name="mis_metal">
+	<sequence name="stop_when_start"> <!--rep_stop 오브젝트가 있으면 움직이지 않는다 -->
+		<condition type="is" name="object" object="rep_stop" active_type="continue"/>
+    </sequence>
+    <sequence name="shoot_dart1">
+		<condition type="is" name="near_distance_from" target="anchor" anchor_type="reaper_1" distance_from_target="100"/>
+		<condition type="can" name="see" target="enemy" distance_from_target="1800" />
+		<action name="find" target="enemy" />
+		<action name="attack" type="rocket" start_delay="500-1000" count="1-2" time = "2000"/>
+		<action name="wait" time="100-500" />
+	</sequence>
+	<random name="cover_after_shoot">
+		<parallel name="trace_stand_shot1">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="rocket" start_delay="500-1000" count="3-5" time="4000" duration="3000"/>
+			<action name="move" distance_from_target="600-800" type="run" time="4000" />
+		</parallel>
+		<parallel name="trace_stand_shot2">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="500-1000" count="2-4" time="3000" duration="2000"/>
+			<action name="move" distance_from_target="600-800" type="run" time="4000" />
+		</parallel>
+		<sequence name="stand_shoot">
+			<condition type="can" name="see" target="enemy" distance_from_target="100-1000" />
+			<action name="find" target="enemy" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="500-1000" />
+			<action name="attack" type="range1" start_delay="1000-2000" count="3-5" time="1000" duration="1000" />
+		</sequence>
+	</random>
+</behavior>
+
+<!-- PVE 서바이벌 모드용 NPC -->
+
+<!-- PVE 서바이벌 모드용 라이플 -->
+<behavior name="survival_rifle">
+	<sequence name="combat">
+		<condition type="is" name="near_distance_from" distance_from_target="1800" target="enemy" />
+		<random name="shoot_type">	
+			<sequence name="crouch_shoot">
+				<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+				<action name="find" target="enemy" />
+				<action name="activity" type="change_stance" stance_name="crouch" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="1000-1500" count="5-15" time="3000" />
+				<action name="wait" time="1000-1500" />
+			</sequence>
+			<sequence name="stand_shoot_and_cover">
+				<condition type="can" name="see" target="enemy" distance_from_target="3000" />
+				<action name="activity" type="change_stance" stance_name="stand" /> 
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="1200-2000" count="5-7" time="4000" duration="1200"/>
+				<action name="goto" target="anchor" anchor_type="cover" distance_from_target="100-300"/>
+			</sequence>
+			<parallel name="shoot_smg_style">
+				<action name="find" target="enemy" />
+				<action name="face" target="enemy" />
+				<action name="attack" type="range1" start_delay="1000-1500" count="5-7" time="4000" duration="1200"/>
+				<action name="move" distance_from_target="400" time="2000-4000"/>
+			</parallel>
+			<sequence name="move_to_cover">
+				<action name="find" target="anchor" anchor_type="cover" anchor_option="from_enemy_line_of_sight" /> 
+				<action name="move" type="run" distance_from_target="50" time="2000-4000"/> 
+				<action name="face" target="enemy" />
+				<action name="wait" time="1000-2000" />
+			</sequence>
+		</random>
+	</sequence>
+	<sequence name="target_trace">
+		<condition type="can" name="see" target="enemy" distance_from_target="2000" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" type="sprint" distance_from_target="100" time="2000-4000"/>			
+	</sequence>
+</behavior>
+
+<!-- PVE 서바이벌 모드용 헤비 -->
+<behavior name="survival_heavy">
+	<sequence name="target_trace">
+	<condition type="can" name="see" target="enemy" distance_from_target="3000" return="false" active_type="continue" /> 
+		<action name="find" target="enemy" />
+		<action name="face" target="enemy" />
+		<action name="move" type="sprint" distance_from_target="2000-3000" time="2000-4000"/>			
+		<action name="activity" type="change_stance" stance_name="stand" />
+	</sequence>
+   	<random name="cover_after_shoot">
+		<parallel name="chase_attack">
+		    <action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="move" distance_from_target="2000" type="run" time="3000" />
+			<action name="attack" type="range1" start_delay="500-1000" count="60-100" time="4000" duration="4000"/>
+		</parallel>
+		<parallel name="shoot_smg_style">
+		    <condition type="can" name="see" target="enemy" distance_from_target="0-3000" />
+		    <action name="find" target="enemy" />
+		    <action name="face" target="enemy" />
+		    <action name="attack" type="range1" start_delay="300-600" count="10-15" time="4000" duration="4000"/>
+		    <action name="move" distance_from_target="1000" time="2000-4000"/>
+	    </parallel>
+	</random>
+</behavior>
+
+<!-- PVE 서바이벌 모드용 슈터 -->
+<behavior name="survival_shooter">
+	<random name="cover_after_shoot">
+		<parallel name="trace_stand_shot">
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="find" target="enemy"/>
+			<action name="face" target="enemy" />
+			<action name="attack" type="range1" start_delay="1000-1200" count="2-4" time="2000" duration="1000"/>
+			<action name="move" distance_from_target="600-800" type="run" time="3000" />
+		</parallel>
+		<sequence name="stand_shoot">
+			<condition type="can" name="see" target="enemy" distance_from_target="100-1200" />
+			<action name="find" target="enemy" />
+			<action name="activity" type="change_stance" stance_name="stand" />
+			<action name="face" target="enemy" />
+			<action name="wait" time="1500-2000" />
+			<action name="attack" type="range1" start_delay="1000-1500" count="1-4" time="1200" duration="1200" />
+			<action name="activity" type="change_stance" stance_name="stand" />
+		</sequence>
+	</random>
+</behavior>
+
+<!-- PVE 서바이벌 모드용 봄버 -->
+<behavior name="survival_bomber">
+	<sequence name="attack">
+		<condition type="is" name="near_distance_from" distance_from_target="0-300"  target="enemy"/>	
+		<action name="activity" type="change_stance" stance_name="prone" time="1000"/>
+		 <action name="sound" type="play" sound_name="/weapon/SpiderMine/set" />
+		<action name="wait" time="1" />
+		<action name="sound" type="play" sound_name="/weapon/SpiderMine/end" />
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+		<action name="attack" type="range1" count="1" time="100"/>
+		<action name="misc" type="die"/>
+		   <!-- <action name="attack" type="range1" start_delay="700" count="2-5"  duration="1000" />-->
+    </sequence>
+	<parallel name="target_trace">
+		<condition type="is" name="near_distance_from" distance_from_target="0-200" return="false" target="enemy"/>	
+		<!-- <action name="sound" type="play" sound_name="/weapon/SpiderMine/start" />-->
+		<action name="find" target="enemy"/>
+		<action name="face" target="enemy" />
+		<action name="activity" type="change_stance" stance_name="stand" />
+		<action name="move" distance_from_target="150"   />
+	</parallel>
+</behavior>
+
+<!-- 드론 연습장 -->
+
+<!-- 센티넬 일반. 가만히 서 있다 -->
+<behavior name="drone_practice_stand">
+	<sequence name="infinite_wait">
+		<action name="wait" time="1000"/>
+	</sequence>
+</behavior>
+
+<!-- 센티넬 순찰. A 지점과 B 지점 사이를 이동한다 -->
+<behavior name="drone_practice_patrol">
+	<select name="patrol_1to2">
+		<sequence name="patrol_to_1">
+			<action name="aim" aimming="true" time="300" />
+			<action name="find" target="anchor" anchor_type="patrol_1"  /> 
+			<action name="move" type="run" distance_from_target="0"/> 
+			<action name="face" target="enemy" />
+			<action name="aim" aimming="false" time="300" />
+			<action name="wait" time="4000" />
+		</sequence>
+		<sequence name="patrol_to_2">
+			<action name="aim" aimming="true" time="300" />
+			<action name="find" target="anchor" anchor_type="patrol_2"  /> 
+			<action name="move" type="run" distance_from_target="0"/> 
+			<action name="face" target="enemy" />
+			<action name="aim" aimming="false" time="300" />
+			<action name="wait" time="4000" />
+		</sequence>
+	</select>
+</behavior>
+</ai_behavior_list> 

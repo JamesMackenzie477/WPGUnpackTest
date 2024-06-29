@@ -1,0 +1,225 @@
+<trigger name='reward_kill' stand='server' type='kill' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='kill_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='kill_info' />
+		<param type='actor' target='murderee_info' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+<trigger name='reward_npc_kill' stand='server' type='kill_npc' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='kill_npc' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='kill_info' />
+		<param type='actor' target='dead_info' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+<trigger name='reward_dead' stand='server' type='dead' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='dead_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='dead_info' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+<trigger name='reward_assist' stand='server' type='assist' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='assist_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+<trigger name='reward_detect' stand='server' type='detect' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='detect_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_tag' stand='server' type='tag' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='search_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_debuff' stand='server' type='debuff' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='debuff_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_jamming' stand='server' type='jamming' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='jamming_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_domination' stand='server' type='domination' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='domination' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' /> 
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_demolition' stand='server' type='demolition' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='demolition' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_defuse_bomb' stand='server' type='defuse_bomb' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='defuse_bomb' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_install_bomb' stand='server' type='install_bomb' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='install_bomb' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_drone_destroy' stand='server' type='drone_destroy' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='drone_destroy' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='user_data' />	
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_start_drone' stand='server' type='drone_start' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='start_drone' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='user_data' />	
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_clear_wave' stand='server' type='clear_wave' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='clear_wave' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data' />   
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_throw_destroy' stand='server' type='throw_destroy' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='throw_destroy' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='exp' />
+		<param type='actor' target='user_data' />	
+		<param type='actor' target='a_point' op='add' out='yes' />
+		<param type='actor' target='o_point' op='add' out='yes' />
+		<param type='actor' target='weapon_exp' op='add' out='yes' />
+		<param type='actor' target='exp' op='add' out='yes' />
+		<param type='actor' target='coin' op='add' out='yes' />
+		<param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>
+
+<trigger name='reward_drone_assist' stand='server' type='drone_assist' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='drone_assist' type='lua'>
+    <param type='game' target='time' />
+    <param type='actor' target='exp' />
+    <param type='actor' target='user_data' />
+    <param type='actor' target='a_point' op='add' out='yes' />
+    <param type='actor' target='o_point' op='add' out='yes' />
+    <param type='actor' target='weapon_exp' op='add' out='yes' />
+    <param type='actor' target='exp' op='add' out='yes' />
+    <param type='actor' target='coin' op='add' out='yes' />
+    <param type='actor' target='reward_type' out='yes' />
+	</function>
+</trigger>

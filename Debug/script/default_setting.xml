@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<default_weapon>
+	<!-- 로드아웃 초기 설정 -->
+	<weapon_set slot='0' >
+			<weapon slot='0' name='K2C' >
+		<attach name ='Holo'/>
+		<attach name ='AP'/>
+			</weapon>
+		<weapon slot='1' name = 'WOLVERINE'/>
+		<weapon slot='2' name = 'FRAG_GRENADE'/>
+		<weapon slot='3' name = 'FLASH_GRENADE'/>
+		<weapon slot='4' name = 'CLAW_KNIFE'/>
+		<drone slot='0'  name = 'blade'/>
+		<drone slot='1'  name = 'escort'/>
+		<drone slot='2'  name = 'hellbird'/>
+		<skill slot='0' name = 'stability'/>
+		<skill slot='1' name = 'marathone'/>
+		<skill slot='2' name = 'blast_proof'/>
+	</weapon_set>
+
+	<weapon_set slot='1'>
+			<weapon slot='0' name='MP5A5' >
+		<attach name ='Quick Shot'/>
+		<attach name ='SP'/>
+			</weapon>
+		<weapon slot='1' name = 'TAC-OPS'/>
+		<weapon slot='2' name = 'SEMTEX_GRENADE'/>
+		<weapon slot='3' name = 'STUN_GRENADE'/>
+		<weapon slot='4' name = 'CLAW_KNIFE'/>
+		<drone slot='0'  name = 'crawler'/>
+		<drone slot='1'  name = 'striker'/>
+		<drone slot='2'  name = 'metalreaper'/>
+		<skill slot='0' name = 'quick_reload'/>
+		<skill slot='1' name = 'cloud_walk'/>
+		<skill slot='2' name = 'assassin'/>
+	</weapon_set>
+
+	<weapon_set slot='2'>
+			<weapon slot='0' name='BLASER93' >
+			<attach name ='AP'/>
+			</weapon>
+		<weapon slot='1' name = 'TAC-OPS'/>
+		<weapon slot='2' name = 'CLAYMORE'/>
+		<weapon slot='3' name = 'DECOY GRENADE' />
+		<weapon slot='4' name = 'CLAW_KNIFE'/>
+		<drone slot='0'  name = 'uav_recon'/>
+		<drone slot='1'  name = 'gorgon'/>
+		<drone slot='2'  name = 'zeus'/>
+		<skill slot='0' name = 'Quick_aim'/>
+		<skill slot='1' name = 'fast_walk'/>
+		<skill slot='2' name = 'blast_proof'/>
+	</weapon_set>
+	<!-- 드론 초기 설정 -->
+	<operation_drone_default>
+		<slot1 name = 'uav_recon'/>
+		<slot2 name = 'laws'/>
+	</operation_drone_default>
+	<attack_drone_default>
+		<slot1 name = 'blade'/>
+		<slot2 name = 'escort'/>
+	</attack_drone_default>
+	<!-- 캐릭터 초기 설정 -->
+	<costume slot='0' name='Hawk'/>
+	<!-- 소셜 액션 초기 설정 -->
+	<social slot='0'>
+		<action slot='0' name='sit'/>
+		<action slot='1' name='provoke01'/>
+		<action slot='2' name='dance'/>
+	</social>
+	<!-- 엠블렘 타이틀 초기 설정 -->
+	<emblem id='12001'/>
+	<title id='14001'/> 
+	<dogtag name='Dtag_default'/>
+	<!-- 무기 기간 만료 처리 -->
+	<weapon_set_default>
+		<weapon slot='0' name='M4TRAINING'/>
+		<weapon slot='1' name = 'TAC-OPS'/>
+		<weapon slot='2' name = 'FRAG_GRENADE'/>
+		<weapon slot='3' name = 'FLASH_GRENADE'/>
+		<weapon slot='4' name = 'CLAW_KNIFE'/>
+		<drone slot='0'  name = 'crawler'/>
+		<drone slot='1'  name = 'blade'/>
+		<drone slot='2'  name = 'escort'/>
+		<skill slot='0' name = 'stability'/>
+		<skill slot='1' name = 'marathone'/>
+		<skill slot='2' name = 'blast_proof'/>
+	</weapon_set_default>
+	<!-- 캐릭터 기간 만료 처리 -->
+	<costume_default name='Custom Character'/>
+	<customization_set_default>
+		<parts slot='0' name='head_default'/>
+		<parts slot='1' name='uhead_hair1'/>
+		<parts slot='2' name='none'/>
+		<parts slot='3' name='none'/>
+		<parts slot='4' name='body_bf'/>
+		<parts slot='5' name='hand_tac'/>
+		<parts slot='6' name='vest_assault'/>
+		<parts slot='8' name='pants_bf'/>
+		<parts slot='9' name='back_light'/>
+	</customization_set_default> 
+	<social_set_default>
+		<action slot='0' name='sit'/>
+		<action slot='1' name='provoke01'/>
+		<action slot='2' name='dance'/>
+	</social_set_default>
+</default_weapon>

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\projects\hacking\ironsight\test\test\source.cpp(1427): warning C4018: '<': signed/unsigned mismatch
+  Test.vcxproj -> D:\Projects\Hacking\Ironsight\Test\Debug\Test.exe
+  Test.vcxproj -> D:\Projects\Hacking\Ironsight\Test\Debug\Test.pdb (Partial PDB)

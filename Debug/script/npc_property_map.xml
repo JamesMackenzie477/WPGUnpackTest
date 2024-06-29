@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<npc_property_list>
+	<npc_property>
+		<name></name>
+		<character_info></character_info>
+		<primary_weapon></primary_weapon>
+		<secondary_weapon></secondary_weapon>
+		<throw_weapon></throw_weapon>
+		<ai_behavior></ai_behavior>
+	</npc_property>
+	<npc_property>
+		<name></name>
+		<character_info></character_info>
+		<primary_weapon></primary_weapon>
+		<secondary_weapon></secondary_weapon>
+		<throw_weapon></throw_weapon>
+		<ai_behavior></ai_behavior>
+	</npc_property>
+</npc_property_list>

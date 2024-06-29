@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<camo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<ev_boost_type>GP</ev_boost_type>
+		<ev_boost_value>30</ev_boost_value>
+		<ev_boost_start>201701030000</ev_boost_start>
+		<ev_boost_end>201701041200</ev_boost_end>
+	</item>
+	<item>
+		<ev_boost_type>EXP</ev_boost_type>
+		<ev_boost_value>30</ev_boost_value>
+		<ev_boost_start>201701030000</ev_boost_start>
+		<ev_boost_end>201701061400</ev_boost_end>
+	</item>
+	<item>
+		<ev_boost_type>GP</ev_boost_type>
+		<ev_boost_value>100</ev_boost_value>
+		<ev_boost_start>201701090000</ev_boost_start>
+		<ev_boost_end>201701101200</ev_boost_end>
+	</item>
+	<item>
+		<ev_boost_type>EXP</ev_boost_type>
+		<ev_boost_value>100</ev_boost_value>
+		<ev_boost_start>201701090000</ev_boost_start>
+		<ev_boost_end>201701101200</ev_boost_end>
+	</item>
+</camo>

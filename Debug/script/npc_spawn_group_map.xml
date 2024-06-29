@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<npc_spawn_group>
+	<spawn_group>
+		<name></name>
+		<group></group>
+		<npc_property></npc_property>
+		<npc_modifier></npc_modifier>
+		<group_spawn_trigger></group_spawn_trigger>
+		<group_start_trigger></group_start_trigger>
+		<group_final_trigger></group_final_trigger>
+		<start_delay_sec></start_delay_sec>
+		<total_count></total_count>
+		<population></population>
+		<spawn_delay_sec></spawn_delay_sec>
+		<spawn_area></spawn_area>
+		<spawn_point></spawn_point>
+		<spawn_order></spawn_order>
+		<team></team>
+		<drop_pattern></drop_pattern>
+	</spawn_group>
+	<spawn_group>
+		<name></name>
+		<group></group>
+		<npc_property></npc_property>
+		<npc_modifier></npc_modifier>
+		<group_spawn_trigger></group_spawn_trigger>
+		<group_start_trigger></group_start_trigger>
+		<group_final_trigger></group_final_trigger>
+		<start_delay_sec></start_delay_sec>
+		<total_count></total_count>
+		<population></population>
+		<spawn_delay_sec></spawn_delay_sec>
+		<spawn_area></spawn_area>
+		<spawn_point></spawn_point>
+		<spawn_order></spawn_order>
+		<team></team>
+		<drop_pattern></drop_pattern>
+	</spawn_group>
+</npc_spawn_group>

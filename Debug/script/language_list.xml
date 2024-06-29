@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Country>
+		<Code>eng</Code>
+		<Text>English</Text>
+	</Country>
+	<Country>
+		<Code>fre</Code>
+		<Text>French</Text>
+	</Country>
+	<Country>
+		<Code>ger</Code>
+		<Text>German</Text>
+	</Country>
+</LanguageLists>

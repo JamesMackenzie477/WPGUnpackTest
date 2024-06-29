@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<data name="normal" priority="255" duck_time="0.8" duration_time="0">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="1" use_dsp="false" />
+		<category name="bullets" volume="1" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="1" use_dsp="false" />
+		<category name="fsteps_1p" volume="1" use_dsp="false" />
+		<category name="wpon_1p" volume="1" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="1" use_dsp="false" />
+		<category name="fsteps_3p" volume="1" use_dsp="false" />
+		<category name="foley_3p" volume="1" use_dsp="false" />
+		<category name="wpon_3p" volume="1" use_dsp="false" />
+		<category name="fback_3p" volume="1" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="1" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="fire_1p" priority="120" duck_time="0.8" duration_time="0.2">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="0.7" use_dsp="false" />
+		<category name="bullets" volume="0.7" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="1" use_dsp="false" />
+		<category name="fsteps_1p" volume="1" use_dsp="false" />
+		<category name="wpon_1p" volume="1" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="1" use_dsp="false" />
+		<category name="fsteps_3p" volume="1" use_dsp="false" />
+		<category name="foley_3p" volume="1" use_dsp="false" />
+		<category name="wpon_3p" volume="0.7" use_dsp="false" />
+		<category name="fback_3p" volume="1" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="0.7" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="pl_move" priority="128" duck_time="0.8" duration_time="0">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="1" use_dsp="false" />
+		<category name="bullets" volume="1" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="1" use_dsp="false" />
+		<category name="fsteps_1p" volume="1" use_dsp="false" />
+		<category name="wpon_1p" volume="1" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="1" use_dsp="false" />
+		<category name="fsteps_3p" volume="1" use_dsp="false" />
+		<category name="foley_3p" volume="1" use_dsp="false" />
+		<category name="wpon_3p" volume="1" use_dsp="false" />
+		<category name="fback_3p" volume="1" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="1" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="pl_hit_s" priority="110" duck_time="0.3" duration_time="0.5">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="0.5" use_dsp="false" />
+		<category name="bullets" volume="1" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="1" use_dsp="false" />
+		<category name="fsteps_1p" volume="1" use_dsp="false" />
+		<category name="wpon_1p" volume="1" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="0.5" use_dsp="false" />
+		<category name="fsteps_3p" volume="0.5" use_dsp="false" />
+		<category name="foley_3p" volume="0.5" use_dsp="false" />
+		<category name="wpon_3p" volume="0.5" use_dsp="false" />
+		<category name="fback_3p" volume="0.5" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="0.5" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="pl_hit_m" priority="105" duck_time="0.3" duration_time="0.8">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="0.3" use_dsp="false" />
+		<category name="bullets" volume="0.75" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="0.5" use_dsp="false" />
+		<category name="fsteps_1p" volume="0.5" use_dsp="false" />
+		<category name="wpon_1p" volume="0.5" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="0.3" use_dsp="false" />
+		<category name="fsteps_3p" volume="0.3" use_dsp="false" />
+		<category name="foley_3p" volume="0.3" use_dsp="false" />
+		<category name="wpon_3p" volume="0.3" use_dsp="false" />
+		<category name="fback_3p" volume="0.3" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="0.3" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="pl_hit_h" priority="100" duck_time="0.3" duration_time="1">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="0.3" use_dsp="false" />
+		<category name="bullets" volume="0.75" use_dsp="false" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="0.5" use_dsp="false" />
+		<category name="fsteps_1p" volume="0.3" use_dsp="false" />
+		<category name="wpon_1p" volume="0.5" use_dsp="false" />
+		<category name="fback_1p" volume="1" use_dsp="false" />
+		<category name="voice_1p" volume="1" use_dsp="false" />
+		<category name="voice_3p" volume="0.3" use_dsp="false" />
+		<category name="fsteps_3p" volume="0.3" use_dsp="false" />
+		<category name="foley_3p" volume="0.3" use_dsp="false" />
+		<category name="wpon_3p" volume="0.3" use_dsp="false" />
+		<category name="fback_3p" volume="0.3" use_dsp="false" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="0.3" use_dsp="false" />
+	</categories>
+	<dsp />
+</data>
+<data name="pl_death" priority="90" duck_time="0.3" duration_time="0">
+	<categories>
+		<category name="music" volume="1" use_dsp="false" />
+		<category name="environ" volume="0.7" use_dsp="true" />
+		<category name="bullets" volume="0.7" use_dsp="true" />
+		<category name="menu" volume="1" use_dsp="false" />
+		<category name="foley_1p" volume="0.7" use_dsp="false" />
+		<category name="fsteps_1p" volume="0.7" use_dsp="true" />
+		<category name="wpon_1p" volume="0.7" use_dsp="true" />
+		<category name="fback_1p" volume="0.7" use_dsp="true" />
+		<category name="voice_1p" volume="1" use_dsp="true" />
+		<category name="voice_3p" volume="0.7" use_dsp="true" />
+		<category name="fsteps_3p" volume="0.7" use_dsp="true" />
+		<category name="foley_3p" volume="0.7" use_dsp="true" />
+		<category name="wpon_3p" volume="0.7" use_dsp="true" />
+		<category name="fback_3p" volume="0.3" use_dsp="true" />
+		<category name="pl_impact" volume="1" use_dsp="false" />
+		<category name="voiceover" volume="1" use_dsp="false" />
+		<category name="effect_3p" volume="0.7" use_dsp="true" />
+	</categories>
+	<dsp>
+		<lowpass cutoff="250" resonance="1" />
+	</dsp>
+</data>

@@ -1,0 +1,222 @@
+<trigger name='use_item' stand='client' type='use_item' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='use_item' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data' />
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>use_item</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='ready_drone' stand='client' type='drone_ready' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>drone_ready</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='start_drone' stand='client' type='drone_start' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='use_item' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data' />
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>drone_start</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+
+<trigger name='start_game' stand='client' type='start_game' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>start_game</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+
+<trigger name='started_game' stand='client' type='started_game' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>started_game</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+
+<trigger name='approach_item' stand='client' type='approach_item' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>approach_item</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+
+<!-- <trigger name='friendly_taking' stand='client' type='friendly_taking' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>friendly_taking</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+ -->
+<!-- <trigger name='friendly_taken' stand='client' type='friendly_taken' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>friendly_taken</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+ -->
+<!-- <trigger name='enemy_taking' stand='client' type='enemy_taking' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>enemy_taking</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+ -->
+<!-- <trigger name='enemy_taken' stand='client' type='enemy_taken' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>enemy_taken</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+ -->
+<trigger name='reward_kill' stand='client' type='kill' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='kill_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>kill</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='reward_npc_kill' stand='client' type='kill_npc' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='kill_npc' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>kill</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='reward_npc_kill' stand='client' type='kill_npc' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='kill_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>kill</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='reward_dead' stand='client' type='dead' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='dead_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+<trigger name='reward_assist' stand='client' type='assist' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='assist_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+<trigger name='reward_detect' stand='client' type='detect' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='detect_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+	<function name='play_sound' type='native'>
+		<param type='value'>detect</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+
+<trigger name='reward_tag' stand='client' type='tag' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='search_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_debuff' stand='client' type='debuff' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='debuff_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_jamming' stand='client' type='jamming' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='jamming_character' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_domination' stand='client' type='domination' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='domination' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+
+<trigger name='reward_demolition' stand='client' type='demolition' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='demolition' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_defuse_bomb' stand='client' type='defuse_bomb' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='defuse_bomb' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_install_bomb' stand='client' type='install_bomb' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='install_bomb' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_drone_destroy' stand='client' type='drone_destroy' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='drone_destroy' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reload' stand='client' type='reload' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='play_sound' type='native'>
+		<param type='value'>reload</param>
+		<param type='actor' target='user_data' />
+	</function>
+</trigger>
+<trigger name='reward_dom_stay' stand='client' type='dom_stay' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='dom_stay' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data' />
+	</function>
+  <function name='play_simple_sound' type='native'>
+    <param type='value'>/interface/hud/securepoint</param>
+  </function>
+</trigger>
+
+<trigger name='reward_throw_destroy' stand='client' type='throw_destroy' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='throw_destroy' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='reward_drone_assist' stand='client' type='drone_assist' update_time='500' send_act_packet='false' active_type='continue'>
+	<function name='drone_assist' type='lua'>
+		<param type='game' target='time' />
+		<param type='actor' target='user_data'/>
+	</function>
+</trigger>
+
+<trigger name='team_reward_trg' stand='client' type='team_reward' update_time='500' send_act_packet='false' active_type='continue'>
+  <function name='team_reward' type='lua'>
+    <param type='game' target='time' />
+    <param type='actor' target='user_data'/>
+  </function>
+</trigger>

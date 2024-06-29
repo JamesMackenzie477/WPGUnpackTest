@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playertag_info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<playertag_t>
+		<index type='int' />
+		<type  type='int' />
+		<name  type='string' />
+		<fla_index  type='int' />
+	</playertag_t>
+</playertag_info>

@@ -1,0 +1,5955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item_fla_info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<fla_info>
+		<item_index>101</item_index>
+		<name>AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>102</item_index>
+		<name>G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>103</item_index>
+		<name>FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>104</item_index>
+		<name>M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>105</item_index>
+		<name>AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>106</item_index>
+		<name>AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>107</item_index>
+		<name>SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>108</item_index>
+		<name>M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>109</item_index>
+		<name>ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>110</item_index>
+		<name>SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>111</item_index>
+		<name>AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>112</item_index>
+		<name>K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>113</item_index>
+		<name>SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>114</item_index>
+		<name>HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>115</item_index>
+		<name>TAR21</name>
+		<item_type>0</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>116</item_index>
+		<name>MSBS_556B</name>
+		<item_type>0</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>117</item_index>
+		<name>M4TRAINING</name>
+		<item_type>0</item_type>
+		<fla_index>61</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>501</item_index>
+		<name>MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>502</item_index>
+		<name>P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>503</item_index>
+		<name>PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>504</item_index>
+		<name>MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>505</item_index>
+		<name>VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>506</item_index>
+		<name>PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>507</item_index>
+		<name>PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>508</item_index>
+		<name>MP9</name>
+		<item_type>0</item_type>
+		<fla_index>24</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1001</item_index>
+		<name>DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1002</item_index>
+		<name>SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1003</item_index>
+		<name>BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1004</item_index>
+		<name>CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1005</item_index>
+		<name>PSG-1</name>
+		<item_type>0</item_type>
+		<fla_index>62</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1501</item_index>
+		<name>ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1502</item_index>
+		<name>MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1503</item_index>
+		<name>PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>1504</item_index>
+		<name>MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2001</item_index>
+		<name>TAC-OPS</name>
+		<item_type>1</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2002</item_index>
+		<name>PYTHON</name>
+		<item_type>1</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2003</item_index>
+		<name>DESERTEAGLE</name>
+		<item_type>1</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2004</item_index>
+		<name>JACKHAMMER</name>
+		<item_type>1</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2005</item_index>
+		<name>SPAS12</name>
+		<item_type>1</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2006</item_index>
+		<name>KARD</name>
+		<item_type>1</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2007</item_index>
+		<name>CrossBow</name>
+		<item_type>1</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2008</item_index>
+		<name>Px4Storm</name>
+		<item_type>1</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2009</item_index>
+		<name>WOLVERINE</name>
+		<item_type>1</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2010</item_index>
+		<name>M320_GLM</name>
+		<item_type>1</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2501</item_index>
+		<name>Claw_Knife</name>
+		<item_type>4</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>2502</item_index>
+		<name>Tactical_Axe</name>
+		<item_type>4</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5001</item_index>
+		<name>FRAG_GRENADE</name>
+		<item_type>2</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5002</item_index>
+		<name>SEMTEX_GRENADE</name>
+		<item_type>2</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5003</item_index>
+		<name>REMOTE_BOMB</name>
+		<item_type>2</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5004</item_index>
+		<name>S_MINE</name>
+		<item_type>2</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5005</item_index>
+		<name>CLAYMORE</name>
+		<item_type>2</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5006</item_index>
+		<name>FLASH_GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5007</item_index>
+		<name>STUN_GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5008</item_index>
+		<name>SMOKE_GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5009</item_index>
+		<name>THROWING_KNIFE</name>
+		<item_type>2</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5010</item_index>
+		<name>THROWING_TOMAHAWK</name>
+		<item_type>2</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5011</item_index>
+		<name>EXPLOSIVE_KNIFE</name>
+		<item_type>2</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5012</item_index>
+		<name>EMP GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5014</item_index>
+		<name>DECOY GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5015</item_index>
+		<name>INCENDIARY GRENADE</name>
+		<item_type>2</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5016</item_index>
+		<name>TEAR_GAS_GRENADE</name>
+		<item_type>3</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3001</item_index>
+		<name>QUICK_SHOT</name>
+		<item_type>5</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3002</item_index>
+		<name>557</name>
+		<item_type>5</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3003</item_index>
+		<name>TA01</name>
+		<item_type>5</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3004</item_index>
+		<name>QD SUPPRESSOR</name>
+		<item_type>5</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3005</item_index>
+		<name>CLEAR SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3006</item_index>
+		<name>Detect SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3007</item_index>
+		<name>Monitor SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3008</item_index>
+		<name>Variant SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3009</item_index>
+		<name>Glow SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3010</item_index>
+		<name>HIT SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3011</item_index>
+		<name>Scope 01</name>
+		<item_type>5</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3012</item_index>
+		<name>Riflescope</name>
+		<item_type>5</item_type>
+		<fla_index>35</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3013</item_index>
+		<name>Viper</name>
+		<item_type>5</item_type>
+		<fla_index>36</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3014</item_index>
+		<name>POSP</name>
+		<item_type>5</item_type>
+		<fla_index>37</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3015</item_index>
+		<name>Scout</name>
+		<item_type>5</item_type>
+		<fla_index>38</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3016</item_index>
+		<name>Laser sight</name>
+		<item_type>5</item_type>
+		<fla_index>39</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3017</item_index>
+		<name>Bipod</name>
+		<item_type>5</item_type>
+		<fla_index>40</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3018</item_index>
+		<name>Extended Mags +5</name>
+		<item_type>5</item_type>
+		<fla_index>41</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3019</item_index>
+		<name>Target Detector</name>
+		<item_type>5</item_type>
+		<fla_index>42</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3020</item_index>
+		<name>Magnifier</name>
+		<item_type>5</item_type>
+		<fla_index>43</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3021</item_index>
+		<name>Tactical Light</name>
+		<item_type>5</item_type>
+		<fla_index>44</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3022</item_index>
+		<name>Vertical Grip</name>
+		<item_type>5</item_type>
+		<fla_index>45</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3023</item_index>
+		<name>Angled Grip</name>
+		<item_type>5</item_type>
+		<fla_index>53</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3024</item_index>
+		<name>Heavy Barrel</name>
+		<item_type>5</item_type>
+		<fla_index>47</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3025</item_index>
+		<name>Hard Rifling</name>
+		<item_type>5</item_type>
+		<fla_index>48</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3026</item_index>
+		<name>Flash Hider</name>
+		<item_type>5</item_type>
+		<fla_index>49</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3027</item_index>
+		<name>Muzzle Brake</name>
+		<item_type>5</item_type>
+		<fla_index>50</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3028</item_index>
+		<name>Compensator</name>
+		<item_type>5</item_type>
+		<fla_index>51</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3029</item_index>
+		<name>Suppressor</name>
+		<item_type>5</item_type>
+		<fla_index>52</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3030</item_index>
+		<name>Sensitive Trigger</name>
+		<item_type>5</item_type>
+		<fla_index>46</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3031</item_index>
+		<name>Straight Pull</name>
+		<item_type>5</item_type>
+		<fla_index>54</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3032</item_index>
+		<name>Ambi Mag Release</name>
+		<item_type>5</item_type>
+		<fla_index>55</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3033</item_index>
+		<name>Light Stock</name>
+		<item_type>5</item_type>
+		<fla_index>56</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3034</item_index>
+		<name>Rifle Stock</name>
+		<item_type>5</item_type>
+		<fla_index>57</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3035</item_index>
+		<name>Precision Stock</name>
+		<item_type>5</item_type>
+		<fla_index>58</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3036</item_index>
+		<name>Extended Mags +10</name>
+		<item_type>5</item_type>
+		<fla_index>59</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3101</item_index>
+		<name>FMJ</name>
+		<item_type>7</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3102</item_index>
+		<name>AP</name>
+		<item_type>7</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>3103</item_index>
+		<name>SP</name>
+		<item_type>7</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6500</item_index>
+		<name>Default Character(none)</name>
+		<item_type>14</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6506</item_index>
+		<name>SARAH</name>
+		<item_type>14</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6502</item_index>
+		<name>VALERIE</name>
+		<item_type>14</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6503</item_index>
+		<name>Victor Schuneider</name>
+		<item_type>14</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6504</item_index>
+		<name>Sirocco</name>
+		<item_type>14</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6505</item_index>
+		<name>Jean Verdier</name>
+		<item_type>14</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6507</item_index>
+		<name>KALI</name>
+		<item_type>14</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6510</item_index>
+		<name>Hawk</name>
+		<item_type>14</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6511</item_index>
+		<name>Horus</name>
+		<item_type>14</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6512</item_index>
+		<name>Frost</name>
+		<item_type>14</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6513</item_index>
+		<name>Big Bear</name>
+		<item_type>14</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6514</item_index>
+		<name>GM</name>
+		<item_type>14</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6515</item_index>
+		<name>Mad Dog</name>
+		<item_type>14</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6516</item_index>
+		<name>Jin</name>
+		<item_type>14</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6517</item_index>
+		<name>Specter</name>
+		<item_type>14</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6518</item_index>
+		<name>Havoc</name>
+		<item_type>14</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5501</item_index>
+		<name>SPYDRONE_OPERATION</name>
+		<item_type>11</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5502</item_index>
+		<name>UAVRECON</name>
+		<item_type>11</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5503</item_index>
+		<name>firefly</name>
+		<item_type>11</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5504</item_index>
+		<name>UAVJAMMER</name>
+		<item_type>11</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5505</item_index>
+		<name>JAMMERDRONE</name>
+		<item_type>11</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5535</item_index>
+		<name>STRIKERDRONE</name>
+		<item_type>12</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5536</item_index>
+		<name>BLADEDRONE</name>
+		<item_type>12</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5537</item_index>
+		<name>GORGONDRONE</name>
+		<item_type>12</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5538</item_index>
+		<name>ESCORTDRONE</name>
+		<item_type>12</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5539</item_index>
+		<name>LaWS</name>
+		<item_type>12</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5541</item_index>
+		<name>observerdrone</name>
+		<item_type>12</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5572</item_index>
+		<name>HELLBIRD</name>
+		<item_type>13</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5573</item_index>
+		<name>ZEUS</name>
+		<item_type>13</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5574</item_index>
+		<name>METALREAPER</name>
+		<item_type>13</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5576</item_index>
+		<name>stingray</name>
+		<item_type>13</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5577</item_index>
+		<name>spyderbomb</name>
+		<item_type>11</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5589</item_index>
+		<name>crawler_t</name>
+		<item_type>11</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5578</item_index>
+		<name>sentinel_guard</name>
+		<item_type>13</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5579</item_index>
+		<name>stalker_drone</name>
+		<item_type>11</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5580</item_index>
+		<name>SPYDRONE_ATTACK</name>
+		<item_type>11</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>5581</item_index>
+		<name>ESCORTDRONE</name>
+		<item_type>13</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6001</item_index>
+		<name>Quick_aim</name>
+		<item_type>8</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6002</item_index>
+		<name>quick_reload</name>
+		<item_type>8</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6003</item_index>
+		<name>stability</name>
+		<item_type>8</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6006</item_index>
+		<name>fast_weapon</name>
+		<item_type>8</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6013</item_index>
+		<name>Fast_Hand</name>
+		<item_type>8</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6104</item_index>
+		<name>marathone</name>
+		<item_type>9</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6105</item_index>
+		<name>ammo_package</name>
+		<item_type>9</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6107</item_index>
+		<name>fast_sprint</name>
+		<item_type>9</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6110</item_index>
+		<name>fast_walk</name>
+		<item_type>9</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6112</item_index>
+		<name>cloud_walk</name>
+		<item_type>9</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6209</item_index>
+		<name>blast_proof</name>
+		<item_type>10</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6214</item_index>
+		<name>Friends_of_Drone</name>
+		<item_type>10</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6215</item_index>
+		<name>Assist_Master</name>
+		<item_type>10</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6216</item_index>
+		<name>Fortifying_Drones</name>
+		<item_type>10</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>6208</item_index>
+		<name>assassin</name>
+		<item_type>10</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15001</item_index>
+		<name>라이트 백팩</name>
+		<item_type>29</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15002</item_index>
+		<name>하드타입 백팩</name>
+		<item_type>29</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15003</item_index>
+		<name>bf 스타일 상의(eden,naf)</name>
+		<item_type>24</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15004</item_index>
+		<name>택티컬 상의(eden,naf)</name>
+		<item_type>24</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15005</item_index>
+		<name>선글라스</name>
+		<item_type>23</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15006</item_index>
+		<name>방독면</name>
+		<item_type>23</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15007</item_index>
+		<name>스컬마스크</name>
+		<item_type>23</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15008</item_index>
+		<name>bf 스타일 하의(eden,naf)</name>
+		<item_type>28</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15009</item_index>
+		<name>택티컬 하의(eden,naf)</name>
+		<item_type>28</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15010</item_index>
+		<name>전투모</name>
+		<item_type>21</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15011</item_index>
+		<name>하드형 헬멧</name>
+		<item_type>21</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15012</item_index>
+		<name>SF 헬멧</name>
+		<item_type>21</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15013</item_index>
+		<name>풋볼 헬멧</name>
+		<item_type>21</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15014</item_index>
+		<name>헤어 1</name>
+		<item_type>21</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15015</item_index>
+		<name>비니</name>
+		<item_type>21</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15016</item_index>
+		<name>VR 기어</name>
+		<item_type>21</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15017</item_index>
+		<name>캡과 헤드폰</name>
+		<item_type>21</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15018</item_index>
+		<name>택티컬 장갑(EDEN,NAF)</name>
+		<item_type>25</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15019</item_index>
+		<name>드론 컨트롤 장갑(EDEN,NAF)</name>
+		<item_type>25</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15020</item_index>
+		<name>어설트 베스트</name>
+		<item_type>26</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15021</item_index>
+		<name>라이트 숄더 가드</name>
+		<item_type>22</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15022</item_index>
+		<name>하드타입 숄더 가드</name>
+		<item_type>22</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15023</item_index>
+		<name>기본 얼굴(NAF)</name>
+		<item_type>20</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15024</item_index>
+		<name>택티컬 고글</name>
+		<item_type>23</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15025</item_index>
+		<name>택티컬 베스트</name>
+		<item_type>26</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15026</item_index>
+		<name>투명 조끼</name>
+		<item_type>26</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15027</item_index>
+		<name>택티컬 글라스</name>
+		<item_type>23</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15028</item_index>
+		<name>투명 백팩</name>
+		<item_type>29</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15029</item_index>
+		<name>KA 활동복 상의</name>
+		<item_type>24</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>15030</item_index>
+		<name>KA 활동복 하의</name>
+		<item_type>28</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10501</item_index>
+		<name>angry</name>
+		<item_type>30</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10502</item_index>
+		<name>dance</name>
+		<item_type>30</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10503</item_index>
+		<name>handshake</name>
+		<item_type>30</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10504</item_index>
+		<name>fishing</name>
+		<item_type>30</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10505</item_index>
+		<name>provoke</name>
+		<item_type>30</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10506</item_index>
+		<name>crap</name>
+		<item_type>30</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10507</item_index>
+		<name>lol</name>
+		<item_type>30</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10508</item_index>
+		<name>anger</name>
+		<item_type>30</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10509</item_index>
+		<name>sit</name>
+		<item_type>30</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10510</item_index>
+		<name>curtaincal</name>
+		<item_type>30</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10511</item_index>
+		<name>dance01</name>
+		<item_type>30</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10512</item_index>
+		<name>dance02</name>
+		<item_type>30</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>10513</item_index>
+		<name>dance03</name>
+		<item_type>30</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12001</item_index>
+		<name>Emblem_기본</name>
+		<item_type>15</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12002</item_index>
+		<name>Emblem_암살</name>
+		<item_type>15</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12003</item_index>
+		<name>Emblem_벌집</name>
+		<item_type>15</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12004</item_index>
+		<name>Emblem_혜성</name>
+		<item_type>15</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12005</item_index>
+		<name>Emblem_전투모</name>
+		<item_type>15</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12006</item_index>
+		<name>Emblem_낫과 망치</name>
+		<item_type>15</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12007</item_index>
+		<name>Emblem_스마일</name>
+		<item_type>15</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12008</item_index>
+		<name>Emblem_독수리발톱</name>
+		<item_type>15</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12009</item_index>
+		<name>Emblem_돌격하는 코뿔소</name>
+		<item_type>15</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12010</item_index>
+		<name>Emblem_총알</name>
+		<item_type>15</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12011</item_index>
+		<name>Emblem_여우</name>
+		<item_type>15</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12012</item_index>
+		<name>Emblem_불타는 별</name>
+		<item_type>15</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12013</item_index>
+		<name>Emblem_캔디</name>
+		<item_type>15</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12014</item_index>
+		<name>Emblem_사자</name>
+		<item_type>15</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12015</item_index>
+		<name>Emblem_호랑이</name>
+		<item_type>15</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12016</item_index>
+		<name>Emblem_말</name>
+		<item_type>15</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12017</item_index>
+		<name>Emblem_톱</name>
+		<item_type>15</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12018</item_index>
+		<name>Emblem_가위</name>
+		<item_type>15</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12019</item_index>
+		<name>Emblem_삼지창</name>
+		<item_type>15</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12020</item_index>
+		<name>Emblem_핀쳐</name>
+		<item_type>15</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12021</item_index>
+		<name>Emblem_배척</name>
+		<item_type>15</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12022</item_index>
+		<name>Emblem_방탄모</name>
+		<item_type>15</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12023</item_index>
+		<name>Emblem_활</name>
+		<item_type>15</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12024</item_index>
+		<name>Emblem_다이야 반지</name>
+		<item_type>15</item_type>
+		<fla_index>24</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12025</item_index>
+		<name>Emblem_워키토키</name>
+		<item_type>15</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12026</item_index>
+		<name>Emblem_헤드폰</name>
+		<item_type>15</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12027</item_index>
+		<name>Emblem_타블렛PC</name>
+		<item_type>15</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12028</item_index>
+		<name>Emblem_멀티툴</name>
+		<item_type>15</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12029</item_index>
+		<name>Emblem_물놀이용 튜브</name>
+		<item_type>15</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12030</item_index>
+		<name>Emblem_아령모양</name>
+		<item_type>15</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12031</item_index>
+		<name>Emblem_조로마스크 </name>
+		<item_type>15</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12032</item_index>
+		<name>Emblem_적십자마크</name>
+		<item_type>15</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12033</item_index>
+		<name>Emblem_수박모양</name>
+		<item_type>15</item_type>
+		<fla_index>33</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12034</item_index>
+		<name>Emblem_바나나</name>
+		<item_type>15</item_type>
+		<fla_index>34</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12035</item_index>
+		<name>Emblem_까마귀 </name>
+		<item_type>15</item_type>
+		<fla_index>35</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12036</item_index>
+		<name>Emblem_룰렛 </name>
+		<item_type>15</item_type>
+		<fla_index>36</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12037</item_index>
+		<name>Emblem_코끼리 머리</name>
+		<item_type>15</item_type>
+		<fla_index>37</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12038</item_index>
+		<name>Emblem_회오리 바람</name>
+		<item_type>15</item_type>
+		<fla_index>38</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12039</item_index>
+		<name>Emblem_파인애플</name>
+		<item_type>15</item_type>
+		<fla_index>39</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12040</item_index>
+		<name>Emblem_바니</name>
+		<item_type>15</item_type>
+		<fla_index>40</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12041</item_index>
+		<name>Emblem_원격 폭탄</name>
+		<item_type>15</item_type>
+		<fla_index>41</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12042</item_index>
+		<name>Emblem_캥거루</name>
+		<item_type>15</item_type>
+		<fla_index>42</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12043</item_index>
+		<name>Emblem_짚단</name>
+		<item_type>15</item_type>
+		<fla_index>43</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12044</item_index>
+		<name>Emblem_소화기</name>
+		<item_type>15</item_type>
+		<fla_index>44</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12045</item_index>
+		<name>Emblem_다이나마이트</name>
+		<item_type>15</item_type>
+		<fla_index>45</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12046</item_index>
+		<name>Emblem_스파이드론</name>
+		<item_type>15</item_type>
+		<fla_index>46</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12047</item_index>
+		<name>Emblem_선글라스</name>
+		<item_type>15</item_type>
+		<fla_index>47</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12048</item_index>
+		<name>Emblem_둥근 안테나</name>
+		<item_type>15</item_type>
+		<fla_index>48</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12049</item_index>
+		<name>Emblem_나비</name>
+		<item_type>15</item_type>
+		<fla_index>49</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12050</item_index>
+		<name>Emblem_바바리코트</name>
+		<item_type>15</item_type>
+		<fla_index>50</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12051</item_index>
+		<name>Emblem_버블버블</name>
+		<item_type>15</item_type>
+		<fla_index>51</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12052</item_index>
+		<name>Emblem_꼬지</name>
+		<item_type>15</item_type>
+		<fla_index>52</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12053</item_index>
+		<name>Emblem_안대</name>
+		<item_type>15</item_type>
+		<fla_index>53</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12054</item_index>
+		<name>Emblem_애플</name>
+		<item_type>15</item_type>
+		<fla_index>54</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12055</item_index>
+		<name>Emblem_파리채</name>
+		<item_type>15</item_type>
+		<fla_index>55</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12056</item_index>
+		<name>Emblem_그물</name>
+		<item_type>15</item_type>
+		<fla_index>56</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12057</item_index>
+		<name>Emblem_덫</name>
+		<item_type>15</item_type>
+		<fla_index>57</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12058</item_index>
+		<name>Emblem_카메라</name>
+		<item_type>15</item_type>
+		<fla_index>58</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12059</item_index>
+		<name>Emblem_헬버드</name>
+		<item_type>15</item_type>
+		<fla_index>59</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12060</item_index>
+		<name>Emblem_낙뢰</name>
+		<item_type>15</item_type>
+		<fla_index>60</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12061</item_index>
+		<name>Emblem_메탈리퍼</name>
+		<item_type>15</item_type>
+		<fla_index>61</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12062</item_index>
+		<name>Emblem_이병</name>
+		<item_type>15</item_type>
+		<fla_index>62</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12063</item_index>
+		<name>Emblem_일병</name>
+		<item_type>15</item_type>
+		<fla_index>63</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12064</item_index>
+		<name>Emblem_상병</name>
+		<item_type>15</item_type>
+		<fla_index>64</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12065</item_index>
+		<name>Emblem_병장</name>
+		<item_type>15</item_type>
+		<fla_index>65</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12066</item_index>
+		<name>Emblem_하사</name>
+		<item_type>15</item_type>
+		<fla_index>66</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12067</item_index>
+		<name>Emblem_중사</name>
+		<item_type>15</item_type>
+		<fla_index>67</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12068</item_index>
+		<name>Emblem_상사</name>
+		<item_type>15</item_type>
+		<fla_index>68</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12069</item_index>
+		<name>Emblem_일등 상사</name>
+		<item_type>15</item_type>
+		<fla_index>69</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12070</item_index>
+		<name>Emblem_원사</name>
+		<item_type>15</item_type>
+		<fla_index>70</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12071</item_index>
+		<name>Emblem_특무상사</name>
+		<item_type>15</item_type>
+		<fla_index>71</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12072</item_index>
+		<name>Emblem_주임상사</name>
+		<item_type>15</item_type>
+		<fla_index>72</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12073</item_index>
+		<name>Emblem_소위</name>
+		<item_type>15</item_type>
+		<fla_index>73</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12074</item_index>
+		<name>Emblem_중위</name>
+		<item_type>15</item_type>
+		<fla_index>74</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12075</item_index>
+		<name>Emblem_대위</name>
+		<item_type>15</item_type>
+		<fla_index>75</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12076</item_index>
+		<name>Emblem_소령</name>
+		<item_type>15</item_type>
+		<fla_index>76</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12077</item_index>
+		<name>Emblem_중령</name>
+		<item_type>15</item_type>
+		<fla_index>77</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12078</item_index>
+		<name>Emblem_대령</name>
+		<item_type>15</item_type>
+		<fla_index>78</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12079</item_index>
+		<name>Emblem_준장</name>
+		<item_type>15</item_type>
+		<fla_index>79</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12080</item_index>
+		<name>Emblem_소장</name>
+		<item_type>15</item_type>
+		<fla_index>80</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12081</item_index>
+		<name>Emblem_중장</name>
+		<item_type>15</item_type>
+		<fla_index>81</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12082</item_index>
+		<name>Emblem_대장</name>
+		<item_type>15</item_type>
+		<fla_index>82</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12083</item_index>
+		<name>Emblem_원수</name>
+		<item_type>15</item_type>
+		<fla_index>83</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12084</item_index>
+		<name>Emblem_낙하산</name>
+		<item_type>15</item_type>
+		<fla_index>84</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12085</item_index>
+		<name>Emblem_슬링샷</name>
+		<item_type>15</item_type>
+		<fla_index>85</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12086</item_index>
+		<name>Emblem_깨진 물병</name>
+		<item_type>15</item_type>
+		<fla_index>86</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12087</item_index>
+		<name>Emblem_날개</name>
+		<item_type>15</item_type>
+		<fla_index>87</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12088</item_index>
+		<name>Emblem_합장손</name>
+		<item_type>15</item_type>
+		<fla_index>88</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12089</item_index>
+		<name>Emblem_표창</name>
+		<item_type>15</item_type>
+		<fla_index>89</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12090</item_index>
+		<name>Emblem_네잎클로버</name>
+		<item_type>15</item_type>
+		<fla_index>90</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12091</item_index>
+		<name>Emblem_진주목걸이</name>
+		<item_type>15</item_type>
+		<fla_index>91</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12092</item_index>
+		<name>Emblem_단두대</name>
+		<item_type>15</item_type>
+		<fla_index>92</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12093</item_index>
+		<name>Emblem_깨진 하트</name>
+		<item_type>15</item_type>
+		<fla_index>93</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12094</item_index>
+		<name>Emblem_불사조</name>
+		<item_type>15</item_type>
+		<fla_index>94</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12095</item_index>
+		<name>Emblem_좀비손</name>
+		<item_type>15</item_type>
+		<fla_index>95</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12096</item_index>
+		<name>Emblem_장미</name>
+		<item_type>15</item_type>
+		<fla_index>96</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12097</item_index>
+		<name>Emblem_드릴</name>
+		<item_type>15</item_type>
+		<fla_index>97</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12098</item_index>
+		<name>Emblem_늑대</name>
+		<item_type>15</item_type>
+		<fla_index>98</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12099</item_index>
+		<name>Emblem_유니콘</name>
+		<item_type>15</item_type>
+		<fla_index>99</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12100</item_index>
+		<name>Emblem_코브라</name>
+		<item_type>15</item_type>
+		<fla_index>100</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12101</item_index>
+		<name>Emblem_딱풀</name>
+		<item_type>15</item_type>
+		<fla_index>101</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12102</item_index>
+		<name>Emblem_불꽃놀이</name>
+		<item_type>15</item_type>
+		<fla_index>102</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12103</item_index>
+		<name>Emblem_깨짐주의</name>
+		<item_type>15</item_type>
+		<fla_index>103</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12104</item_index>
+		<name>Emblem_불타는 차</name>
+		<item_type>15</item_type>
+		<fla_index>104</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12105</item_index>
+		<name>Emblem_불타는 드럼통</name>
+		<item_type>15</item_type>
+		<fla_index>105</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12106</item_index>
+		<name>Emblem_청개구리</name>
+		<item_type>15</item_type>
+		<fla_index>106</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12107</item_index>
+		<name>Emblem_콜라</name>
+		<item_type>15</item_type>
+		<fla_index>107</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>12108</item_index>
+		<name>Emblem_정보수집가</name>
+		<item_type>15</item_type>
+		<fla_index>108</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8501</item_index>
+		<name>Dtag_기본 인식표</name>
+		<item_type>17</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14001</item_index>
+		<name>Title_default</name>
+		<item_type>16</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14002</item_index>
+		<name>Title_M4A1</name>
+		<item_type>16</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14003</item_index>
+		<name>Title_G36</name>
+		<item_type>16</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14004</item_index>
+		<name>Title_AK47</name>
+		<item_type>16</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14005</item_index>
+		<name>Title_AK12</name>
+		<item_type>16</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14006</item_index>
+		<name>Title_Famas G2</name>
+		<item_type>16</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14007</item_index>
+		<name>Title_M39 EMR</name>
+		<item_type>16</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14008</item_index>
+		<name>Title_AUG A3</name>
+		<item_type>16</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14009</item_index>
+		<name>Title_SA58 OSW</name>
+		<item_type>16</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14010</item_index>
+		<name>Title_ARX160</name>
+		<item_type>16</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14011</item_index>
+		<name>Title_AR57</name>
+		<item_type>16</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14012</item_index>
+		<name>Title_SG553</name>
+		<item_type>16</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14013</item_index>
+		<name>Title_K2C</name>
+		<item_type>16</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14014</item_index>
+		<name>Title_MP5A5</name>
+		<item_type>16</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14015</item_index>
+		<name>Title_P90TR</name>
+		<item_type>16</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14016</item_index>
+		<name>Title_MP7A1</name>
+		<item_type>16</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14017</item_index>
+		<name>Title_VECTOR</name>
+		<item_type>16</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14018</item_index>
+		<name>Title_PP90M1</name>
+		<item_type>16</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14019</item_index>
+		<name>Title_PP2000</name>
+		<item_type>16</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14020</item_index>
+		<name>Title_PDRC</name>
+		<item_type>16</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14021</item_index>
+		<name>Title_MG3</name>
+		<item_type>16</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14022</item_index>
+		<name>Title_PKP</name>
+		<item_type>16</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14023</item_index>
+		<name>Title_Ultimax100MK8</name>
+		<item_type>16</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14024</item_index>
+		<name>Title_MK46</name>
+		<item_type>16</item_type>
+		<fla_index>24</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14025</item_index>
+		<name>Title_DSR1</name>
+		<item_type>16</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14026</item_index>
+		<name>Title_SVD</name>
+		<item_type>16</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14027</item_index>
+		<name>Title_BLASER R93</name>
+		<item_type>16</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14028</item_index>
+		<name>Title_CF-X50</name>
+		<item_type>16</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14029</item_index>
+		<name>Title_TAC-OPS</name>
+		<item_type>16</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14030</item_index>
+		<name>Title_PYTHON</name>
+		<item_type>16</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14031</item_index>
+		<name>Title_DesertEagle</name>
+		<item_type>16</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14032</item_index>
+		<name>Title_Crossbow</name>
+		<item_type>16</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14033</item_index>
+		<name>Title_JACKHAMMER</name>
+		<item_type>16</item_type>
+		<fla_index>33</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14034</item_index>
+		<name>Title_KARD</name>
+		<item_type>16</item_type>
+		<fla_index>34</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14035</item_index>
+		<name>Title_SPAS12</name>
+		<item_type>16</item_type>
+		<fla_index>35</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14036</item_index>
+		<name>Title_Px4 STORM</name>
+		<item_type>16</item_type>
+		<fla_index>36</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14037</item_index>
+		<name>Title_Frag granade</name>
+		<item_type>16</item_type>
+		<fla_index>37</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14038</item_index>
+		<name>Title_Semtex granade</name>
+		<item_type>16</item_type>
+		<fla_index>38</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14039</item_index>
+		<name>Title_원격 폭탄</name>
+		<item_type>16</item_type>
+		<fla_index>39</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14040</item_index>
+		<name>Title_S mine</name>
+		<item_type>16</item_type>
+		<fla_index>40</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14041</item_index>
+		<name>Title_Claymore</name>
+		<item_type>16</item_type>
+		<fla_index>41</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14042</item_index>
+		<name>Title_Incendiary granade</name>
+		<item_type>16</item_type>
+		<fla_index>42</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14043</item_index>
+		<name>Title_Explosive knife</name>
+		<item_type>16</item_type>
+		<fla_index>43</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14044</item_index>
+		<name>Title_Throwing knife</name>
+		<item_type>16</item_type>
+		<fla_index>44</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14045</item_index>
+		<name>Title_Throwing axe</name>
+		<item_type>16</item_type>
+		<fla_index>45</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14046</item_index>
+		<name>Title_Flash granade</name>
+		<item_type>16</item_type>
+		<fla_index>46</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14047</item_index>
+		<name>Title_Shock granade</name>
+		<item_type>16</item_type>
+		<fla_index>47</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14048</item_index>
+		<name>Title_EMP granade</name>
+		<item_type>16</item_type>
+		<fla_index>48</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14049</item_index>
+		<name>Title_Teargas granade</name>
+		<item_type>16</item_type>
+		<fla_index>49</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14050</item_index>
+		<name>Title_Smokde granade</name>
+		<item_type>16</item_type>
+		<fla_index>50</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14051</item_index>
+		<name>Title_Decoy granade</name>
+		<item_type>16</item_type>
+		<fla_index>51</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14052</item_index>
+		<name>Title_스파이는 누구?</name>
+		<item_type>16</item_type>
+		<fla_index>52</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14053</item_index>
+		<name>Title_내가 어디에 있게?</name>
+		<item_type>16</item_type>
+		<fla_index>53</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14054</item_index>
+		<name>Title_창공의 감시자</name>
+		<item_type>16</item_type>
+		<fla_index>54</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14055</item_index>
+		<name>Title_아무도 모르게</name>
+		<item_type>16</item_type>
+		<fla_index>55</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14056</item_index>
+		<name>Title_반딧불이야 날아라</name>
+		<item_type>16</item_type>
+		<fla_index>56</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14057</item_index>
+		<name>Title_조용한 집착</name>
+		<item_type>16</item_type>
+		<fla_index>57</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14058</item_index>
+		<name>Title_사족보행의 우월함</name>
+		<item_type>16</item_type>
+		<fla_index>58</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14059</item_index>
+		<name>Title_버블 팝</name>
+		<item_type>16</item_type>
+		<fla_index>59</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14060</item_index>
+		<name>Title_심판의 칼날</name>
+		<item_type>16</item_type>
+		<fla_index>60</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14061</item_index>
+		<name>Title_신사</name>
+		<item_type>16</item_type>
+		<fla_index>61</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14062</item_index>
+		<name>Title_외눈박이</name>
+		<item_type>16</item_type>
+		<fla_index>62</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14063</item_index>
+		<name>Title_잡았다!</name>
+		<item_type>16</item_type>
+		<fla_index>63</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14064</item_index>
+		<name>Title_웃어요</name>
+		<item_type>16</item_type>
+		<fla_index>64</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14065</item_index>
+		<name>Title_딱따구리</name>
+		<item_type>16</item_type>
+		<fla_index>65</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14066</item_index>
+		<name>Title_날벼락</name>
+		<item_type>16</item_type>
+		<fla_index>66</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14067</item_index>
+		<name>Title_강철의 사신</name>
+		<item_type>16</item_type>
+		<fla_index>67</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14068</item_index>
+		<name>Title_세일기간</name>
+		<item_type>16</item_type>
+		<fla_index>68</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14069</item_index>
+		<name>Title_폭포</name>
+		<item_type>16</item_type>
+		<fla_index>69</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14070</item_index>
+		<name>Title_끝없는 군생활</name>
+		<item_type>16</item_type>
+		<fla_index>70</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14071</item_index>
+		<name>Title_환상의 휴양지</name>
+		<item_type>16</item_type>
+		<fla_index>71</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14072</item_index>
+		<name>Title_안녕 외계인</name>
+		<item_type>16</item_type>
+		<fla_index>72</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14073</item_index>
+		<name>Title_바 파티</name>
+		<item_type>16</item_type>
+		<fla_index>73</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14074</item_index>
+		<name>Title_비린내 나는 부둣가</name>
+		<item_type>16</item_type>
+		<fla_index>74</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14075</item_index>
+		<name>Title_퐁네프의 다리 </name>
+		<item_type>16</item_type>
+		<fla_index>75</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14076</item_index>
+		<name>Title_속보입니다</name>
+		<item_type>16</item_type>
+		<fla_index>76</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14077</item_index>
+		<name>Title_미사일을 발사합니다</name>
+		<item_type>16</item_type>
+		<fla_index>77</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14078</item_index>
+		<name>Title_머나먼 정글</name>
+		<item_type>16</item_type>
+		<fla_index>78</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14079</item_index>
+		<name>Title_수확의 계절</name>
+		<item_type>16</item_type>
+		<fla_index>79</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14080</item_index>
+		<name>Title_대장간</name>
+		<item_type>16</item_type>
+		<fla_index>80</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14081</item_index>
+		<name>Title_방없음</name>
+		<item_type>16</item_type>
+		<fla_index>81</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14082</item_index>
+		<name>Title_여권이 없다!</name>
+		<item_type>16</item_type>
+		<fla_index>82</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14083</item_index>
+		<name>Title_마도로스</name>
+		<item_type>16</item_type>
+		<fla_index>83</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14084</item_index>
+		<name>Title_고소공포증</name>
+		<item_type>16</item_type>
+		<fla_index>84</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14085</item_index>
+		<name>Title_레벨 10</name>
+		<item_type>16</item_type>
+		<fla_index>85</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14086</item_index>
+		<name>Title_레벨 20</name>
+		<item_type>16</item_type>
+		<fla_index>86</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14087</item_index>
+		<name>Title_레벨 30</name>
+		<item_type>16</item_type>
+		<fla_index>87</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14088</item_index>
+		<name>Title_레벨 40</name>
+		<item_type>16</item_type>
+		<fla_index>88</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14089</item_index>
+		<name>Title_레벨 50</name>
+		<item_type>16</item_type>
+		<fla_index>89</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14090</item_index>
+		<name>Title_레벨 60</name>
+		<item_type>16</item_type>
+		<fla_index>90</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14091</item_index>
+		<name>Title_레벨 70</name>
+		<item_type>16</item_type>
+		<fla_index>91</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14092</item_index>
+		<name>Title_레벨 80</name>
+		<item_type>16</item_type>
+		<fla_index>92</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14093</item_index>
+		<name>Title_레벨 90</name>
+		<item_type>16</item_type>
+		<fla_index>93</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14094</item_index>
+		<name>Title_친구아이가</name>
+		<item_type>16</item_type>
+		<fla_index>94</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14095</item_index>
+		<name>Title_파티홀릭</name>
+		<item_type>16</item_type>
+		<fla_index>95</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14096</item_index>
+		<name>Title_우리는 강하다</name>
+		<item_type>16</item_type>
+		<fla_index>96</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14097</item_index>
+		<name>Title_무릎 연골 파괴자</name>
+		<item_type>16</item_type>
+		<fla_index>97</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14098</item_index>
+		<name>Title_침대보다 편안함</name>
+		<item_type>16</item_type>
+		<fla_index>98</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14099</item_index>
+		<name>Title_날라차기</name>
+		<item_type>16</item_type>
+		<fla_index>99</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14100</item_index>
+		<name>Title_다중처리 능력자</name>
+		<item_type>16</item_type>
+		<fla_index>100</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14101</item_index>
+		<name>Title_꿰어야 보배</name>
+		<item_type>16</item_type>
+		<fla_index>101</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14102</item_index>
+		<name>Title_럭키세븐</name>
+		<item_type>16</item_type>
+		<fla_index>102</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14103</item_index>
+		<name>Title_3관왕</name>
+		<item_type>16</item_type>
+		<fla_index>103</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14104</item_index>
+		<name>Title_5관왕</name>
+		<item_type>16</item_type>
+		<fla_index>104</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14105</item_index>
+		<name>Title_1석 2조</name>
+		<item_type>16</item_type>
+		<fla_index>105</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14106</item_index>
+		<name>Title_1석 3조</name>
+		<item_type>16</item_type>
+		<fla_index>106</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14107</item_index>
+		<name>Title_집중!</name>
+		<item_type>16</item_type>
+		<fla_index>107</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14108</item_index>
+		<name>Title_돌격소총 집착증</name>
+		<item_type>16</item_type>
+		<fla_index>108</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14109</item_index>
+		<name>Title_기관단총 집착증</name>
+		<item_type>16</item_type>
+		<fla_index>109</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14110</item_index>
+		<name>Title_저격소총 집착증</name>
+		<item_type>16</item_type>
+		<fla_index>110</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14111</item_index>
+		<name>Title_경기관총 집착증</name>
+		<item_type>16</item_type>
+		<fla_index>111</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14112</item_index>
+		<name>Title_보조무기 집착증</name>
+		<item_type>16</item_type>
+		<fla_index>112</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14113</item_index>
+		<name>Title_머니! 머니!</name>
+		<item_type>16</item_type>
+		<fla_index>113</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14114</item_index>
+		<name>Title_인력시장</name>
+		<item_type>16</item_type>
+		<fla_index>114</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14115</item_index>
+		<name>Title_숙제 끝!</name>
+		<item_type>16</item_type>
+		<fla_index>115</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14116</item_index>
+		<name>Title_AR 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>116</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14117</item_index>
+		<name>Title_SMG 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>117</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14118</item_index>
+		<name>Title_SR 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>118</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14119</item_index>
+		<name>Title_LMG 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>119</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14120</item_index>
+		<name>Title_투척무기 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>120</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14121</item_index>
+		<name>Title_칼 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>121</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14122</item_index>
+		<name>Title_투척날붙이 광신자</name>
+		<item_type>16</item_type>
+		<fla_index>122</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14123</item_index>
+		<name>Title_소총보다 보조무기</name>
+		<item_type>16</item_type>
+		<fla_index>123</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14124</item_index>
+		<name>Title_내가 찍었어</name>
+		<item_type>16</item_type>
+		<fla_index>124</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14125</item_index>
+		<name>Title_환상속의 그대</name>
+		<item_type>16</item_type>
+		<fla_index>125</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14126</item_index>
+		<name>Title_최후의 생존자</name>
+		<item_type>16</item_type>
+		<fla_index>126</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14127</item_index>
+		<name>Title_남들보다 빠르게</name>
+		<item_type>16</item_type>
+		<fla_index>127</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14128</item_index>
+		<name>Title_승리자!</name>
+		<item_type>16</item_type>
+		<fla_index>128</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14129</item_index>
+		<name>Title_최고의 킬러(팀섬멸)</name>
+		<item_type>16</item_type>
+		<fla_index>129</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14130</item_index>
+		<name>Title_절멸자</name>
+		<item_type>16</item_type>
+		<fla_index>130</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14131</item_index>
+		<name>Title_틱톡틱톡</name>
+		<item_type>16</item_type>
+		<fla_index>131</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14132</item_index>
+		<name>Title_빨간 선? 파란 선? </name>
+		<item_type>16</item_type>
+		<fla_index>132</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14133</item_index>
+		<name>Title_폭탄마</name>
+		<item_type>16</item_type>
+		<fla_index>133</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14134</item_index>
+		<name>Title_체리피커</name>
+		<item_type>16</item_type>
+		<fla_index>134</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14135</item_index>
+		<name>Title_최고의 킬러(점령)</name>
+		<item_type>16</item_type>
+		<fla_index>135</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14136</item_index>
+		<name>Title_지배자</name>
+		<item_type>16</item_type>
+		<fla_index>136</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14137</item_index>
+		<name>Title_M320 GLM</name>
+		<item_type>16</item_type>
+		<fla_index>137</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14138</item_index>
+		<name>Title_default2</name>
+		<item_type>16</item_type>
+		<fla_index>138</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14139</item_index>
+		<name>Title_default3</name>
+		<item_type>16</item_type>
+		<fla_index>139</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14140</item_index>
+		<name>Title_default4</name>
+		<item_type>16</item_type>
+		<fla_index>140</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14141</item_index>
+		<name>Title_알파테스트</name>
+		<item_type>16</item_type>
+		<fla_index>141</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14142</item_index>
+		<name>Title_VIP테스트</name>
+		<item_type>16</item_type>
+		<fla_index>142</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14143</item_index>
+		<name>Title_정보수집가</name>
+		<item_type>16</item_type>
+		<fla_index>143</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>22006</item_index>
+		<name>WOODLAND KARD</name>
+		<item_type>1</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20001</item_index>
+		<name>WOODLAND AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20002</item_index>
+		<name>WOODLAND G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20003</item_index>
+		<name>WOODLAND FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20004</item_index>
+		<name>WOODLAND M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20005</item_index>
+		<name>WOODLAND AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20006</item_index>
+		<name>WOODLAND AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20007</item_index>
+		<name>WOODLAND SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20008</item_index>
+		<name>WOODLAND M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20009</item_index>
+		<name>WOODLAND ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20010</item_index>
+		<name>WOODLAND SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20011</item_index>
+		<name>WOODLAND AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20012</item_index>
+		<name>WOODLAND K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20013</item_index>
+		<name>WOODLAND SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20014</item_index>
+		<name>WOODLAND HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20015</item_index>
+		<name>WOODLAND TAR-21</name>
+		<item_type>0</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20016</item_index>
+		<name>WOODLAND MSBBS 556B</name>
+		<item_type>0</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20017</item_index>
+		<name>WOODLAND MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20018</item_index>
+		<name>WOODLAND P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20019</item_index>
+		<name>WOODLAND PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20020</item_index>
+		<name>WOODLAND MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20021</item_index>
+		<name>WOODLAND VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20022</item_index>
+		<name>WOODLAND PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20023</item_index>
+		<name>WOODLAND PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20025</item_index>
+		<name>WOODLAND DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20026</item_index>
+		<name>WOODLAND SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20027</item_index>
+		<name>WOODLAND BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20028</item_index>
+		<name>WOODLAND CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20029</item_index>
+		<name>WOODLAND ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20030</item_index>
+		<name>WOODLAND MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20031</item_index>
+		<name>WOODLAND PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20032</item_index>
+		<name>WOODLAND MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>22101</item_index>
+		<name>DIGITAL TAC-OPS</name>
+		<item_type>1</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>22102</item_index>
+		<name>DIGITAL Desert Eagle</name>
+		<item_type>1</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>22103</item_index>
+		<name>DIGITAL Python</name>
+		<item_type>1</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>22104</item_index>
+		<name>DIGITAL KARD</name>
+		<item_type>1</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20101</item_index>
+		<name>DIGITAL AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20102</item_index>
+		<name>DIGITAL G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20103</item_index>
+		<name>DIGITAL FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20104</item_index>
+		<name>DIGITAL M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20105</item_index>
+		<name>DIGITAL AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20106</item_index>
+		<name>DIGITAL AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20107</item_index>
+		<name>DIGITAL SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20108</item_index>
+		<name>DIGITAL M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20109</item_index>
+		<name>DIGITAL ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20110</item_index>
+		<name>DIGITAL SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20111</item_index>
+		<name>DIGITAL AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20112</item_index>
+		<name>DIGITAL K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20113</item_index>
+		<name>DIGITAL SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20114</item_index>
+		<name>DIGITAL HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20117</item_index>
+		<name>DIGITAL MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20118</item_index>
+		<name>DIGITAL P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20119</item_index>
+		<name>DIGITAL PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20120</item_index>
+		<name>DIGITAL MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20121</item_index>
+		<name>DIGITAL VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20122</item_index>
+		<name>DIGITAL PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20123</item_index>
+		<name>DIGITAL PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20125</item_index>
+		<name>DIGITAL DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20126</item_index>
+		<name>DIGITAL SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20127</item_index>
+		<name>DIGITAL BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20128</item_index>
+		<name>DIGITAL CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20129</item_index>
+		<name>DIGITAL ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20130</item_index>
+		<name>DIGITAL MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20131</item_index>
+		<name>DIGITAL PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20132</item_index>
+		<name>DIGITAL MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20201</item_index>
+		<name>DESERT AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20202</item_index>
+		<name>DESERT G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20203</item_index>
+		<name>DESERT FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20204</item_index>
+		<name>DESERT M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20205</item_index>
+		<name>DESERT AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20206</item_index>
+		<name>DESERT AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20207</item_index>
+		<name>DESERT SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20208</item_index>
+		<name>DESERT M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20209</item_index>
+		<name>DESERT ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20210</item_index>
+		<name>DESERT SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20211</item_index>
+		<name>DESERT AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20212</item_index>
+		<name>DESERT K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20213</item_index>
+		<name>DESERT SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20214</item_index>
+		<name>DESERT HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20217</item_index>
+		<name>DESERT MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20218</item_index>
+		<name>DESERT P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20219</item_index>
+		<name>DESERT PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20220</item_index>
+		<name>DESERT MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20221</item_index>
+		<name>DESERT VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20222</item_index>
+		<name>DESERT PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20223</item_index>
+		<name>DESERT PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20225</item_index>
+		<name>DESERT DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20226</item_index>
+		<name>DESERT SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20227</item_index>
+		<name>DESERT BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20228</item_index>
+		<name>DESERT CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20229</item_index>
+		<name>DESERT ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20230</item_index>
+		<name>DESERT MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20231</item_index>
+		<name>DESERT PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20232</item_index>
+		<name>DESERT MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20301</item_index>
+		<name>ARCTIC AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20302</item_index>
+		<name>ARCTIC G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20303</item_index>
+		<name>ARCTIC FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20304</item_index>
+		<name>ARCTIC M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20305</item_index>
+		<name>ARCTIC AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20306</item_index>
+		<name>ARCTIC AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20307</item_index>
+		<name>ARCTIC SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20308</item_index>
+		<name>ARCTIC M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20309</item_index>
+		<name>ARCTIC ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20310</item_index>
+		<name>ARCTIC SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20311</item_index>
+		<name>ARCTIC AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20312</item_index>
+		<name>ARCTIC K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20313</item_index>
+		<name>ARCTIC SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20314</item_index>
+		<name>ARCTIC HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20317</item_index>
+		<name>ARCTIC MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20318</item_index>
+		<name>ARCTIC P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20319</item_index>
+		<name>ARCTIC PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20320</item_index>
+		<name>ARCTIC MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20321</item_index>
+		<name>ARCTIC VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20322</item_index>
+		<name>ARCTIC PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20323</item_index>
+		<name>ARCTIC PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20325</item_index>
+		<name>ARCTIC DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20326</item_index>
+		<name>ARCTIC SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20327</item_index>
+		<name>ARCTIC BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20328</item_index>
+		<name>ARCTIC CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20329</item_index>
+		<name>ARCTIC ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20330</item_index>
+		<name>ARCTIC MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20331</item_index>
+		<name>ARCTIC PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20332</item_index>
+		<name>ARCTIC MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20401</item_index>
+		<name>MULTICAM AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20402</item_index>
+		<name>MULTICAM G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20403</item_index>
+		<name>MULTICAM FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20404</item_index>
+		<name>MULTICAM M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20405</item_index>
+		<name>MULTICAM AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20406</item_index>
+		<name>MULTICAM AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20407</item_index>
+		<name>MULTICAM SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20408</item_index>
+		<name>MULTICAM M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20409</item_index>
+		<name>MULTICAM ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20410</item_index>
+		<name>MULTICAM SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20411</item_index>
+		<name>MULTICAM AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20412</item_index>
+		<name>MULTICAM K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20413</item_index>
+		<name>MULTICAM SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20414</item_index>
+		<name>MULTICAM HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20417</item_index>
+		<name>MULTICAM MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20418</item_index>
+		<name>MULTICAM P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20419</item_index>
+		<name>MULTICAM PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20420</item_index>
+		<name>MULTICAM MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20421</item_index>
+		<name>MULTICAM VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20422</item_index>
+		<name>MULTICAM PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20423</item_index>
+		<name>MULTICAM PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20425</item_index>
+		<name>MULTICAM DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20426</item_index>
+		<name>MULTICAM SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20427</item_index>
+		<name>MULTICAM BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20428</item_index>
+		<name>MULTICAM CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20429</item_index>
+		<name>MULTICAM ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20430</item_index>
+		<name>MULTICAM MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20431</item_index>
+		<name>MULTICAM PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20432</item_index>
+		<name>MULTICAM MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20501</item_index>
+		<name>BLUE AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20502</item_index>
+		<name>BLUE G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20503</item_index>
+		<name>BLUE FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20504</item_index>
+		<name>BLUE M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20505</item_index>
+		<name>BLUE AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20506</item_index>
+		<name>BLUE AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20507</item_index>
+		<name>BLUE SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20508</item_index>
+		<name>BLUE M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20509</item_index>
+		<name>BLUE ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20510</item_index>
+		<name>BLUE SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20511</item_index>
+		<name>BLUE AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20512</item_index>
+		<name>BLUE K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20513</item_index>
+		<name>BLUE SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20514</item_index>
+		<name>BLUE HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20517</item_index>
+		<name>BLUE MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20518</item_index>
+		<name>BLUE P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20519</item_index>
+		<name>BLUE PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20520</item_index>
+		<name>BLUE MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20521</item_index>
+		<name>BLUE VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20522</item_index>
+		<name>BLUE PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20523</item_index>
+		<name>BLUE PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20525</item_index>
+		<name>BLUE DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20526</item_index>
+		<name>BLUE SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20527</item_index>
+		<name>BLUE BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20528</item_index>
+		<name>BLUE CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20529</item_index>
+		<name>BLUE ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20530</item_index>
+		<name>BLUE MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20531</item_index>
+		<name>BLUE PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20532</item_index>
+		<name>BLUE MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20601</item_index>
+		<name>RED AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20602</item_index>
+		<name>RED G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20603</item_index>
+		<name>RED FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20604</item_index>
+		<name>RED M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20605</item_index>
+		<name>RED AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20606</item_index>
+		<name>RED AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20607</item_index>
+		<name>RED SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20608</item_index>
+		<name>RED M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20609</item_index>
+		<name>RED ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20610</item_index>
+		<name>RED SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20611</item_index>
+		<name>RED AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20612</item_index>
+		<name>RED K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20613</item_index>
+		<name>RED SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20614</item_index>
+		<name>RED HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20617</item_index>
+		<name>RED MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20618</item_index>
+		<name>RED P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20619</item_index>
+		<name>RED PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20620</item_index>
+		<name>RED MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20621</item_index>
+		<name>RED VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20622</item_index>
+		<name>RED PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20623</item_index>
+		<name>RED PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20625</item_index>
+		<name>RED DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20626</item_index>
+		<name>RED SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20627</item_index>
+		<name>RED BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20628</item_index>
+		<name>RED CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20629</item_index>
+		<name>RED ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20630</item_index>
+		<name>RED MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20631</item_index>
+		<name>RED PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20632</item_index>
+		<name>RED MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20701</item_index>
+		<name>LEOPARD AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20702</item_index>
+		<name>LEOPARD G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20703</item_index>
+		<name>LEOPARD FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20704</item_index>
+		<name>LEOPARD M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20705</item_index>
+		<name>LEOPARD AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20706</item_index>
+		<name>LEOPARD AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20707</item_index>
+		<name>LEOPARD SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20708</item_index>
+		<name>LEOPARD M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20709</item_index>
+		<name>LEOPARD ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20710</item_index>
+		<name>LEOPARD SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20711</item_index>
+		<name>LEOPARD AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20712</item_index>
+		<name>LEOPARD K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20713</item_index>
+		<name>LEOPARD SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20714</item_index>
+		<name>LEOPARD HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20717</item_index>
+		<name>LEOPARD MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20718</item_index>
+		<name>LEOPARD P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20719</item_index>
+		<name>LEOPARD PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20720</item_index>
+		<name>LEOPARD MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20721</item_index>
+		<name>LEOPARD VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20722</item_index>
+		<name>LEOPARD PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20723</item_index>
+		<name>LEOPARD PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20725</item_index>
+		<name>LEOPARD DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20726</item_index>
+		<name>LEOPARD SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20727</item_index>
+		<name>LEOPARD BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20728</item_index>
+		<name>LEOPARD CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20729</item_index>
+		<name>LEOPARD ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20730</item_index>
+		<name>LEOPARD MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20731</item_index>
+		<name>LEOPARD PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20732</item_index>
+		<name>LEOPARD MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20801</item_index>
+		<name>TIGER AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20802</item_index>
+		<name>TIGER G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20803</item_index>
+		<name>TIGER FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20804</item_index>
+		<name>TIGER M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20805</item_index>
+		<name>TIGER AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20806</item_index>
+		<name>TIGER AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20807</item_index>
+		<name>TIGER SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20808</item_index>
+		<name>TIGER M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20809</item_index>
+		<name>TIGER ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20810</item_index>
+		<name>TIGER SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20811</item_index>
+		<name>TIGER AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20812</item_index>
+		<name>TIGER K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20813</item_index>
+		<name>TIGER SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20814</item_index>
+		<name>TIGER HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20817</item_index>
+		<name>TIGER MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20818</item_index>
+		<name>TIGER P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20819</item_index>
+		<name>TIGER PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20820</item_index>
+		<name>TIGER MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20821</item_index>
+		<name>TIGER VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20822</item_index>
+		<name>TIGER PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20823</item_index>
+		<name>TIGER PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20825</item_index>
+		<name>TIGER DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20826</item_index>
+		<name>TIGER SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20827</item_index>
+		<name>TIGER BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20828</item_index>
+		<name>TIGER CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20829</item_index>
+		<name>TIGER ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20830</item_index>
+		<name>TIGER MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20831</item_index>
+		<name>TIGER PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20832</item_index>
+		<name>TIGER MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20901</item_index>
+		<name>ZEBRA AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20902</item_index>
+		<name>ZEBRA G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20903</item_index>
+		<name>ZEBRA FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20904</item_index>
+		<name>ZEBRA M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20905</item_index>
+		<name>ZEBRA AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20906</item_index>
+		<name>ZEBRA AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20907</item_index>
+		<name>ZEBRA SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20908</item_index>
+		<name>ZEBRA M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20909</item_index>
+		<name>ZEBRA ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20910</item_index>
+		<name>ZEBRA SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20911</item_index>
+		<name>ZEBRA AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20912</item_index>
+		<name>ZEBRA K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20913</item_index>
+		<name>ZEBRA SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20914</item_index>
+		<name>ZEBRA HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20917</item_index>
+		<name>ZEBRA MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20918</item_index>
+		<name>ZEBRA P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20919</item_index>
+		<name>ZEBRA PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20920</item_index>
+		<name>ZEBRA MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20921</item_index>
+		<name>ZEBRA VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20922</item_index>
+		<name>ZEBRA PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20923</item_index>
+		<name>ZEBRA PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20925</item_index>
+		<name>ZEBRA DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20926</item_index>
+		<name>ZEBRA SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20927</item_index>
+		<name>ZEBRA BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20928</item_index>
+		<name>ZEBRA CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20929</item_index>
+		<name>ZEBRA ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20930</item_index>
+		<name>ZEBRA MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20931</item_index>
+		<name>ZEBRA PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>20932</item_index>
+		<name>ZEBRA MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21001</item_index>
+		<name>SNAKE AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21002</item_index>
+		<name>SNAKE G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21003</item_index>
+		<name>SNAKE FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21004</item_index>
+		<name>SNAKE M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21005</item_index>
+		<name>SNAKE AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21006</item_index>
+		<name>SNAKE AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21007</item_index>
+		<name>SNAKE SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21008</item_index>
+		<name>SNAKE M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21009</item_index>
+		<name>SNAKE ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21010</item_index>
+		<name>SNAKE SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21011</item_index>
+		<name>SNAKE AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21012</item_index>
+		<name>SNAKE K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21013</item_index>
+		<name>SNAKE SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21014</item_index>
+		<name>SNAKE HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21017</item_index>
+		<name>SNAKE MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21018</item_index>
+		<name>SNAKE P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21019</item_index>
+		<name>SNAKE PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21020</item_index>
+		<name>SNAKE MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21021</item_index>
+		<name>SNAKE VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21022</item_index>
+		<name>SNAKE PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21023</item_index>
+		<name>SNAKE PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21025</item_index>
+		<name>SNAKE DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21026</item_index>
+		<name>SNAKE SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21027</item_index>
+		<name>SNAKE BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21028</item_index>
+		<name>SNAKE CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21029</item_index>
+		<name>SNAKE ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21030</item_index>
+		<name>SNAKE MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21031</item_index>
+		<name>SNAKE PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21032</item_index>
+		<name>SNAKE MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21101</item_index>
+		<name>ALLIGATOR AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21102</item_index>
+		<name>ALLIGATOR G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21103</item_index>
+		<name>ALLIGATOR FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21104</item_index>
+		<name>ALLIGATOR M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21105</item_index>
+		<name>ALLIGATOR AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21106</item_index>
+		<name>ALLIGATOR AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21107</item_index>
+		<name>ALLIGATOR SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21108</item_index>
+		<name>ALLIGATOR M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21109</item_index>
+		<name>ALLIGATOR ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21110</item_index>
+		<name>ALLIGATOR SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21111</item_index>
+		<name>ALLIGATOR AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21112</item_index>
+		<name>ALLIGATOR K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21113</item_index>
+		<name>ALLIGATOR SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21114</item_index>
+		<name>ALLIGATOR HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21117</item_index>
+		<name>ALLIGATOR MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21118</item_index>
+		<name>ALLIGATOR P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21119</item_index>
+		<name>ALLIGATOR PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21120</item_index>
+		<name>ALLIGATOR MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21121</item_index>
+		<name>ALLIGATOR VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21122</item_index>
+		<name>ALLIGATOR PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21123</item_index>
+		<name>ALLIGATOR PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21125</item_index>
+		<name>ALLIGATOR DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21126</item_index>
+		<name>ALLIGATOR SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21127</item_index>
+		<name>ALLIGATOR BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21128</item_index>
+		<name>ALLIGATOR CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21129</item_index>
+		<name>ALLIGATOR ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21130</item_index>
+		<name>ALLIGATOR MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21131</item_index>
+		<name>ALLIGATOR PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21132</item_index>
+		<name>ALLIGATOR MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21201</item_index>
+		<name>GOLD AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21202</item_index>
+		<name>GOLD G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21203</item_index>
+		<name>GOLD FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21204</item_index>
+		<name>GOLD M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21205</item_index>
+		<name>GOLD AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21206</item_index>
+		<name>GOLD AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21207</item_index>
+		<name>GOLD SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21208</item_index>
+		<name>GOLD M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21209</item_index>
+		<name>GOLD ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21210</item_index>
+		<name>GOLD SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21211</item_index>
+		<name>GOLD AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21212</item_index>
+		<name>GOLD K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21213</item_index>
+		<name>GOLD SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21214</item_index>
+		<name>GOLD HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21217</item_index>
+		<name>GOLD MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21218</item_index>
+		<name>GOLD P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21219</item_index>
+		<name>GOLD PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21220</item_index>
+		<name>GOLD MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21221</item_index>
+		<name>GOLD VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21222</item_index>
+		<name>GOLD PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21223</item_index>
+		<name>GOLD PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21225</item_index>
+		<name>GOLD DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21226</item_index>
+		<name>GOLD SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21227</item_index>
+		<name>GOLD BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21228</item_index>
+		<name>GOLD CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21229</item_index>
+		<name>GOLD ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21230</item_index>
+		<name>GOLD MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21231</item_index>
+		<name>GOLD PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21232</item_index>
+		<name>GOLD MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21301</item_index>
+		<name>HOLOGRAHIC AK12</name>
+		<item_type>0</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21302</item_index>
+		<name>HOLOGRAHIC G36C</name>
+		<item_type>0</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21303</item_index>
+		<name>HOLOGRAHIC FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21304</item_index>
+		<name>HOLOGRAHIC M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21305</item_index>
+		<name>HOLOGRAHIC AUGA3</name>
+		<item_type>0</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21306</item_index>
+		<name>HOLOGRAHIC AK47</name>
+		<item_type>0</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21307</item_index>
+		<name>HOLOGRAHIC SA58OSW</name>
+		<item_type>0</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21308</item_index>
+		<name>HOLOGRAHIC M39EMR</name>
+		<item_type>0</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21309</item_index>
+		<name>HOLOGRAHIC ARX160</name>
+		<item_type>0</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21310</item_index>
+		<name>HOLOGRAHIC SG553</name>
+		<item_type>0</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21311</item_index>
+		<name>HOLOGRAHIC AR57</name>
+		<item_type>0</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21312</item_index>
+		<name>HOLOGRAHIC K2C</name>
+		<item_type>0</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21313</item_index>
+		<name>HOLOGRAHIC SCAR-H</name>
+		<item_type>0</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21314</item_index>
+		<name>HOLOGRAHIC HK417</name>
+		<item_type>0</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21317</item_index>
+		<name>HOLOGRAHIC MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21318</item_index>
+		<name>HOLOGRAHIC P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21319</item_index>
+		<name>HOLOGRAHIC PP90M1</name>
+		<item_type>0</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21320</item_index>
+		<name>HOLOGRAHIC MP5A5</name>
+		<item_type>0</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21321</item_index>
+		<name>HOLOGRAHIC VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21322</item_index>
+		<name>HOLOGRAHIC PP2000</name>
+		<item_type>0</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21323</item_index>
+		<name>HOLOGRAHIC PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21325</item_index>
+		<name>HOLOGRAHIC DSR1</name>
+		<item_type>0</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21326</item_index>
+		<name>HOLOGRAHIC SVD</name>
+		<item_type>0</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21327</item_index>
+		<name>HOLOGRAHIC BLASER93</name>
+		<item_type>0</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21328</item_index>
+		<name>HOLOGRAHIC CF-X50</name>
+		<item_type>0</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21329</item_index>
+		<name>HOLOGRAHIC ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21330</item_index>
+		<name>HOLOGRAHIC MG3</name>
+		<item_type>0</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21331</item_index>
+		<name>HOLOGRAHIC PKP</name>
+		<item_type>0</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>21332</item_index>
+		<name>HOLOGRAHIC MK46</name>
+		<item_type>0</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30001</item_index>
+		<name>FIRE MONKEY AK-12</name>
+		<item_type>0</item_type>
+		<fla_index>33</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30002</item_index>
+		<name>FIRE MONKEY pp2000</name>
+		<item_type>0</item_type>
+		<fla_index>34</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30003</item_index>
+		<name>FIRE MONKEY DSR-1</name>
+		<item_type>0</item_type>
+		<fla_index>35</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30004</item_index>
+		<name>RED GOD M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>36</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30005</item_index>
+		<name>ANGRY MONKEY AR-57</name>
+		<item_type>0</item_type>
+		<fla_index>37</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30006</item_index>
+		<name>ANGRY MONKEY FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>38</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30007</item_index>
+		<name>ANGRY MONKEY MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>39</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30008</item_index>
+		<name>ANGRY MONKEY BLASER 93</name>
+		<item_type>0</item_type>
+		<fla_index>40</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30009</item_index>
+		<name>CELEBRATIONS M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>41</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30010</item_index>
+		<name>CELEBRATIONS AK-12</name>
+		<item_type>0</item_type>
+		<fla_index>42</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30011</item_index>
+		<name>CELEBRATIONS VECTOR</name>
+		<item_type>0</item_type>
+		<fla_index>43</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30012</item_index>
+		<name>CELEBRATIONS SVD</name>
+		<item_type>0</item_type>
+		<fla_index>44</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30013</item_index>
+		<name>CELEBRATIONS DSR-1</name>
+		<item_type>0</item_type>
+		<fla_index>45</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30014</item_index>
+		<name>CELEBRATIONS FAMAS</name>
+		<item_type>0</item_type>
+		<fla_index>46</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30015</item_index>
+		<name>CELEBRATIONS ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>47</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30016</item_index>
+		<name>CELEBRATIONS PDR-C</name>
+		<item_type>0</item_type>
+		<fla_index>48</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30017</item_index>
+		<name>16 SPRING M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>49</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30018</item_index>
+		<name>16 SPRING AK-12</name>
+		<item_type>0</item_type>
+		<fla_index>50</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30019</item_index>
+		<name>16 SPRING SVD</name>
+		<item_type>0</item_type>
+		<fla_index>51</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30020</item_index>
+		<name>16 SPRING MP7A1</name>
+		<item_type>0</item_type>
+		<fla_index>52</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30021</item_index>
+		<name>COLORFUL PIXEL K2C</name>
+		<item_type>0</item_type>
+		<fla_index>53</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30022</item_index>
+		<name>COLORFUL PIXEL DSR-1</name>
+		<item_type>0</item_type>
+		<fla_index>54</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30023</item_index>
+		<name>COLORFUL PIXEL P90TR</name>
+		<item_type>0</item_type>
+		<fla_index>55</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30024</item_index>
+		<name>COLORFUL PIXEL ULTIMAX</name>
+		<item_type>0</item_type>
+		<fla_index>56</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30025</item_index>
+		<name>CITY ARX-160</name>
+		<item_type>0</item_type>
+		<fla_index>57</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30026</item_index>
+		<name>CITY M4ACCM</name>
+		<item_type>0</item_type>
+		<fla_index>58</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30027</item_index>
+		<name>CITY MG3</name>
+		<item_type>0</item_type>
+		<fla_index>59</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30028</item_index>
+		<name>CITY DSR-1</name>
+		<item_type>0</item_type>
+		<fla_index>60</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30033</item_index>
+		<name>FIRE MONKEY CLEARSIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30034</item_index>
+		<name>FIRE MONKEY VARIANT SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30035</item_index>
+		<name>ANGRY MONKEY GLOW SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30036</item_index>
+		<name>ANGRY MONKEY HOLOGRAPHIC SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30037</item_index>
+		<name>RED GOD Quick Shot</name>
+		<item_type>5</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30038</item_index>
+		<name>CELLEBRATION ACOG</name>
+		<item_type>5</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30039</item_index>
+		<name>CELLEBRATION Quick Shot</name>
+		<item_type>5</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30040</item_index>
+		<name>CELLEBRATION DETECT SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30041</item_index>
+		<name>CELLEBRATION HIT SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30042</item_index>
+		<name>16 SPRING CLEAR SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30043</item_index>
+		<name>16 SPRING HOLOGRAPHIC SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30044</item_index>
+		<name>16 SPRING  MONITOR SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30045</item_index>
+		<name>16 SPRING  VARIANT SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>24</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30046</item_index>
+		<name>PIXEL DETECT SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30047</item_index>
+		<name>PIXEL GLOW SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30048</item_index>
+		<name>PIXEL MONITOR SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30049</item_index>
+		<name>PIXEL CF SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30050</item_index>
+		<name>NIGHT CITY DETECT SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30051</item_index>
+		<name>NIGHT CITY ACOG</name>
+		<item_type>5</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30052</item_index>
+		<name>NIGHT CITY HIT SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30053</item_index>
+		<name>DANCING HOLOGRAPHIC SIGHT</name>
+		<item_type>5</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30054</item_index>
+		<name>DANCING Quick Shot</name>
+		<item_type>5</item_type>
+		<fla_index>33</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>30055</item_index>
+		<name>DANCING  VARIANT SCOPE</name>
+		<item_type>5</item_type>
+		<fla_index>34</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9001</item_index>
+		<name>GP</name>
+		<item_type>99</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9002</item_index>
+		<name>CHIP</name>
+		<item_type>99</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>14143</item_index>
+		<name>Title_정보수집가</name>
+		<item_type>16</item_type>
+		<fla_index>143</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8001</item_index>
+		<name>클랜마크1</name>
+		<item_type>19</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8002</item_index>
+		<name>클랜마크2</name>
+		<item_type>19</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8003</item_index>
+		<name>클랜마크3</name>
+		<item_type>19</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8004</item_index>
+		<name>클랜마크4</name>
+		<item_type>19</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8005</item_index>
+		<name>클랜마크5</name>
+		<item_type>19</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8006</item_index>
+		<name>클랜마크6</name>
+		<item_type>19</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8007</item_index>
+		<name>클랜마크7</name>
+		<item_type>19</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8008</item_index>
+		<name>클랜마크8</name>
+		<item_type>19</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8009</item_index>
+		<name>클랜마크9</name>
+		<item_type>19</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8010</item_index>
+		<name>클랜마크10</name>
+		<item_type>19</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8011</item_index>
+		<name>클랜마크11</name>
+		<item_type>19</item_type>
+		<fla_index>11</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8012</item_index>
+		<name>클랜마크12</name>
+		<item_type>19</item_type>
+		<fla_index>12</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8013</item_index>
+		<name>클랜마크13</name>
+		<item_type>19</item_type>
+		<fla_index>13</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8014</item_index>
+		<name>클랜마크14</name>
+		<item_type>19</item_type>
+		<fla_index>14</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8015</item_index>
+		<name>클랜마크15</name>
+		<item_type>19</item_type>
+		<fla_index>15</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8016</item_index>
+		<name>클랜마크16</name>
+		<item_type>19</item_type>
+		<fla_index>16</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8017</item_index>
+		<name>클랜마크17</name>
+		<item_type>19</item_type>
+		<fla_index>17</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8018</item_index>
+		<name>클랜마크18</name>
+		<item_type>19</item_type>
+		<fla_index>18</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8019</item_index>
+		<name>클랜마크19</name>
+		<item_type>19</item_type>
+		<fla_index>19</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8020</item_index>
+		<name>클랜마크20</name>
+		<item_type>19</item_type>
+		<fla_index>20</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8021</item_index>
+		<name>클랜마크21</name>
+		<item_type>19</item_type>
+		<fla_index>21</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8022</item_index>
+		<name>클랜마크22</name>
+		<item_type>19</item_type>
+		<fla_index>22</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8023</item_index>
+		<name>클랜마크23</name>
+		<item_type>19</item_type>
+		<fla_index>23</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8024</item_index>
+		<name>클랜마크24</name>
+		<item_type>19</item_type>
+		<fla_index>24</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8025</item_index>
+		<name>클랜마크25</name>
+		<item_type>19</item_type>
+		<fla_index>25</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8026</item_index>
+		<name>클랜마크26</name>
+		<item_type>19</item_type>
+		<fla_index>26</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8027</item_index>
+		<name>클랜마크27</name>
+		<item_type>19</item_type>
+		<fla_index>27</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8028</item_index>
+		<name>클랜마크28</name>
+		<item_type>19</item_type>
+		<fla_index>28</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8029</item_index>
+		<name>클랜마크29</name>
+		<item_type>19</item_type>
+		<fla_index>29</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8030</item_index>
+		<name>클랜마크30</name>
+		<item_type>19</item_type>
+		<fla_index>30</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8031</item_index>
+		<name>클랜마크31</name>
+		<item_type>19</item_type>
+		<fla_index>31</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8032</item_index>
+		<name>클랜마크32</name>
+		<item_type>19</item_type>
+		<fla_index>32</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8033</item_index>
+		<name>클랜마크33</name>
+		<item_type>19</item_type>
+		<fla_index>33</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8034</item_index>
+		<name>클랜마크34</name>
+		<item_type>19</item_type>
+		<fla_index>34</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8035</item_index>
+		<name>클랜마크35</name>
+		<item_type>19</item_type>
+		<fla_index>35</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8036</item_index>
+		<name>클랜마크36</name>
+		<item_type>19</item_type>
+		<fla_index>36</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8037</item_index>
+		<name>클랜마크37</name>
+		<item_type>19</item_type>
+		<fla_index>37</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8038</item_index>
+		<name>클랜마크38</name>
+		<item_type>19</item_type>
+		<fla_index>38</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8039</item_index>
+		<name>클랜마크39</name>
+		<item_type>19</item_type>
+		<fla_index>39</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8040</item_index>
+		<name>클랜마크40</name>
+		<item_type>19</item_type>
+		<fla_index>40</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8041</item_index>
+		<name>클랜마크41</name>
+		<item_type>19</item_type>
+		<fla_index>41</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8042</item_index>
+		<name>클랜마크42</name>
+		<item_type>19</item_type>
+		<fla_index>42</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8043</item_index>
+		<name>클랜마크43</name>
+		<item_type>19</item_type>
+		<fla_index>43</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8044</item_index>
+		<name>클랜마크44</name>
+		<item_type>19</item_type>
+		<fla_index>44</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8045</item_index>
+		<name>클랜마크45</name>
+		<item_type>19</item_type>
+		<fla_index>45</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8046</item_index>
+		<name>클랜마크46</name>
+		<item_type>19</item_type>
+		<fla_index>46</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8047</item_index>
+		<name>클랜마크47</name>
+		<item_type>19</item_type>
+		<fla_index>47</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8048</item_index>
+		<name>클랜마크48</name>
+		<item_type>19</item_type>
+		<fla_index>48</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8049</item_index>
+		<name>클랜마크49</name>
+		<item_type>19</item_type>
+		<fla_index>49</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>8050</item_index>
+		<name>클랜마크50</name>
+		<item_type>19</item_type>
+		<fla_index>50</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9004</item_index>
+		<name>C_MoneySupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>1</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9005</item_index>
+		<name>B_MoneySupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>2</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9006</item_index>
+		<name>A_MoneySupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>3</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9007</item_index>
+		<name>C_WeaponSupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9008</item_index>
+		<name>B_WeaponSupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9009</item_index>
+		<name>A_WeaponSupplyBox</name>
+		<item_type>98</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9109</item_index>
+		<name>CS RANDOM BOX</name>
+		<item_type>98</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9003</item_index>
+		<name>RANDOM BOX</name>
+		<item_type>98</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9101</item_index>
+		<name>1 Chip Box</name>
+		<item_type>98</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9102</item_index>
+		<name>장비상자  1612</name>
+		<item_type>98</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9103</item_index>
+		<name>보조 장비상자 1612</name>
+		<item_type>98</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9104</item_index>
+		<name>영구제 장비상자 1612</name>
+		<item_type>98</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9105</item_index>
+		<name>장비상자  1701</name>
+		<item_type>98</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9106</item_index>
+		<name>보조 장비상자 1701</name>
+		<item_type>98</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9107</item_index>
+		<name>영구제 장비상자 1701</name>
+		<item_type>98</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9108</item_index>
+		<name>장비상자  1702</name>
+		<item_type>98</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9110</item_index>
+		<name>보조 장비상자 1702</name>
+		<item_type>98</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9111</item_index>
+		<name>영구제 장비상자 1702</name>
+		<item_type>98</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9112</item_index>
+		<name>장비상자  1703</name>
+		<item_type>98</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9113</item_index>
+		<name>보조 장비상자 1703</name>
+		<item_type>98</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9114</item_index>
+		<name>영구제 장비상자 1703</name>
+		<item_type>98</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9301</item_index>
+		<name>콜사인 변경권</name>
+		<item_type>99</item_type>
+		<fla_index>4</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9302</item_index>
+		<name>경험치 버프</name>
+		<item_type>99</item_type>
+		<fla_index>5</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9303</item_index>
+		<name>GP 버프</name>
+		<item_type>99</item_type>
+		<fla_index>6</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9304</item_index>
+		<name>개인 기록 초기화</name>
+		<item_type>99</item_type>
+		<fla_index>7</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9305</item_index>
+		<name>킬/데스 초기화</name>
+		<item_type>99</item_type>
+		<fla_index>8</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9306</item_index>
+		<name>개인 전적 초기화</name>
+		<item_type>99</item_type>
+		<fla_index>9</fla_index>
+	</fla_info>
+	<fla_info>
+		<item_index>9307</item_index>
+		<name>클랜명칭 변경권</name>
+		<item_type>99</item_type>
+		<fla_index>10</fla_index>
+	</fla_info>
+</item_fla_info>

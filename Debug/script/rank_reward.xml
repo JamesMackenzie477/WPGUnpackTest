@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rankrewardlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<rankreward>
+		<index>1</index>
+		<name>2016년 가을 시즌 브론즈</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>0</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>2</index>
+		<name>2016년 가을 시즌 브론즈 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>0</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>3</index>
+		<name>2016년 가을 시즌 실버</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>1000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>4</index>
+		<name>2016년 가을 시즌 실버 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>1000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>5</index>
+		<name>2016년 가을 시즌 골드</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>2000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>6</index>
+		<name>2016년 가을 시즌 골드 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>2000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>7</index>
+		<name>2016년 가을 시즌 플레티넘</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>3000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>8</index>
+		<name>2016년 가을 시즌 플레티넘 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>3000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>9</index>
+		<name>2016년 가을 시즌 다이아</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>4000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>10</index>
+		<name>2016년 가을 시즌 다이아 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>4000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>11</index>
+		<name>2016년 가을 시즌 전설</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>5000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>12</index>
+		<name>2016년 가을 시즌 전설 클랜</name>
+		<season_index>1</season_index>
+		<type>1</type>
+		<type_value>5000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>13</index>
+		<name>2016년 가을 시즌 상위 100</name>
+		<season_index>1</season_index>
+		<type>2</type>
+		<type_value>100</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>14</index>
+		<name>2017년 겨울 시즌 브론즈</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>0</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>15</index>
+		<name>2017년 겨울 시즌 브론즈 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>0</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>16</index>
+		<name>2017년 겨울 시즌 실버</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>1000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>17</index>
+		<name>2017년 겨울 시즌 실버 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>1000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>18</index>
+		<name>2017년 겨울 시즌 골드</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>2000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>19</index>
+		<name>2017년 겨울 시즌 골드 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>2000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>20</index>
+		<name>2017년 겨울 시즌 플레티넘</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>3000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>21</index>
+		<name>2017년 겨울 시즌 플레티넘 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>3000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>22</index>
+		<name>2017년 겨울 시즌 다이아</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>4000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>23</index>
+		<name>2017년 겨울 시즌 다이아 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>4000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>24</index>
+		<name>2017년 겨울 시즌 전설</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>5000</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>25</index>
+		<name>2017년 겨울 시즌 전설 클랜</name>
+		<season_index>3</season_index>
+		<type>1</type>
+		<type_value>5000</type_value>
+		<target>2</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+	<rankreward>
+		<index>26</index>
+		<name>2017년 겨울 시즌 상위 100</name>
+		<season_index>3</season_index>
+		<type>2</type>
+		<type_value>100</type_value>
+		<target>1</target>
+		<reward_item>0</reward_item>
+	</rankreward>
+</rankrewardlist>

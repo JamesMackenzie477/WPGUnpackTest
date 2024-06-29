@@ -1,0 +1,1299 @@
+// Stance 상태, 시점 상태, 액션상태, 애니메이션 정의
+STAND       ,FIRST          ,IDLE              ,IDLE;
+STAND       ,FIRST          ,IDLE_T            ,IDLE_T;
+STAND       ,FIRST          ,HIT               ,HIT;
+              
+STAND       ,FIRST          ,LEFTTURN          ,LEFTTURN;
+STAND       ,FIRST          ,RIGHTTURN         ,RIGHTTURN;
+STAND       ,FIRST          ,FORWARD           ,FORWARD;
+STAND       ,FIRST          ,STRAFELEFT        ,FORWARD;
+STAND       ,FIRST          ,STRAFERIGHT       ,FORWARD;
+STAND       ,FIRST          ,FORWARDLEFT       ,FORWARD;
+STAND       ,FIRST          ,FORWARDRIGHT      ,FORWARD;
+STAND       ,FIRST          ,BACKWARD          ,FORWARD;
+STAND       ,FIRST          ,BACKWARDLEFT      ,FORWARD;
+STAND       ,FIRST          ,BACKWARDRIGHT     ,FORWARD;
+              
+STAND       ,FIRST          ,SPRINT            ,SPRINT;
+STAND       ,FIRST          ,SPRINTLEFT        ,SPRINT;
+STAND       ,FIRST          ,SPRINTRIGHT       ,SPRINT;
+STAND       ,FIRST          ,SPRINTSTOP        ,SPRINTSTOP;
+              
+STAND       ,FIRST          ,MELEE             ,MELEE;
+STAND       ,FIRST          ,THROW_READY       ,THROW_READY;
+STAND       ,FIRST          ,THROW             ,THROW;
+STAND       ,FIRST          ,THROW_FIRE        ,THROW_FIRE;
+STAND       ,FIRST          ,ITEM_USE          ,ITEM_USE;
+              
+STAND       ,FIRST          ,FIRE              ,FIRE;
+STAND       ,FIRST          ,RELOAD            ,RELOAD;
+STAND       ,FIRST          ,RELOADFULL        ,RELOADFULL;
+              
+STAND       ,FIRST          ,DEAD              ,DEAD;
+
+STAND       ,FIRST          ,SOCIAL            ,SOCIAL;
+              
+STAND       ,FIRST          ,TAKEOFF            ,TAKEOFF;
+STAND       ,FIRST          ,TAKEOFFFW          ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFFWL         ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFFWR         ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFFSL         ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFFSR         ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFBW          ,TAKEOFFBW;
+STAND       ,FIRST          ,TAKEOFFBWL         ,TAKEOFFBW;
+STAND       ,FIRST          ,TAKEOFFBWR         ,TAKEOFFBW;
+
+STAND       ,FIRST          ,TAKEOFFSPRINTFW    ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFSPRINTFWL   ,TAKEOFFFW;
+STAND       ,FIRST          ,TAKEOFFSPRINTFWR   ,TAKEOFFFW;
+              
+STAND       ,FIRST          ,FALLING            ,TAKEOFF;
+STAND       ,FIRST          ,FALLINGFW          ,TAKEOFFFW;
+STAND       ,FIRST          ,FALLINGFWL         ,TAKEOFFFW;
+STAND       ,FIRST          ,FALLINGFWR         ,TAKEOFFFW;
+STAND       ,FIRST          ,FALLINGFSL         ,TAKEOFF;
+STAND       ,FIRST          ,FALLINGFSR         ,TAKEOFF;
+STAND       ,FIRST          ,FALLINGBW          ,TAKEOFF;
+STAND       ,FIRST          ,FALLINGBWL         ,TAKEOFF;
+STAND       ,FIRST          ,FALLINGBWR         ,TAKEOFF;
+
+STAND       ,FIRST          ,JUMPLAND           ,JUMPLAND;
+STAND       ,FIRST          ,JUMPLANDFW         ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDFWL        ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDFWR        ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDSL         ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDSR         ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDBW         ,JUMPLANDBW;
+STAND       ,FIRST          ,JUMPLANDBWL        ,JUMPLANDBW;
+STAND       ,FIRST          ,JUMPLANDBWR        ,JUMPLANDBW;
+STAND       ,FIRST          ,JUMPLANDSPRINTFW   ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDSPRINTFWL  ,JUMPLANDFW;
+STAND       ,FIRST          ,JUMPLANDSPRINTFWR  ,JUMPLANDFW;
+
+              
+STAND       ,FIRST          ,CLIMBIDLE          ,CLIMBIDLE;
+STAND       ,FIRST          ,CLIMBFORWARD       ,CLIMBUP;
+STAND       ,FIRST          ,CLIMBFORWARDLEFT   ,CLIMBUP;
+STAND       ,FIRST          ,CLIMBFORWARDRIGHT  ,CLIMBUP;
+STAND       ,FIRST          ,CLIMBSTRAFELEFT    ,CLIMBUP;
+STAND       ,FIRST          ,CLIMBSTRAFERIGHT   ,CLIMBUP;
+STAND       ,FIRST          ,CLIMBBACKWARD      ,CLIMBDOWN;
+STAND       ,FIRST          ,CLIMBBACKWARDLEFT  ,CLIMBDOWN; 
+STAND       ,FIRST          ,CLIMBBACKWARDRIGHT ,CLIMBDOWN;
+              
+STAND       ,FIRST          ,CLIMBON            ,CLIMBON;
+STAND       ,FIRST          ,CLIMBOVER          ,CLIMBOVER;
+STAND       ,FIRST          ,SPRINT_CLIMBOVER   ,SPRINT_CLIMBOVER;
+STAND       ,FIRST          ,CLIMBEND           ,CLIMBEND;
+
+STAND       ,FIRST          ,DOWNARM            ,WEAPONDOWN;
+STAND       ,FIRST          ,WEAPONSWITCH       ,WEAPONSWITCH;
+STAND       ,FIRST          ,RETURNARM          ,WEAPONRETURN;
+STAND       ,FIRST          ,PICKUP             ,PICKUP;
+STAND       ,FIRST          ,DEPLOY             ,DEPLOY;
+STAND       ,FIRST          ,DROP               ,DROP;
+STAND       ,FIRST          ,INSTALL            ,INSTALL;
+STAND       ,FIRST          ,DEFUSE             ,DEFUSE;
+              
+STAND       ,FIRST          ,ZOOM               ,ZOOM2NOZOOM;
+
+STAND       ,FIRST_ZOOM     ,IDLE               ,ZIDLE;
+STAND       ,FIRST_ZOOM     ,SPRINTSTOP         ,ZIDLE;
+STAND       ,FIRST_ZOOM     ,HIT                ,HIT;
+
+STAND       ,FIRST_ZOOM     ,LEFTTURN           ,ZLEFTTURN;
+STAND       ,FIRST_ZOOM     ,RIGHTTURN          ,ZRIGHTTURN;
+STAND       ,FIRST_ZOOM     ,FORWARD            ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,STRAFELEFT         ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,STRAFERIGHT        ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,FORWARDLEFT        ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,FORWARDRIGHT       ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,BACKWARD           ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,BACKWARDLEFT       ,ZFORWARD;
+STAND       ,FIRST_ZOOM     ,BACKWARDRIGHT      ,ZFORWARD;
+
+STAND       ,FIRST_ZOOM     ,SPRINT             ,SPRINT;
+STAND       ,FIRST_ZOOM     ,SPRINTLEFT         ,SPRINT;
+STAND       ,FIRST_ZOOM     ,SPRINTRIGHT        ,SPRINT;
+
+STAND       ,FIRST_ZOOM     ,MELEE              ,MELEE;
+STAND       ,FIRST_ZOOM     ,THROW_READY        ,THROW_READY;
+STAND       ,FIRST_ZOOM     ,THROW              ,THROW;
+STAND       ,FIRST_ZOOM     ,THROW_FIRE         ,THROW_FIRE;
+STAND       ,FIRST_ZOOM     ,ITEM_USE           ,ITEM_USE;
+
+STAND       ,FIRST_ZOOM     ,FIRE               ,ZFIRE;
+STAND       ,FIRST_ZOOM     ,RELOAD             ,RELOAD;
+STAND       ,FIRST_ZOOM     ,RELOADFULL         ,RELOADFULL;
+
+STAND       ,FIRST_ZOOM     ,DEAD               ,DEAD;
+
+STAND       ,FIRST_ZOOM     ,SOCIAL             ,SOCIAL;
+
+STAND       ,FIRST_ZOOM     ,TAKEOFF            ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,TAKEOFFFW          ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFFWL         ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFFWR         ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFFSL         ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFFSR         ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFBW          ,ZTAKEOFFBW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFBWL         ,ZTAKEOFFBW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFBWR         ,ZTAKEOFFBW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFSPRINTFW    ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFSPRINTFWL   ,ZTAKEOFFFW;
+STAND       ,FIRST_ZOOM     ,TAKEOFFSPRINTFWR   ,ZTAKEOFFFW;
+
+STAND       ,FIRST_ZOOM     ,FALLING            ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFW          ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFWL         ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFWR         ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFS          ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFSL         ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGFSR         ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGBW          ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGBWL         ,ZTAKEOFF;
+STAND       ,FIRST_ZOOM     ,FALLINGBWR         ,ZTAKEOFF;
+
+STAND       ,FIRST_ZOOM     ,CLIMBIDLE          ,CLIMBIDLE;
+STAND       ,FIRST_ZOOM     ,CLIMBFORWARD       ,CLIMBUP;
+STAND       ,FIRST_ZOOM     ,CLIMBFORWARDLEFT   ,CLIMBUP;
+STAND       ,FIRST_ZOOM     ,CLIMBFORWARDRIGHT  ,CLIMBUP;
+STAND       ,FIRST_ZOOM     ,CLIMBSTRAFELEFT    ,CLIMBUP;
+STAND       ,FIRST_ZOOM     ,CLIMBSTRAFERIGHT   ,CLIMBUP;
+STAND       ,FIRST_ZOOM     ,CLIMBBACKWARD      ,CLIMBDOWN;
+STAND       ,FIRST_ZOOM     ,CLIMBBACKWARDLEFT  ,CLIMBDOWN; 
+STAND       ,FIRST_ZOOM     ,CLIMBBACKWARDRIGHT ,CLIMBDOWN;
+
+STAND       ,FIRST_ZOOM     ,JUMPLAND           ,ZJUMPLAND;
+STAND       ,FIRST_ZOOM     ,JUMPLANDFW         ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDFWL        ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDFWR        ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDSL         ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDSR         ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDBW         ,ZJUMPLANDBW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDBWL        ,ZJUMPLANDBW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDBWR        ,ZJUMPLANDBW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDSPRINTFW   ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDSPRINTFWL  ,ZJUMPLANDFW;
+STAND       ,FIRST_ZOOM     ,JUMPLANDSPRINTFWR  ,ZJUMPLANDFW;
+
+STAND       ,FIRST_ZOOM     ,CLIMBON            ,CLIMBON;
+STAND       ,FIRST_ZOOM     ,CLIMBOVER          ,CLIMBOVER;
+STAND       ,FIRST_ZOOM     ,CLIMBEND           ,CLIMBEND;
+STAND       ,FIRST_ZOOM     ,SPRINT_CLIMBOVER   ,SPRINT_CLIMBOVER;
+STAND       ,FIRST_ZOOM     ,DOWNARM            ,WEAPONDOWN;
+STAND       ,FIRST_ZOOM     ,WEAPONSWITCH       ,WEAPONSWITCH;
+STAND       ,FIRST_ZOOM     ,RETURNARM          ,WEAPONRETURN;
+STAND       ,FIRST_ZOOM     ,PICKUP             ,PICKUP;
+STAND       ,FIRST_ZOOM     ,DEPLOY             ,DEPLOY;
+STAND       ,FIRST_ZOOM     ,ZOOM               ,NOZOOM2ZOOM;
+STAND       ,FIRST_ZOOM     ,DROP               ,DROP;
+STAND       ,FIRST_ZOOM     ,INSTALL            ,INSTALL;
+STAND       ,FIRST_ZOOM     ,DEFUSE             ,DEFUSE;
+
+
+STAND       ,THIRD          ,IDLE               ,T_IDLE;
+STAND       ,THIRD          ,IDLE_T             ,T_IDLE_T;
+
+STAND       ,THIRD          ,LEFTTURN           ,T_LEFTTURN;
+STAND       ,THIRD          ,RIGHTTURN          ,T_RIGHTTURN;
+STAND       ,THIRD          ,FORWARD            ,T_FORWARD;
+STAND       ,THIRD          ,STRAFELEFT         ,T_STRAFE_LEFT;
+STAND       ,THIRD          ,STRAFERIGHT        ,T_STRAFE_RIGHT;
+STAND       ,THIRD          ,FORWARDLEFT        ,T_FORWARD_LEFT;
+STAND       ,THIRD          ,FORWARDRIGHT       ,T_FORWARD_RIGHT;
+STAND       ,THIRD          ,BACKWARD           ,T_BACKWARD;
+STAND       ,THIRD          ,BACKWARDLEFT       ,T_BACKWARD_LEFT;
+STAND       ,THIRD          ,BACKWARDRIGHT      ,T_BACKWARD_RIGHT;
+
+STAND       ,THIRD          ,SPRINT             ,T_SPRINT;
+STAND       ,THIRD          ,SPRINTLEFT         ,T_SPRINT_LEFT;
+STAND       ,THIRD          ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+STAND       ,THIRD          ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+STAND       ,THIRD          ,WIDLE              ,T_WIDLE;
+STAND       ,THIRD          ,WIDLE_T            ,T_WIDLE_T;
+STAND       ,THIRD          ,WLEFTTURN          ,T_WLEFTTURN;
+STAND       ,THIRD          ,WRIGHTTURN         ,T_WRIGHTTURN;
+STAND       ,THIRD          ,WFORWARD           ,T_WFORWARD;
+STAND       ,THIRD          ,WSTRAFELEFT        ,T_WSTRAFE_LEFT;
+STAND       ,THIRD          ,WSTRAFERIGHT       ,T_WSTRAFE_RIGHT;
+STAND       ,THIRD          ,WFORWARDLEFT       ,T_WFORWARD_LEFT;
+STAND       ,THIRD          ,WFORWARDRIGHT      ,T_WFORWARD_RIGHT;
+STAND       ,THIRD          ,WBACKWARD          ,T_WBACKWARD;
+STAND       ,THIRD          ,WBACKWARDLEFT      ,T_WBACKWARD_LEFT;
+STAND       ,THIRD          ,WBACKWARDRIGHT     ,T_WBACKWARD_RIGHT;
+
+
+STAND       ,THIRD_ZOOM     ,WIDLE              ,T_ZWIDLE;
+STAND       ,THIRD_ZOOM     ,WLEFTTURN          ,T_ZWLEFTTURN;
+STAND       ,THIRD_ZOOM     ,WRIGHTTURN         ,T_ZWRIGHTTURN;
+STAND       ,THIRD_ZOOM     ,WFORWARD           ,T_ZWFORWARD;
+STAND       ,THIRD_ZOOM     ,WSTRAFELEFT        ,T_ZWSTRAFE_LEFT;
+STAND       ,THIRD_ZOOM     ,WSTRAFERIGHT       ,T_ZWSTRAFE_RIGHT;
+STAND       ,THIRD_ZOOM     ,WFORWARDLEFT       ,T_ZWFORWARD_LEFT;
+STAND       ,THIRD_ZOOM     ,WFORWARDRIGHT      ,T_ZWFORWARD_RIGHT;
+STAND       ,THIRD_ZOOM     ,WBACKWARD          ,T_ZWBACKWARD;
+STAND       ,THIRD_ZOOM     ,WBACKWARDLEFT      ,T_ZWBACKWARD_LEFT;
+STAND       ,THIRD_ZOOM     ,WBACKWARDRIGHT     ,T_ZWBACKWARD_RIGHT;
+
+
+STAND       ,THIRD          ,MELEE              ,T_MELEE;
+STAND       ,THIRD          ,THROW_READY        ,T_THROW_READY;
+STAND       ,THIRD          ,THROW              ,T_THROW;
+STAND       ,THIRD          ,THROW_FIRE         ,T_THROW_FIRE;
+STAND       ,THIRD          ,ITEM_USE           ,T_ITEM_USE;
+
+STAND       ,THIRD          ,FIRE               ,T_FIRE;
+STAND       ,THIRD          ,RELOAD             ,T_RELOAD;
+STAND       ,THIRD          ,RELOADFULL         ,T_RELOADFULL;
+
+STAND       ,THIRD          ,DEAD               ,T_DEAD;
+STAND       ,THIRD          ,HIT                ,T_HIT;
+
+STAND       ,THIRD          ,SOCIAL             ,T_SOCIAL;
+
+STAND       ,THIRD          ,TAKEOFF            ,T_TAKEOFF;
+STAND       ,THIRD          ,TAKEOFFFW          ,T_TAKEOFFFW;
+STAND       ,THIRD          ,TAKEOFFFWL         ,T_TAKEOFFFWL;
+STAND       ,THIRD          ,TAKEOFFFWR         ,T_TAKEOFFFWR;
+STAND       ,THIRD          ,TAKEOFFFSL         ,T_TAKEOFFFSL;
+STAND       ,THIRD          ,TAKEOFFFSR         ,T_TAKEOFFFSR;
+STAND       ,THIRD          ,TAKEOFFBW          ,T_TAKEOFFBW;
+STAND       ,THIRD          ,TAKEOFFBWL         ,T_TAKEOFFBWL;
+STAND       ,THIRD          ,TAKEOFFBWR         ,T_TAKEOFFBWR;
+STAND       ,THIRD          ,TAKEOFFSPRINTFW    ,T_TAKEOFFFW;
+STAND       ,THIRD          ,TAKEOFFSPRINTFWL   ,T_TAKEOFFFWL;
+STAND       ,THIRD          ,TAKEOFFSPRINTFWR   ,T_TAKEOFFFWR;
+
+STAND       ,THIRD          ,FALLING            ,T_TAKEOFF;
+STAND       ,THIRD          ,FALLINGFW          ,T_TAKEOFFFW;
+STAND       ,THIRD          ,FALLINGFWL         ,T_TAKEOFFFW;
+STAND       ,THIRD          ,FALLINGFWR         ,T_TAKEOFFFW;
+STAND       ,THIRD          ,FALLINGFSL         ,T_TAKEOFF;
+STAND       ,THIRD          ,FALLINGFSR         ,T_TAKEOFF;
+STAND       ,THIRD          ,FALLINGBW          ,T_TAKEOFF;
+STAND       ,THIRD          ,FALLINGBWL         ,T_TAKEOFF;
+STAND       ,THIRD          ,FALLINGBWR         ,T_TAKEOFF;
+
+STAND       ,THIRD          ,JUMPLAND           ,T_JUMPLAND;
+STAND       ,THIRD          ,JUMPLANDFW         ,T_JUMPLANDFW;
+STAND       ,THIRD          ,JUMPLANDFWL        ,T_JUMPLANDFWL;
+STAND       ,THIRD          ,JUMPLANDFWR        ,T_JUMPLANDFWR;
+STAND       ,THIRD          ,JUMPLANDSL         ,T_JUMPLANDSL;
+STAND       ,THIRD          ,JUMPLANDSR         ,T_JUMPLANDSR;
+STAND       ,THIRD          ,JUMPLANDBW         ,T_JUMPLANDBW;
+STAND       ,THIRD          ,JUMPLANDBWL        ,T_JUMPLANDBWL;
+STAND       ,THIRD          ,JUMPLANDBWR        ,T_JUMPLANDBWR;
+STAND       ,THIRD          ,JUMPLANDSPRINTFW   ,T_JUMPLANDFW;
+STAND       ,THIRD          ,JUMPLANDSPRINTFWL  ,T_JUMPLANDFWL;
+STAND       ,THIRD          ,JUMPLANDSPRINTFWR  ,T_JUMPLANDFWR;
+
+
+STAND       ,THIRD          ,CLIMBIDLE          ,T_CLIMBIDLE;
+STAND       ,THIRD          ,CLIMBFORWARD       ,T_CLIMBUP;
+STAND       ,THIRD          ,CLIMBFORWARDLEFT   ,T_CLIMBUP;
+STAND       ,THIRD          ,CLIMBFORWARDRIGHT  ,T_CLIMBUP;
+STAND       ,THIRD          ,CLIMBSTRAFELEFT    ,T_CLIMBUP;
+STAND       ,THIRD          ,CLIMBSTRAFERIGHT   ,T_CLIMBUP;
+STAND       ,THIRD          ,CLIMBBACKWARD      ,T_CLIMBDOWN;
+STAND       ,THIRD          ,CLIMBBACKWARDLEFT  ,T_CLIMBDOWN; 
+STAND       ,THIRD          ,CLIMBBACKWARDRIGHT ,T_CLIMBDOWN;
+
+STAND       ,THIRD          ,CLIMBON            ,T_CLIMBON;
+STAND       ,THIRD          ,CLIMBOVER          ,T_CLIMBOVER;
+STAND       ,THIRD          ,SPRINT_CLIMBOVER   ,T_SPRINT_CLIMBOVER;
+STAND       ,THIRD          ,CLIMBEND           ,T_CLIMBEND;
+
+STAND       ,THIRD          ,DOWNARM            ,T_WEAPONDOWN;
+STAND       ,THIRD          ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+STAND       ,THIRD          ,RETURNARM          ,T_WEAPONRETURN;
+STAND       ,THIRD          ,PICKUP             ,T_PICKUP;
+STAND       ,THIRD          ,DEPLOY             ,T_DEPLOY;
+STAND       ,THIRD          ,DROP               ,T_DROP;
+STAND       ,THIRD          ,INSTALL            ,T_INSTALL;
+STAND       ,THIRD          ,DEFUSE             ,T_DEFUSE;
+
+
+STAND       ,THIRD_ZOOM     ,IDLE               ,T_ZIDLE;
+STAND       ,THIRD_ZOOM     ,LEFTTURN           ,T_ZLEFTTURN;
+STAND       ,THIRD_ZOOM     ,RIGHTTURN          ,T_ZRIGHTTURN;
+STAND       ,THIRD_ZOOM     ,FORWARD            ,T_ZFORWARD;
+STAND       ,THIRD_ZOOM     ,STRAFELEFT         ,T_ZSTRAFE_LEFT;
+STAND       ,THIRD_ZOOM     ,STRAFERIGHT        ,T_ZSTRAFE_RIGHT;
+STAND       ,THIRD_ZOOM     ,FORWARDLEFT        ,T_ZFORWARD_LEFT;
+STAND       ,THIRD_ZOOM     ,FORWARDRIGHT       ,T_ZFORWARD_RIGHT;
+STAND       ,THIRD_ZOOM     ,BACKWARD           ,T_ZBACKWARD;
+STAND       ,THIRD_ZOOM     ,BACKWARDLEFT       ,T_ZBACKWARD_LEFT;
+STAND       ,THIRD_ZOOM     ,BACKWARDRIGHT      ,T_ZBACKWARD_RIGHT;
+
+STAND       ,THIRD_ZOOM     ,SPRINT             ,T_SPRINT;
+STAND       ,THIRD_ZOOM     ,SPRINTLEFT         ,T_SPRINT_LEFT;
+STAND       ,THIRD_ZOOM     ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+STAND       ,THIRD_ZOOM     ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+STAND       ,THIRD_ZOOM     ,MELEE              ,T_MELEE;
+STAND       ,THIRD_ZOOM     ,THROW_READY        ,T_THROW_READY;
+STAND       ,THIRD_ZOOM     ,THROW              ,T_THROW;
+STAND       ,THIRD_ZOOM     ,THROW_FIRE         ,T_THROW_FIRE;
+STAND       ,THIRD_ZOOM     ,ITEM_USE           ,T_ITEM_USE;
+
+STAND       ,THIRD_ZOOM     ,FIRE               ,T_ZFIRE;
+STAND       ,THIRD_ZOOM     ,RELOAD             ,T_RELOAD;
+STAND       ,THIRD_ZOOM     ,RELOADFULL         ,T_RELOADFULL;
+
+STAND       ,THIRD_ZOOM     ,DEAD               ,T_DEAD;
+STAND       ,THIRD_ZOOM     ,HIT                ,T_HIT;
+STAND       ,THIRD_ZOOM     ,SOCIAL             ,T_SOCIAL;
+
+STAND       ,THIRD_ZOOM     ,TAKEOFF            ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,TAKEOFFFW          ,T_ZTAKEOFFFW;
+STAND       ,THIRD_ZOOM     ,TAKEOFFFWL         ,T_ZTAKEOFFFWL;
+STAND       ,THIRD_ZOOM     ,TAKEOFFFWR         ,T_ZTAKEOFFFWR;
+STAND       ,THIRD_ZOOM     ,TAKEOFFFSL         ,T_ZTAKEOFFFSL;
+STAND       ,THIRD_ZOOM     ,TAKEOFFFSR         ,T_ZTAKEOFFFSR;
+STAND       ,THIRD_ZOOM     ,TAKEOFFBW          ,T_ZTAKEOFFBW;
+STAND       ,THIRD_ZOOM     ,TAKEOFFBWL         ,T_ZTAKEOFFBWL;
+STAND       ,THIRD_ZOOM     ,TAKEOFFBWR         ,T_ZTAKEOFFBWR;
+STAND       ,THIRD_ZOOM     ,TAKEOFFSPRINTFW    ,T_ZTAKEOFFFW;
+STAND       ,THIRD_ZOOM     ,TAKEOFFSPRINTFWL   ,T_ZTAKEOFFFWL;
+STAND       ,THIRD_ZOOM     ,TAKEOFFSPRINTFWR   ,T_ZTAKEOFFFWR;
+                            							
+STAND       ,THIRD_ZOOM     ,FALLING            ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,FALLINGFW          ,T_ZTAKEOFFFW;
+STAND       ,THIRD_ZOOM     ,FALLINGFWL         ,T_ZTAKEOFFFW;
+STAND       ,THIRD_ZOOM     ,FALLINGFWR         ,T_ZTAKEOFFFW;
+STAND       ,THIRD_ZOOM     ,FALLINGFSL         ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,FALLINGFSR         ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,FALLINGBW          ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,FALLINGBWL         ,T_ZTAKEOFF;
+STAND       ,THIRD_ZOOM     ,FALLINGBWR         ,T_ZTAKEOFF;
+
+STAND       ,THIRD_ZOOM     ,JUMPLAND           ,T_ZJUMPLAND;
+STAND       ,THIRD_ZOOM     ,JUMPLANDFW         ,T_ZJUMPLANDFW;
+STAND       ,THIRD_ZOOM     ,JUMPLANDFWL        ,T_ZJUMPLANDFWL;
+STAND       ,THIRD_ZOOM     ,JUMPLANDFWR        ,T_ZJUMPLANDFWR;
+STAND       ,THIRD_ZOOM     ,JUMPLANDSL         ,T_ZJUMPLANDSL;
+STAND       ,THIRD_ZOOM     ,JUMPLANDSR         ,T_ZJUMPLANDSR;
+STAND       ,THIRD_ZOOM     ,JUMPLANDBW         ,T_ZJUMPLANDBW;
+STAND       ,THIRD_ZOOM     ,JUMPLANDBWL        ,T_ZJUMPLANDBWL;
+STAND       ,THIRD_ZOOM     ,JUMPLANDBWR        ,T_ZJUMPLANDBWR;
+STAND       ,THIRD_ZOOM     ,JUMPLANDSPRINTFW   ,T_ZJUMPLANDFW;
+STAND       ,THIRD_ZOOM     ,JUMPLANDSPRINTFWL  ,T_ZJUMPLANDFWL;
+STAND       ,THIRD_ZOOM     ,JUMPLANDSPRINTFWR  ,T_ZJUMPLANDFWR;
+
+
+STAND       ,THIRD_ZOOM     ,CLIMBIDLE          ,T_CLIMBIDLE;
+STAND       ,THIRD_ZOOM     ,CLIMBFORWARD       ,T_CLIMBUP;
+STAND       ,THIRD_ZOOM     ,CLIMBFORWARDLEFT   ,T_CLIMBUP;
+STAND       ,THIRD_ZOOM     ,CLIMBFORWARDRIGHT  ,T_CLIMBUP;
+STAND       ,THIRD_ZOOM     ,CLIMBSTRAFELEFT    ,T_CLIMBUP;
+STAND       ,THIRD_ZOOM     ,CLIMBSTRAFERIGHT   ,T_CLIMBUP;
+STAND       ,THIRD_ZOOM     ,CLIMBBACKWARD      ,T_CLIMBDOWN;
+STAND       ,THIRD_ZOOM     ,CLIMBBACKWARDLEFT  ,T_CLIMBDOWN; 
+STAND       ,THIRD_ZOOM     ,CLIMBBACKWARDRIGHT ,T_CLIMBDOWN;
+
+STAND       ,THIRD_ZOOM     ,CLIMBON            ,T_CLIMBON;
+STAND       ,THIRD_ZOOM     ,CLIMBOVER          ,T_CLIMBOVER;
+STAND       ,THIRD_ZOOM     ,SPRINT_CLIMBOVER   ,T_SPRINT_CLIMBOVER;
+STAND       ,THIRD_ZOOM     ,CLIMBEND           ,T_CLIMBEND;
+
+STAND       ,THIRD_ZOOM     ,DOWNARM            ,T_WEAPONDOWN;
+STAND       ,THIRD_ZOOM     ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+STAND       ,THIRD_ZOOM     ,RETURNARM          ,T_WEAPONRETURN;
+STAND       ,THIRD_ZOOM     ,PICKUP             ,T_PICKUP;
+STAND       ,THIRD_ZOOM     ,DEPLOY             ,T_DEPLOY;
+STAND       ,THIRD_ZOOM     ,DROP               ,T_DROP;
+STAND       ,THIRD_ZOOM     ,INSTALL            ,T_INSTALL;
+STAND       ,THIRD_ZOOM     ,DEFUSE             ,T_DEFUSE;
+
+// CROUCH
+
+CROUCH      ,FIRST          ,IDLE               ,IDLE;
+CROUCH      ,FIRST          ,HIT                ,HIT;
+
+CROUCH      ,FIRST          ,LEFTTURN           ,LEFTTURN;
+CROUCH      ,FIRST          ,RIGHTTURN          ,RIGHTTURN;
+CROUCH      ,FIRST          ,FORWARD            ,FORWARD;
+CROUCH      ,FIRST          ,STRAFELEFT         ,FORWARD;
+CROUCH      ,FIRST          ,STRAFERIGHT        ,FORWARD;
+CROUCH      ,FIRST          ,FORWARDLEFT        ,FORWARD;
+CROUCH      ,FIRST          ,FORWARDRIGHT       ,FORWARD;
+CROUCH      ,FIRST          ,BACKWARD           ,FORWARD;
+CROUCH      ,FIRST          ,BACKWARDLEFT       ,FORWARD;
+CROUCH      ,FIRST          ,BACKWARDRIGHT      ,FORWARD;
+
+CROUCH      ,FIRST          ,SPRINT             ,SPRINT;
+CROUCH      ,FIRST          ,SPRINTLEFT         ,SPRINT;
+CROUCH      ,FIRST          ,SPRINTRIGHT        ,SPRINT;
+CROUCH       ,FIRST          ,SPRINTSTOP        ,SPRINTSTOP;
+
+CROUCH      ,FIRST          ,MELEE              ,MELEE;
+CROUCH      ,FIRST          ,THROW_READY        ,THROW_READY;
+CROUCH      ,FIRST          ,THROW              ,THROW;
+CROUCH      ,FIRST          ,THROW_FIRE         ,THROW_FIRE;
+CROUCH      ,FIRST          ,ITEM_USE           ,ITEM_USE;
+
+CROUCH      ,FIRST          ,FIRE               ,FIRE;
+CROUCH      ,FIRST          ,RELOAD             ,RELOAD;
+CROUCH      ,FIRST          ,RELOADFULL         ,RELOADFULL;
+
+CROUCH      ,FIRST          ,DEAD               ,DEAD;
+
+CROUCH      ,FIRST          ,TAKEOFF            ,IDLE;
+
+CROUCH      ,FIRST          ,FALLING            ,IDLE;
+
+CROUCH      ,FIRST          ,CLIMBON            ,CLIMBON;
+CROUCH      ,FIRST          ,CLIMBOVER          ,CLIMBOVER;
+CROUCH      ,FIRST          ,SPRINT_CLIMBOVER   ,SPRINT_CLIMBOVER;
+
+CROUCH      ,FIRST          ,DOWNARM            ,WEAPONDOWN;
+CROUCH      ,FIRST          ,WEAPONSWITCH       ,WEAPONSWITCH;
+CROUCH      ,FIRST          ,RETURNARM          ,WEAPONRETURN;
+CROUCH      ,FIRST          ,PICKUP             ,PICKUP;
+CROUCH      ,FIRST          ,DEPLOY             ,DEPLOY;
+CROUCH      ,FIRST          ,DROP               ,DROP;
+CROUCH      ,FIRST          ,INSTALL            ,INSTALL;
+CROUCH      ,FIRST          ,DEFUSE             ,DEFUSE;
+
+CROUCH      ,FIRST          ,ZOOM        ,ZOOM2NOZOOM;
+
+CROUCH      ,FIRST_ZOOM     ,IDLE               , ZIDLE;
+CROUCH      ,FIRST_ZOOM     ,HIT                ,HIT;
+
+CROUCH       ,FIRST_ZOOM     ,LEFTTURN           ,ZLEFTTURN;
+CROUCH       ,FIRST_ZOOM     ,RIGHTTURN          ,ZRIGHTTURN;
+CROUCH      ,FIRST_ZOOM     ,FORWARD            ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,STRAFELEFT         ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,STRAFERIGHT        ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,FORWARDLEFT        ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,FORWARDRIGHT       ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,BACKWARD           ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,BACKWARDLEFT       ,ZFORWARD;
+CROUCH      ,FIRST_ZOOM     ,BACKWARDRIGHT      ,ZFORWARD;
+
+CROUCH      ,FIRST_ZOOM     ,SPRINT             ,SPRINT;
+CROUCH      ,FIRST_ZOOM     ,SPRINTLEFT         ,SPRINT;
+CROUCH      ,FIRST_ZOOM     ,SPRINTRIGHT        ,SPRINT;
+CROUCH       ,FIRST_ZOOM          ,SPRINTSTOP        ,SPRINTSTOP;
+
+CROUCH      ,FIRST_ZOOM     ,MELEE              ,MELEE;
+CROUCH      ,FIRST_ZOOM     ,THROW_READY        ,THROW_READY;
+CROUCH      ,FIRST_ZOOM     ,THROW              ,THROW;
+CROUCH      ,FIRST_ZOOM     ,THROW_FIRE         ,THROW_FIRE;
+CROUCH      ,FIRST_ZOOM     ,ITEM_USE           ,ITEM_USE;
+
+CROUCH      ,FIRST_ZOOM     ,FIRE               ,ZFIRE;
+CROUCH      ,FIRST_ZOOM     ,RELOAD             ,RELOAD;
+CROUCH      ,FIRST_ZOOM     ,RELOADFULL         ,RELOADFULL;
+
+CROUCH      ,FIRST_ZOOM     ,DEAD               ,DEAD;
+
+CROUCH      ,FIRST_ZOOM     ,TAKEOFF            ,IDLE;
+
+CROUCH      ,FIRST_ZOOM     ,FALLING            ,IDLE;
+
+CROUCH      ,FIRST_ZOOM     ,CLIMBON            ,CLIMBON;
+CROUCH      ,FIRST_ZOOM     ,CLIMBOVER          ,CLIMBOVER;
+CROUCH      ,FIRST_ZOOM     ,SPRINT_CLIMBOVER   ,SPRINT_CLIMBOVER;
+
+CROUCH      ,FIRST_ZOOM     ,DOWNARM            ,WEAPONDOWN;
+CROUCH      ,FIRST_ZOOM     ,WEAPONSWITCH       ,WEAPONSWITCH;
+CROUCH      ,FIRST_ZOOM     ,RETURNARM          ,WEAPONRETURN;
+CROUCH      ,FIRST_ZOOM     ,ZOOM               ,NOZOOM2ZOOM;
+CROUCH      ,FIRST_ZOOM     ,PICKUP             ,PICKUP;
+CROUCH      ,FIRST_ZOOM     ,DEPLOY             ,DEPLOY;
+CROUCH      ,FIRST_ZOOM     ,DROP               ,DROP;
+CROUCH      ,FIRST_ZOOM     ,INSTALL            ,INSTALL;
+CROUCH      ,FIRST_ZOOM     ,DEFUSE             ,DEFUSE;
+
+
+CROUCH      ,THIRD          ,IDLE               ,TC_IDLE;
+
+CROUCH      ,THIRD          ,LEFTTURN           ,TC_LEFTTURN;
+CROUCH      ,THIRD          ,RIGHTTURN          ,TC_RIGHTTURN;
+CROUCH      ,THIRD          ,FORWARD            ,TC_FORWARD;
+CROUCH      ,THIRD          ,STRAFELEFT         ,TC_STRAFE_LEFT;
+CROUCH      ,THIRD          ,STRAFERIGHT        ,TC_STRAFE_RIGHT;
+CROUCH      ,THIRD          ,FORWARDLEFT        ,TC_FORWARD_LEFT;
+CROUCH      ,THIRD          ,FORWARDRIGHT       ,TC_FORWARD_RIGHT;
+CROUCH      ,THIRD          ,BACKWARD           ,TC_BACKWARD;
+CROUCH      ,THIRD          ,BACKWARDLEFT       ,TC_BACKWARD_LEFT;
+CROUCH      ,THIRD          ,BACKWARDRIGHT      ,TC_BACKWARD_RIGHT;
+
+CROUCH      ,THIRD          ,WIDLE              ,TC_IDLE;
+CROUCH      ,THIRD          ,WFORWARD           ,TC_FORWARD;
+CROUCH      ,THIRD          ,WSTRAFELEFT        ,TC_STRAFE_LEFT;
+CROUCH      ,THIRD          ,WSTRAFERIGHT       ,TC_STRAFE_RIGHT;
+CROUCH      ,THIRD          ,WFORWARDLEFT       ,TC_FORWARD_LEFT;
+CROUCH      ,THIRD          ,WFORWARDRIGHT      ,TC_FORWARD_RIGHT;
+CROUCH      ,THIRD          ,WBACKWARD          ,TC_BACKWARD;
+CROUCH      ,THIRD          ,WBACKWARDLEFT      ,TC_BACKWARD_LEFT;
+CROUCH      ,THIRD          ,WBACKWARDRIGHT     ,TC_BACKWARD_RIGHT;
+
+CROUCH      ,THIRD          ,SPRINT             ,T_SPRINT;
+CROUCH      ,THIRD          ,SPRINTLEFT         ,T_SPRINT_LEFT;
+CROUCH      ,THIRD          ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+CROUCH       ,THIRD          ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+CROUCH      ,THIRD          ,MELEE              ,T_MELEE;
+CROUCH      ,THIRD          ,THROW_READY        ,T_THROW_READY;
+CROUCH      ,THIRD          ,THROW              ,T_THROW;
+CROUCH      ,THIRD          ,THROW_FIRE         ,T_THROW_FIRE;
+CROUCH      ,THIRD          ,ITEM_USE           ,T_ITEM_USE;
+
+CROUCH      ,THIRD          ,FIRE               ,T_FIRE;
+CROUCH      ,THIRD          ,RELOAD             ,T_RELOAD;
+CROUCH      ,THIRD          ,RELOADFULL         ,T_RELOADFULL;
+
+CROUCH      ,THIRD          ,DEAD               ,TC_DEAD;
+CROUCH      ,THIRD          ,HIT                ,TC_HIT;
+
+CROUCH      ,THIRD          ,CLIMBON            ,T_CLIMBON;
+CROUCH      ,THIRD          ,CLIMBOVER          ,T_CLIMBOVER;
+CROUCH      ,THIRD			,SPRINT_CLIMBOVER   ,T_SPRINT_CLIMBOVER;
+
+CROUCH      ,THIRD          ,DOWNARM            ,T_WEAPONDOWN;
+CROUCH      ,THIRD          ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+CROUCH      ,THIRD          ,RETURNARM          ,T_WEAPONRETURN;
+CROUCH      ,THIRD          ,PICKUP             ,T_PICKUP;
+CROUCH      ,THIRD          ,DEPLOY             ,T_DEPLOY;
+CROUCH      ,THIRD          ,DROP               ,T_DROP;
+CROUCH      ,THIRD          ,INSTALL            ,T_INSTALL;
+CROUCH      ,THIRD          ,DEFUSE             ,T_DEFUSE;
+
+
+CROUCH      ,THIRD_ZOOM     ,IDLE               ,TC_ZIDLE;
+CROUCH      ,THIRD_ZOOM     ,LEFTTURN           ,TC_ZLEFTTURN;
+CROUCH      ,THIRD_ZOOM     ,RIGHTTURN          ,TC_ZRIGHTTURN;
+CROUCH      ,THIRD_ZOOM     ,FORWARD            ,TC_ZFORWARD;
+CROUCH      ,THIRD_ZOOM     ,STRAFELEFT         ,TC_ZSTRAFELEFT;
+CROUCH      ,THIRD_ZOOM     ,STRAFERIGHT        ,TC_ZSTRAFERIGHT;
+CROUCH      ,THIRD_ZOOM     ,FORWARDLEFT        ,TC_ZFORWARDLEFT;
+CROUCH      ,THIRD_ZOOM     ,FORWARDRIGHT       ,TC_ZFORWARDRIGHT;
+CROUCH      ,THIRD_ZOOM     ,BACKWARD           ,TC_ZBACKWARD;
+CROUCH      ,THIRD_ZOOM     ,BACKWARDLEFT       ,TC_ZBACKWARDLEFT;
+CROUCH      ,THIRD_ZOOM     ,BACKWARDRIGHT      ,TC_ZBACKWARDRIGHT;
+
+CROUCH      ,THIRD_ZOOM     ,WIDLE              ,TC_IDLE;
+CROUCH      ,THIRD_ZOOM     ,WFORWARD           ,TC_FORWARD;
+CROUCH      ,THIRD_ZOOM     ,WSTRAFELEFT        ,TC_STRAFE_LEFT;
+CROUCH      ,THIRD_ZOOM     ,WSTRAFERIGHT       ,TC_STRAFE_RIGHT;
+CROUCH      ,THIRD_ZOOM     ,WFORWARDLEFT       ,TC_FORWARD_LEFT;
+CROUCH      ,THIRD_ZOOM     ,WFORWARDRIGHT      ,TC_FORWARD_RIGHT;
+CROUCH      ,THIRD_ZOOM     ,WBACKWARD          ,TC_BACKWARD;
+CROUCH      ,THIRD_ZOOM     ,WBACKWARDLEFT      ,TC_BACKWARD_LEFT;
+CROUCH      ,THIRD_ZOOM     ,WBACKWARDRIGHT     ,TC_BACKWARD_RIGHT;
+
+
+CROUCH      ,THIRD_ZOOM     ,SPRINT             ,T_SPRINT;
+CROUCH      ,THIRD_ZOOM     ,SPRINTLEFT         ,T_SPRINT_LEFT;
+CROUCH      ,THIRD_ZOOM     ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+CROUCH       ,THIRD_ZOOM          ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+CROUCH      ,THIRD_ZOOM     ,MELEE              ,T_MELEE;
+CROUCH      ,THIRD_ZOOM     ,THROW_READY        ,T_THROW_READY;
+CROUCH      ,THIRD_ZOOM     ,THROW              ,T_THROW;
+CROUCH      ,THIRD_ZOOM     ,THROW_FIRE         ,T_THROW_FIRE;
+CROUCH      ,THIRD_ZOOM     ,ITEM_USE           ,T_ITEM_USE;
+
+CROUCH      ,THIRD_ZOOM     ,FIRE               ,T_ZFIRE;
+CROUCH      ,THIRD_ZOOM     ,RELOAD             ,T_RELOAD;
+CROUCH      ,THIRD_ZOOM     ,RELOADFULL         ,T_RELOADFULL;
+
+CROUCH      ,THIRD_ZOOM     ,DEAD               ,TC_DEAD;
+CROUCH      ,THIRD_ZOOM     ,HIT                ,TC_HIT;
+
+CROUCH      ,THIRD_ZOOM     ,CLIMBON            ,T_CLIMBON;
+CROUCH      ,THIRD_ZOOM     ,CLIMBOVER          ,T_CLIMBOVER;
+CROUCH      ,THIRD_ZOOM 	,SPRINT_CLIMBOVER   ,T_SPRINT_CLIMBOVER;
+
+CROUCH      ,THIRD_ZOOM     ,DOWNARM            ,T_WEAPONDOWN;
+CROUCH      ,THIRD_ZOOM     ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+CROUCH      ,THIRD_ZOOM     ,RETURNARM          ,T_WEAPONRETURN;
+CROUCH      ,THIRD_ZOOM     ,PICKUP             ,T_PICKUP;
+CROUCH      ,THIRD_ZOOM     ,DEPLOY             ,T_DEPLOY;
+CROUCH      ,THIRD_ZOOM     ,DROP               ,T_DROP;
+CROUCH      ,THIRD_ZOOM     ,INSTALL            ,T_INSTALL;
+CROUCH      ,THIRD_ZOOM     ,DEFUSE             ,T_DEFUSE;
+
+
+PRONE       ,FIRST          ,IDLE               ,IDLE;
+PRONE       ,FIRST          ,HIT                ,HIT;
+
+PRONE       ,FIRST          ,LEFTTURN          ,LEFTTURN;
+PRONE       ,FIRST          ,RIGHTTURN         ,RIGHTTURN;
+PRONE       ,FIRST          ,FORWARD            ,P_FORWARD;
+PRONE       ,FIRST          ,STRAFELEFT         ,P_STRAFE_LEFT;
+PRONE       ,FIRST          ,STRAFERIGHT        ,P_STRAFE_RIGHT;
+PRONE       ,FIRST          ,FORWARDLEFT        ,P_FORWARD_LEFT;
+PRONE       ,FIRST          ,FORWARDRIGHT       ,P_FORWARD_RIGHT;
+PRONE       ,FIRST          ,BACKWARD           ,P_BACKWARD;
+PRONE       ,FIRST          ,BACKWARDLEFT       ,P_BACKWARD_LEFT;
+PRONE       ,FIRST          ,BACKWARDRIGHT      ,P_BACKWARD_RIGHT;
+
+PRONE       ,FIRST          ,SPRINT             ,SPRINT;
+PRONE       ,FIRST          ,SPRINTLEFT         ,SPRINT;
+PRONE       ,FIRST          ,SPRINTRIGHT        ,SPRINT;
+PRONE       ,FIRST          ,SPRINTSTOP        ,SPRINTSTOP;
+
+PRONE       ,FIRST          ,MELEE              ,MELEE;
+PRONE       ,FIRST          ,THROW_READY        ,THROW_READY;
+PRONE       ,FIRST          ,THROW              ,THROW;
+PRONE       ,FIRST          ,THROW_FIRE         ,THROW_FIRE;
+PRONE       ,FIRST          ,ITEM_USE           ,ITEM_USE;
+
+PRONE       ,FIRST          ,FIRE               ,FIRE;
+PRONE       ,FIRST          ,RELOAD             ,RELOAD;
+PRONE       ,FIRST          ,RELOADFULL         ,RELOADFULL;
+
+PRONE       ,FIRST          ,DEAD               ,P_DEAD;
+
+PRONE       ,FIRST          ,TAKEOFF            ,IDLE;
+
+PRONE       ,FIRST          ,FALLING            ,IDLE;
+
+PRONE       ,FIRST          ,DOWNARM            ,WEAPONDOWN;
+PRONE       ,FIRST          ,WEAPONSWITCH       ,WEAPONSWITCH;
+PRONE       ,FIRST          ,RETURNARM          ,WEAPONRETURN;
+PRONE       ,FIRST          ,PICKUP             ,PICKUP;
+PRONE       ,FIRST          ,DEPLOY             ,DEPLOY;
+PRONE       ,FIRST          ,DROP               ,DROP;
+PRONE       ,FIRST          ,INSTALL            ,INSTALL;
+PRONE       ,FIRST          ,DEFUSE             ,DEFUSE;
+
+PRONE       ,FIRST          ,ZOOM        ,ZOOM2NOZOOM;
+
+
+
+PRONE       ,FIRST_ZOOM     ,IDLE               ,ZIDLE;
+PRONE       ,FIRST_ZOOM     ,HIT                ,HIT;
+
+PRONE       ,FIRST_ZOOM     ,LEFTTURN           ,ZLEFTTURN;
+PRONE       ,FIRST_ZOOM     ,RIGHTTURN          ,ZRIGHTTURN;
+PRONE       ,FIRST_ZOOM     ,FORWARD            ,P_FORWARD;
+PRONE       ,FIRST_ZOOM     ,STRAFELEFT         ,P_STRAFE_LEFT;
+PRONE       ,FIRST_ZOOM     ,STRAFERIGHT        ,P_STRAFE_RIGHT;
+PRONE       ,FIRST_ZOOM     ,FORWARDLEFT        ,P_FORWARD_LEFT;
+PRONE       ,FIRST_ZOOM     ,FORWARDRIGHT       ,P_FORWARD_RIGHT;
+PRONE       ,FIRST_ZOOM     ,BACKWARD           ,P_BACKWARD;
+PRONE       ,FIRST_ZOOM     ,BACKWARDLEFT       ,P_BACKWARD_LEFT;
+PRONE       ,FIRST_ZOOM     ,BACKWARDRIGHT      ,P_BACKWARD_RIGHT;
+
+PRONE       ,FIRST_ZOOM     ,SPRINT             ,SPRINT;
+PRONE       ,FIRST_ZOOM     ,SPRINTLEFT         ,SPRINT;
+PRONE       ,FIRST_ZOOM     ,SPRINTRIGHT        ,SPRINT;
+PRONE       ,FIRST_ZOOM          ,SPRINTSTOP        ,SPRINTSTOP;
+
+PRONE       ,FIRST_ZOOM     ,MELEE              ,MELEE;
+PRONE       ,FIRST_ZOOM     ,THROW_READY        ,THROW_READY;
+PRONE       ,FIRST_ZOOM     ,THROW              ,THROW;
+PRONE       ,FIRST_ZOOM     ,THROW_FIRE         ,THROW_FIRE;
+PRONE       ,FIRST_ZOOM     ,ITEM_USE           ,ITEM_USE;
+
+PRONE       ,FIRST_ZOOM     ,FIRE               ,ZFIRE;
+PRONE       ,FIRST_ZOOM     ,RELOAD             ,RELOAD;
+PRONE       ,FIRST_ZOOM     ,RELOADFULL         ,RELOADFULL;
+
+PRONE       ,FIRST_ZOOM     ,DEAD               ,DEAD;
+
+PRONE       ,FIRST_ZOOM     ,TAKEOFF            ,IDLE;
+
+PRONE       ,FIRST_ZOOM     ,FALLING            ,IDLE;
+
+PRONE       ,FIRST_ZOOM     ,DOWNARM            ,WEAPONDOWN;
+PRONE       ,FIRST_ZOOM     ,WEAPONSWITCH       ,WEAPONSWITCH;
+PRONE       ,FIRST_ZOOM     ,RETURNARM          ,WEAPONRETURN;
+PRONE       ,FIRST_ZOOM     ,PICKUP             ,PICKUP;
+PRONE       ,FIRST_ZOOM     ,DEPLOY             ,DEPLOY;
+PRONE       ,FIRST_ZOOM     ,DROP               ,DROP;
+PRONE       ,FIRST_ZOOM     ,INSTALL            ,INSTALL;
+PRONE       ,FIRST_ZOOM     ,DEFUSE             ,DEFUSE;
+
+
+PRONE       ,FIRST_ZOOM     ,ZOOM               ,NOZOOM2ZOOM;
+
+PRONE       ,THIRD          ,IDLE               ,TP_IDLE;
+
+PRONE       ,THIRD          ,LEFTTURN           ,TP_LEFTTURN;
+PRONE       ,THIRD          ,RIGHTTURN          ,TP_RIGHTTURN;
+PRONE       ,THIRD          ,FORWARD            ,TP_FORWARD;
+PRONE       ,THIRD          ,STRAFELEFT         ,TP_STRAFE_LEFT;
+PRONE       ,THIRD          ,STRAFERIGHT        ,TP_STRAFE_RIGHT;
+PRONE       ,THIRD          ,FORWARDLEFT        ,TP_FORWARD;
+PRONE       ,THIRD          ,FORWARDRIGHT       ,TP_FORWARD;
+PRONE       ,THIRD          ,BACKWARD           ,TP_BACKWARD;
+PRONE       ,THIRD          ,BACKWARDLEFT       ,TP_BACKWARD;
+PRONE       ,THIRD          ,BACKWARDRIGHT      ,TP_BACKWARD;
+
+PRONE       ,THIRD          ,WIDLE              ,TP_IDLE;
+PRONE       ,THIRD          ,WFORWARD           ,TP_FORWARD;
+PRONE       ,THIRD          ,WSTRAFELEFT        ,TP_STRAFE_LEFT;
+PRONE       ,THIRD          ,WSTRAFERIGHT       ,TP_STRAFE_RIGHT;
+PRONE       ,THIRD          ,WFORWARDLEFT       ,TP_FORWARD;
+PRONE       ,THIRD          ,WFORWARDRIGHT      ,TP_FORWARD;
+PRONE       ,THIRD          ,WBACKWARD          ,TP_BACKWARD;
+PRONE       ,THIRD          ,WBACKWARDLEFT      ,TP_BACKWARD;
+PRONE       ,THIRD          ,WBACKWARDRIGHT     ,TP_BACKWARD;
+
+
+PRONE       ,THIRD          ,SPRINT             ,T_SPRINT;
+PRONE       ,THIRD          ,SPRINTLEFT         ,T_SPRINT_LEFT;
+PRONE       ,THIRD          ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+PRONE       ,THIRD          ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+PRONE       ,THIRD          ,MELEE              ,TP_MELEE;
+PRONE       ,THIRD          ,THROW_READY        ,TP_THROW_READY;
+PRONE       ,THIRD          ,THROW              ,TP_THROW;
+PRONE       ,THIRD          ,THROW_FIRE         ,TP_THROW_FIRE;
+PRONE       ,THIRD          ,ITEM_USE           ,T_ITEM_USE;
+
+PRONE       ,THIRD          ,FIRE               ,TP_FIRE;
+//PRONE       ,THIRD          ,RELOAD             ,TP_RELOAD;
+//PRONE       ,THIRD          ,RELOADFULL         ,TP_RELOADFULL;
+
+PRONE       ,THIRD          ,DEAD               ,TP_DEAD;
+PRONE       ,THIRD          ,HIT                ,TP_HIT;
+
+PRONE       ,THIRD          ,DOWNARM            ,T_WEAPONDOWN;
+PRONE       ,THIRD          ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+PRONE       ,THIRD          ,RETURNARM          ,T_WEAPONRETURN;
+PRONE       ,THIRD          ,PICKUP             ,T_PICKUP;
+PRONE       ,THIRD          ,DEPLOY             ,T_DEPLOY;
+PRONE       ,THIRD          ,DROP               ,T_DROP;
+PRONE       ,THIRD          ,INSTALL            ,TP_INSTALL;
+PRONE       ,THIRD          ,DEFUSE             ,TP_DEFUSE;
+
+
+PRONE       ,THIRD_ZOOM     ,IDLE               ,TP_IDLE;
+
+PRONE       ,THIRD_ZOOM     ,LEFTTURN           ,TP_LEFTTURN;
+PRONE       ,THIRD_ZOOM     ,RIGHTTURN          ,TP_RIGHTTURN;
+PRONE       ,THIRD_ZOOM     ,FORWARD            ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,STRAFELEFT         ,TP_STRAFE_LEFT;
+PRONE       ,THIRD_ZOOM     ,STRAFERIGHT        ,TP_STRAFE_RIGHT;
+PRONE       ,THIRD_ZOOM     ,FORWARDLEFT        ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,FORWARDRIGHT       ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,BACKWARD           ,TP_BACKWARD;
+PRONE       ,THIRD_ZOOM     ,BACKWARDLEFT       ,TP_BACKWARD;
+PRONE       ,THIRD_ZOOM     ,BACKWARDRIGHT      ,TP_BACKWARD;
+
+PRONE       ,THIRD_ZOOM     ,WIDLE              ,TP_IDLE;
+
+PRONE       ,THIRD_ZOOM     ,WFORWARD           ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,WSTRAFELEFT        ,TP_STRAFE_LEFT;
+PRONE       ,THIRD_ZOOM     ,WSTRAFERIGHT       ,TP_STRAFE_RIGHT;
+PRONE       ,THIRD_ZOOM     ,WFORWARDLEFT       ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,WFORWARDRIGHT      ,TP_FORWARD;
+PRONE       ,THIRD_ZOOM     ,WBACKWARD          ,TP_BACKWARD;
+PRONE       ,THIRD_ZOOM     ,WBACKWARDLEFT      ,TP_BACKWARD;
+PRONE       ,THIRD_ZOOM     ,WBACKWARDRIGHT     ,TP_BACKWARD;
+
+
+PRONE       ,THIRD_ZOOM     ,SPRINT             ,T_SPRINT;
+PRONE       ,THIRD_ZOOM     ,SPRINTLEFT         ,T_SPRINT_LEFT;
+PRONE       ,THIRD_ZOOM     ,SPRINTRIGHT        ,T_SPRINT_RIGHT;
+PRONE       ,THIRD_ZOOM          ,SPRINTSTOP         ,T_SPRINTSTOP;
+
+PRONE       ,THIRD_ZOOM     ,MELEE              ,TP_MELEE;
+PRONE       ,THIRD_ZOOM     ,THROW_READY        ,TP_THROW_READY;
+PRONE       ,THIRD_ZOOM     ,THROW              ,TP_THROW;
+PRONE       ,THIRD_ZOOM     ,THROW_FIRE         ,TP_THROW_FIRE;
+PRONE       ,THIRD_ZOOM     ,ITEM_USE           ,T_ITEM_USE;
+
+PRONE       ,THIRD_ZOOM     ,FIRE               ,T_FIRE;
+//PRONE       ,THIRD_ZOOM     ,RELOAD             ,T_RELOAD;
+//PRONE       ,THIRD_ZOOM     ,RELOADFULL         ,T_RELOADFULL;
+
+PRONE       ,THIRD_ZOOM     ,DEAD               ,TP_DEAD;
+PRONE       ,THIRD_ZOOM     ,HIT                ,TP_HIT;
+
+PRONE       ,THIRD_ZOOM     ,DOWNARM            ,T_WEAPONDOWN;
+PRONE       ,THIRD_ZOOM     ,WEAPONSWITCH       ,T_WEAPONSWITCH;
+PRONE       ,THIRD_ZOOM     ,RETURNARM          ,T_WEAPONRETURN;
+PRONE       ,THIRD_ZOOM     ,PICKUP             ,T_PICKUP;
+PRONE       ,THIRD_ZOOM     ,DEPLOY             ,T_DEPLOY;
+PRONE       ,THIRD_ZOOM     ,DROP               ,T_DROP;
+PRONE       ,THIRD_ZOOM     ,INSTALL            ,TP_INSTALL;
+PRONE       ,THIRD_ZOOM     ,DEFUSE             ,TP_DEFUSE;
+
+
+STAND_CROUCH ,FIRST          ,IDLE               ,IDLE;
+
+STAND_CROUCH ,FIRST          ,FORWARD            ,FORWARD;
+STAND_CROUCH ,FIRST          ,STRAFELEFT         ,FORWARD;
+STAND_CROUCH ,FIRST          ,STRAFERIGHT        ,FORWARD;
+STAND_CROUCH ,FIRST          ,FORWARDLEFT        ,FORWARD;
+STAND_CROUCH ,FIRST          ,FORWARDRIGHT       ,FORWARD;
+STAND_CROUCH ,FIRST          ,BACKWARD           ,FORWARD;
+STAND_CROUCH ,FIRST          ,BACKWARDLEFT       ,FORWARD;
+STAND_CROUCH ,FIRST          ,BACKWARDRIGHT      ,FORWARD;
+STAND_CROUCH ,FIRST          ,SPRINT             ,FORWARD;
+STAND_CROUCH ,FIRST          ,SPRINTLEFT         ,FORWARD;
+STAND_CROUCH ,FIRST          ,SPRINTRIGHT        ,FORWARD;
+
+STAND_CROUCH ,FIRST_ZOOM     ,IDLE               ,ZIDLE;
+
+STAND_CROUCH ,FIRST_ZOOM     ,FORWARD            ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,STRAFELEFT         ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,STRAFERIGHT        ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,FORWARDLEFT        ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,FORWARDRIGHT       ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,BACKWARD           ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,BACKWARDLEFT       ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,BACKWARDRIGHT      ,ZFORWARD;
+
+STAND_CROUCH ,FIRST_ZOOM     ,SPRINT             ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,SPRINTLEFT         ,ZFORWARD;
+STAND_CROUCH ,FIRST_ZOOM     ,SPRINTRIGHT        ,ZFORWARD;
+
+CROUCH_STAND ,FIRST          ,IDLE               ,IDLE;
+
+CROUCH_STAND ,FIRST          ,FORWARD            , FORWARD;
+CROUCH_STAND ,FIRST          ,STRAFELEFT         , FORWARD;
+CROUCH_STAND ,FIRST          ,STRAFERIGHT        , FORWARD;
+CROUCH_STAND ,FIRST          ,FORWARDLEFT        , FORWARD;
+CROUCH_STAND ,FIRST          ,FORWARDRIGHT       , FORWARD;
+CROUCH_STAND ,FIRST          ,BACKWARD           , FORWARD;
+CROUCH_STAND ,FIRST          ,BACKWARDLEFT       , FORWARD;
+CROUCH_STAND ,FIRST          ,BACKWARDRIGHT      , FORWARD;
+
+CROUCH_STAND ,FIRST          ,SPRINT             , SPRINT;
+CROUCH_STAND ,FIRST          ,SPRINTLEFT         , SPRINT;
+CROUCH_STAND ,FIRST          ,SPRINTRIGHT        , SPRINT;
+
+CROUCH_STAND ,FIRST_ZOOM     ,IDLE               ,ZIDLE;
+
+CROUCH_STAND ,FIRST_ZOOM     ,FORWARD            ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,STRAFELEFT         ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,STRAFERIGHT        ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,FORWARDLEFT        ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,FORWARDRIGHT       ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,BACKWARD           ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,BACKWARDLEFT       ,ZFORWARD;
+CROUCH_STAND ,FIRST_ZOOM     ,BACKWARDRIGHT      ,ZFORWARD;
+
+CROUCH_STAND ,FIRST_ZOOM     ,SPRINT             ,SPRINT;
+CROUCH_STAND ,FIRST_ZOOM     ,SPRINTLEFT         ,SPRINT;
+CROUCH_STAND ,FIRST_ZOOM     ,SPRINTRIGHT        ,SPRINT;
+
+STAND_PRONE ,FIRST          ,IDLE               ,S_STANCE_CHANGE_P;
+
+STAND_PRONE ,FIRST          ,FORWARD            ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,STRAFELEFT         ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,STRAFERIGHT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,FORWARDLEFT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,FORWARDRIGHT       ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,BACKWARD           ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,BACKWARDLEFT       ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,BACKWARDRIGHT      ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,SPRINT             ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,SPRINTLEFT         ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,SPRINTRIGHT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,LEFTTURN           ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST          ,RIGHTTURN          ,S_STANCE_CHANGE_P;
+
+STAND_PRONE ,FIRST_ZOOM     ,IDLE               ,S_STANCE_CHANGE_P;
+
+STAND_PRONE ,FIRST_ZOOM     ,FORWARD            ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,STRAFELEFT         ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,STRAFERIGHT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,FORWARDLEFT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,FORWARDRIGHT       ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,BACKWARD           ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,BACKWARDLEFT       ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,BACKWARDRIGHT      ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,SPRINT             ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,SPRINTLEFT         ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,SPRINTRIGHT        ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,LEFTTURN           ,S_STANCE_CHANGE_P;
+STAND_PRONE ,FIRST_ZOOM     ,RIGHTTURN          ,S_STANCE_CHANGE_P;
+
+
+PRONE_STAND ,FIRST          ,IDLE               ,P_STANCE_CHANGE_S;
+
+PRONE_STAND ,FIRST          ,FORWARD            , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,STRAFELEFT         , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,STRAFERIGHT        , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,FORWARDLEFT        , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,FORWARDRIGHT       , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,BACKWARD           , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,BACKWARDLEFT       , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,BACKWARDRIGHT      , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,SPRINT             , SPRINT;
+PRONE_STAND ,FIRST          ,SPRINTLEFT         , SPRINT;
+PRONE_STAND ,FIRST          ,SPRINTRIGHT        , SPRINT;
+PRONE_STAND ,FIRST          ,LEFTTURN           , P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST          ,RIGHTTURN          , P_STANCE_CHANGE_S;
+
+PRONE_STAND ,FIRST_ZOOM     ,IDLE               ,P_STANCE_CHANGE_S;
+
+PRONE_STAND ,FIRST_ZOOM     ,FORWARD            ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,STRAFELEFT         ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,STRAFERIGHT        ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,FORWARDLEFT        ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,FORWARDRIGHT       ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,BACKWARD           ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,BACKWARDLEFT       ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,BACKWARDRIGHT      ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,SPRINT             ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,SPRINTLEFT         ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,SPRINTRIGHT        ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,LEFTTURN           ,P_STANCE_CHANGE_S;
+PRONE_STAND ,FIRST_ZOOM     ,RIGHTTURN          ,P_STANCE_CHANGE_S;
+
+
+PRONE_CROUCH ,FIRST         ,IDLE               ,P_STANCE_CHANGE_C;
+             
+PRONE_CROUCH ,FIRST         ,FORWARD            ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,STRAFELEFT         ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,STRAFERIGHT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,FORWARDLEFT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,FORWARDRIGHT       ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,BACKWARD           ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,BACKWARDLEFT       ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,BACKWARDRIGHT      ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,SPRINT             ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,SPRINTLEFT         ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,SPRINTRIGHT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,LEFTTURN           ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST         ,RIGHTTURN          ,P_STANCE_CHANGE_C;             
+			 
+PRONE_CROUCH ,FIRST_ZOOM    ,IDLE               ,P_STANCE_CHANGE_C;
+             
+PRONE_CROUCH ,FIRST_ZOOM    ,FORWARD            ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,STRAFELEFT         ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,STRAFERIGHT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,FORWARDLEFT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,FORWARDRIGHT       ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,BACKWARD           ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,BACKWARDLEFT       ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,BACKWARDRIGHT      ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,SPRINT             ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,SPRINTLEFT         ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,SPRINTRIGHT        ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,LEFTTURN           ,P_STANCE_CHANGE_C;
+PRONE_CROUCH ,FIRST_ZOOM    ,RIGHTTURN          ,P_STANCE_CHANGE_C;             
+      
+  
+CROUCH_PRONE ,FIRST         ,IDLE               ,C_STANCE_CHANGE_P;
+             
+CROUCH_PRONE ,FIRST         ,FORWARD            ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,FORWARDLEFT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,FORWARDRIGHT       ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,BACKWARD           ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,BACKWARDLEFT       ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,BACKWARDRIGHT      ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,STRAFELEFT         ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,STRAFERIGHT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,SPRINT             ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,SPRINTLEFT         ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,SPRINTRIGHT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,LEFTTURN           ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST         ,RIGHTTURN          ,C_STANCE_CHANGE_P;
+             
+CROUCH_PRONE ,FIRST_ZOOM    ,IDLE               ,C_STANCE_CHANGE_P;
+             
+CROUCH_PRONE ,FIRST_ZOOM    ,FORWARD            ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,FORWARDLEFT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,FORWARDRIGHT       ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,BACKWARD           ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,BACKWARDLEFT       ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,BACKWARDRIGHT      ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,STRAFELEFT         ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,STRAFERIGHT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,SPRINT             ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,SPRINTLEFT         ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,SPRINTRIGHT        ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,LEFTTURN           ,C_STANCE_CHANGE_P;
+CROUCH_PRONE ,FIRST_ZOOM    ,RIGHTTURN          ,C_STANCE_CHANGE_P;
+
+STAND_CROUCH ,THIRD          ,IDLE               ,T_STANCE_CHANGE_C;
+
+STAND_CROUCH ,THIRD          ,FORWARD            ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FORWARDLEFT        ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FORWARDRIGHT       ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,BACKWARD           ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,BACKWARDLEFT       ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,BACKWARDRIGHT      ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,STRAFELEFT         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,STRAFERIGHT        ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,SPRINT             ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,SPRINTLEFT         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,SPRINTRIGHT        ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,LEFTTURN           ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,RIGHTTURN			 ,T_STANCE_CHANGE_C;
+
+
+STAND_CROUCH ,THIRD          ,TAKEOFF            ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFFW          ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFFWL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFFWR         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFFSL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFFSR         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFBW          ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFBWL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,TAKEOFFBWR         ,T_STANCE_CHANGE_C;
+
+STAND_CROUCH ,THIRD          ,FALLING            ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFW          ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFWL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFWR         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFS          ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFSL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGFSR         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGBW          ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGBWL         ,T_STANCE_CHANGE_C;
+STAND_CROUCH ,THIRD          ,FALLINGBWR         ,T_STANCE_CHANGE_C;
+
+STAND_CROUCH ,THIRD_ZOOM     ,IDLE               ,T_ZSTANCE_CHANGE_C;
+
+STAND_CROUCH ,THIRD_ZOOM     ,FORWARD            ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,STRAFELEFT         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,STRAFERIGHT        ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FORWARDLEFT        ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FORWARDRIGHT       ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,BACKWARD           ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,BACKWARDLEFT       ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,BACKWARDRIGHT      ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,SPRINT             ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,SPRINTLEFT         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,SPRINTRIGHT        ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,LEFTTURN           ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,RIGHTTURN          ,T_ZSTANCE_CHANGE_C;
+
+
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFF            ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFFW          ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFFWL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFFWR         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFFSL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFFSR         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFBW          ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFBWL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,TAKEOFFBWR         ,T_ZSTANCE_CHANGE_C;
+
+STAND_CROUCH ,THIRD_ZOOM     ,FALLING            ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFW          ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFWL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFWR         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFS          ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFSL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGFSR         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGBW          ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGBWL         ,T_ZSTANCE_CHANGE_C;
+STAND_CROUCH ,THIRD_ZOOM     ,FALLINGBWR         ,T_ZSTANCE_CHANGE_C;
+
+
+CROUCH_STAND ,THIRD          ,IDLE               ,TC_STANCE_CHANGE_S;
+
+CROUCH_STAND ,THIRD          ,FORWARD            ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,STRAFELEFT         ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,STRAFERIGHT        ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,FORWARDLEFT        ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,FORWARDRIGHT       ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,BACKWARD           ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,BACKWARDLEFT       ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,BACKWARDRIGHT      ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,SPRINT             ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,SPRINTLEFT         ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,SPRINTRIGHT        ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,LEFTTURN           ,TC_STANCE_CHANGE_S;
+CROUCH_STAND ,THIRD          ,RIGHTTURN          ,TC_STANCE_CHANGE_S;
+
+CROUCH_STAND ,THIRD_ZOOM     ,IDLE               ,TC_ZSTANCE_CHANGE_S;
+
+CROUCH_STAND ,THIRD_ZOOM     ,FORWARD            ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,STRAFELEFT         ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,STRAFERIGHT        ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,FORWARDLEFT        ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,FORWARDRIGHT       ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,BACKWARD           ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,BACKWARDLEFT       ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,BACKWARDRIGHT      ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,SPRINT             ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,SPRINTLEFT         ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,SPRINTRIGHT        ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,LEFTTURN           ,TC_ZSTANCE_CHANGE_S;
+CROUCH_STAND ,THIRD_ZOOM     ,RIGHTTURN          ,TC_ZSTANCE_CHANGE_S;
+
+STAND_PRONE ,THIRD          ,IDLE               ,T_STANCE_CHANGE_P;
+
+STAND_PRONE ,THIRD          ,FORWARD            ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,FORWARDLEFT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,FORWARDRIGHT       ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,BACKWARD           ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,BACKWARDLEFT       ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,BACKWARDRIGHT      ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,STRAFELEFT         ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,STRAFERIGHT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,SPRINT             ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,SPRINTLEFT         ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,SPRINTRIGHT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,LEFTTURN			,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD          ,RIGHTTURN          ,T_STANCE_CHANGE_P;
+
+
+STAND_PRONE ,THIRD          ,TAKEOFF            ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFFW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFFWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFFWR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFFSL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFFSR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFBW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFBWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,TAKEOFFBWR         ,TP_STANCE_CHANGE_S;
+
+STAND_PRONE ,THIRD          ,FALLING            ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFWR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFS          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFSL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGFSR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGBW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGBWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD          ,FALLINGBWR         ,TP_STANCE_CHANGE_S;
+
+STAND_PRONE ,THIRD_ZOOM     ,IDLE               ,T_STANCE_CHANGE_P;
+
+STAND_PRONE ,THIRD_ZOOM     ,FORWARD            ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,STRAFELEFT         ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,STRAFERIGHT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,FORWARDLEFT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,FORWARDRIGHT       ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,BACKWARD           ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,BACKWARDLEFT       ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,BACKWARDRIGHT      ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,SPRINT             ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,SPRINTLEFT         ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,SPRINTRIGHT        ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,LEFTTURN           ,T_STANCE_CHANGE_P;
+STAND_PRONE ,THIRD_ZOOM     ,RIGHTTURN          ,T_STANCE_CHANGE_P;
+
+
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFF            ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFFW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFFWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFFWR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFFSL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFFSR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFBW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFBWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,TAKEOFFBWR         ,TP_STANCE_CHANGE_S;
+
+STAND_PRONE ,THIRD_ZOOM     ,FALLING            ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFWR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFS          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFSL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGFSR         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGBW          ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGBWL         ,TP_STANCE_CHANGE_S;
+STAND_PRONE ,THIRD_ZOOM     ,FALLINGBWR         ,TP_STANCE_CHANGE_S;
+
+
+PRONE_STAND ,THIRD          ,IDLE               ,TP_STANCE_CHANGE_S;
+
+PRONE_STAND ,THIRD          ,FORWARD            ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,STRAFELEFT         ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,STRAFERIGHT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,FORWARDLEFT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,FORWARDRIGHT       ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,BACKWARD           ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,BACKWARDLEFT       ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,BACKWARDRIGHT      ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,SPRINT             ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,SPRINTLEFT         ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,SPRINTRIGHT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,LEFTTURN         	,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD          ,RIGHTTURN 			,TP_STANCE_CHANGE_S;
+
+PRONE_STAND ,THIRD_ZOOM     ,IDLE               ,TP_STANCE_CHANGE_S;
+
+PRONE_STAND ,THIRD_ZOOM     ,FORWARD            ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,STRAFELEFT         ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,STRAFERIGHT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,FORWARDLEFT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,FORWARDRIGHT       ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,BACKWARD           ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,BACKWARDLEFT       ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,BACKWARDRIGHT      ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,SPRINT             ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,SPRINTLEFT         ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,SPRINTRIGHT        ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,LEFTTURN           ,TP_STANCE_CHANGE_S;
+PRONE_STAND ,THIRD_ZOOM     ,RIGHTTURN          ,TP_STANCE_CHANGE_S;
+
+
+PRONE_CROUCH, THIRD,        IDLE,               TP_STANCE_CHANGE_C;
+
+PRONE_CROUCH, THIRD,        FORWARD,            TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        STRAFELEFT,         TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        STRAFERIGHT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        FORWARDLEFT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        FORWARDRIGHT,       TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        BACKWARD,           TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        BACKWARDLEFT,       TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        BACKWARDRIGHT,      TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        SPRINT,             TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        SPRINTLEFT,         TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        SPRINTRIGHT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        LEFTTURN,           TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD,        RIGHTTURN,          TP_STANCE_CHANGE_C;
+
+PRONE_CROUCH, THIRD_ZOOM,   IDLE,               TP_STANCE_CHANGE_C;
+
+PRONE_CROUCH, THIRD_ZOOM,   FORWARD,            TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   STRAFELEFT,         TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   STRAFERIGHT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   FORWARDLEFT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   FORWARDRIGHT,       TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   BACKWARD,           TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   BACKWARDLEFT,       TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   BACKWARDRIGHT,      TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   SPRINT,             TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   SPRINTLEFT,         TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   SPRINTRIGHT,        TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   LEFTTURN,           TP_STANCE_CHANGE_C;
+PRONE_CROUCH, THIRD_ZOOM,   RIGHTTURN,          TP_STANCE_CHANGE_C;
+
+
+CROUCH_PRONE, THIRD,        IDLE,               TC_STANCE_CHANGE_P;
+
+CROUCH_PRONE, THIRD,        FORWARD,            TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        FORWARDLEFT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        FORWARDRIGHT,       TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        BACKWARD,           TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        BACKWARDLEFT,       TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        BACKWARDRIGHT,      TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        STRAFELEFT,         TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        STRAFERIGHT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        SPRINT,             TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        SPRINTLEFT,         TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        SPRINTRIGHT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        LEFTTURN,           TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD,        RIGHTTURN,          TC_STANCE_CHANGE_P;
+
+CROUCH_PRONE, THIRD_ZOOM,   IDLE,               TC_STANCE_CHANGE_P;
+
+CROUCH_PRONE, THIRD_ZOOM,   FORWARD,            TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   FORWARDLEFT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   FORWARDRIGHT,       TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   BACKWARD,           TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   BACKWARDLEFT,       TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   BACKWARDRIGHT,      TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   STRAFELEFT,         TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   STRAFERIGHT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   SPRINT,             TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   SPRINTLEFT,         TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   SPRINTRIGHT,        TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   LEFTTURN,           TC_STANCE_CHANGE_P;
+CROUCH_PRONE, THIRD_ZOOM,   RIGHTTURN,          TC_STANCE_CHANGE_P;
+
+
+
+
+

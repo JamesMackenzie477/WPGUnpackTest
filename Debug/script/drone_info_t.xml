@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<droneinfo>
+	<drone_t>
+		<index type="int"/>
+		<index_name type="string"/>
+		<name_local type="string"/>
+		<dronetype type="string"/>
+		<hp type="int"/>
+		<duration type="int"/>
+		<endcondition type="string"/>
+		<callpoint type="int"/>
+		<callquantity type="int"/>
+		<callinterval type="int"/>
+		<launchtype type="string"/>
+		<launchdevice type="int"/>
+		<endtype type="string"/>
+		<controltype type="string"/>
+		<heightcontrolable type="int"/>
+		<sightdegreeleft type="int"/>
+		<sightdegreeright type="int"/>
+		<sightdegreedown type="int"/>
+		<sightdegreeup type="int"/>
+		<minimaptype type="int"/>
+		<concurrentcalllimit type="int"/>
+		<weapon1index type="int"/>
+		<weapon2index type="int"/>
+		<moveheight type="int"/>
+		<movephysics type="int"/>
+		<moveweight type="int"/>
+		<action_move_speed type="int"/>
+		<movespeed type="int"/>
+		<moveaccereration type="int"/>
+		<moveturnspeed type="int"/>
+		<operationf type="int"/>
+		<carrier_type type="int"/>
+		<targetrange type="int"/>
+		<spawn_item type="int"/>
+		<targetfunction1 type="int"/>
+		<targetfunction2 type="int"/>
+		<targetfunction3 type="int"/>
+		<minimap type="int"/>
+		<givepoint type="int"/>
+		<after_drone_destroyed type="string"/>
+		<after_player_killed type="string"/>
+		<spawnergroup type="int"/>
+		<destroy_duration type="int"/>
+		<multi_controlable type="int"/>	
+		<action_delay type="int"/>	
+		<invulnerable_time type="int"/>	
+		<drone_instruction1 type="string"/>	
+		<drone_instruction2 type="string"/>	
+		<drone_instruction1_time type="int"/>	
+		<drone_instruction2_time type="int"/>	
+		<emp_effect type="int"/>	
+	</drone_t>
+</droneinfo>

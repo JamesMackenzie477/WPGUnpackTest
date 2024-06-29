@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bannerinfo>
+	<banner_t>
+		<index type="int"/>
+		<name type="string"/>
+		<banner_category type="string"/>
+		<banner_category_sub type="string"/>
+		<description type="string"/>
+		<target_action type="string"/>
+		<target_action_count type="int"/>
+		<banner_type type="string"/>
+		<basic_state type="bool"/>
+		<banner_local type="string"/>
+	</banner_t>
+</bannerinfo>
